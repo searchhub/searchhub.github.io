@@ -8011,6 +8011,7 @@ sup.dollar {
     }
     .logo-small img {
         display: inline-block;
+        width: 40px; 
     }
     .header.bg-header {
         height: 70px;
@@ -8338,7 +8339,7 @@ sup.dollar {
 }
 .results-graph {
     min-height: 640px;
-    background-image: url(../images/V4.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
