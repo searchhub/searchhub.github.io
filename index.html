@@ -37,17 +37,8 @@
         <meta name="twitter:title" content="search|hub - home">
         <meta name="twitter:site" content="@CXPSearchHub">    
     <link href="assets/css/page.css" rel="stylesheet" type="text/css"/>
-	
-<meta name="google-site-verification" content="vp0b90rNCPS1qDXHJc4_t5T2l48BKE7WTeFbBjPbPBI" />	
-    
-    <script type="text/javascript">
-    window.smartlook||(function(d) {
-    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
-    })(document);
-    smartlook('init', '8156b7072542e5e6ff98f99fc3e7dbdb9e727de0');
-    </script>	
+    <meta name="google-site-verification" content="vp0b90rNCPS1qDXHJc4_t5T2l48BKE7WTeFbBjPbPBI" />	
+   
 </head>
     
 <body class="pace-dark"> 
@@ -427,9 +418,7 @@
 <script type="text/javascript" id="cookiebanner" src="assets/plugins/cookiebanner.min.js"></script>	
    <script>
         var animationDelay = 2500;
- 
         animateHeadline($('.cd-headline'));
-
         function animateHeadline($headlines) {
             $headlines.each(function(){
                 var headline = $(this);
@@ -443,11 +432,9 @@
             switchWord($word, nextWord);
             setTimeout(function(){ hideWord(nextWord) }, animationDelay);
         }
-
         function takeNext($word) {
             return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
         }
-
         function switchWord($oldWord, $newWord) {
             $oldWord.removeClass('is-visible').addClass('is-hidden');
             $newWord.removeClass('is-hidden').addClass('is-visible');
