@@ -79,7 +79,7 @@ html,body{height:100%}body.mobile{position:relative}body.pace-primary .pace .pac
 .welcome-popup:after,
 .return-popup:after {
   content: "";
-  background: url('../images/tile-n1-bricks.png');
+  background: url('https://www.searchhub.io/assets/images/tile-n1-bricks.png');
   opacity: 0.4;
   top: 0;
   left: 0;
