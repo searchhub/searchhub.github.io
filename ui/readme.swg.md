@@ -66,9 +66,8 @@ Click on _Deployment_ in the left-hand navigation menu. This will list all _opti
 You may either deploy changes to your search-engine immediately or leave the system as is, and it will automatically deploy changes overnight.
 
 ## Summary
-### How do I Merge Clusters? This functionality allows you to merge similar clusters using our category and filter selection tools.
-
-
+### How do I Merge Clusters?
+This functionality allows you to merge similar clusters using our category and filter selection tools.
 
 
 # Searchhub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
