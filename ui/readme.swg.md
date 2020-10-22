@@ -29,7 +29,7 @@ Now, you’ll see checkboxes appear to the left of each cluster. This will allow
 
 The internal search can now be used to hone in on things such as brand names, categories, colors, and any number of other attributes. Use this flexibility to optimize in a way, in line, with how your customers are already searching for top-level product information. 
 
-### Example:
+## Example:
 ** Bosch **
 - Search for Bosch.
 	- combine the 2nd and 5th entries
