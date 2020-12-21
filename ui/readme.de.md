@@ -20,3 +20,21 @@ This video will introduce how to merge clusters using our category and filter se
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W_FzhKrHeyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video will introduce _how to use the fingerprint button to confirm highly similar clusters identified by search|hub_, as well as, using pre-defined filters to more specifically focus optimization efforts. 
+
+# Glossary  
+## Search Insights KPIs  
+|KPI |Explanation |  
+|--|--|  
+|#Searches |*Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.|  
+|Category |Some Sort of Identifier (ProductID or URL) that maps a Result Pageview to SKU data (in this case the category)|
+|Clicks |The amount of unique result Pageviews per session.|  
+|CR |Number of unique orders per session divided by the number of unique searches per session.|  
+|CTR |Number of unique product detail page impressions per session divided by the number of unique searches per session.|  
+|Exit rate |Number of exits per session divided by the number of unique searches per session. |  
+|Exits |The number of exits from your site that occurred following an initial result from your site-search.|  
+|Findability™ |The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**.|  
+|No Result |Number of unique searches per session that produced a zero result. |  
+|Orders |The total number of completed purchases on your site.|  
+|Ranking |The frequency with which a search result is clicked on the first page of search results. Ranking is the number of top, or first page product click (K-Clicks) divided by the overall number of clicks (nr of clicks).|
+|Revenue |The total revenue from web ecommerce or in-app transactions.|  
+|Uplift|Inrease of #Searches when comparing a defined date range.|  
