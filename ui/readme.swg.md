@@ -136,6 +136,15 @@ You may either deploy changes to your search-engine immediately or leave the sys
 ### Using the Fingerprint Button and Pre-Defined Filters
 This function allows you to confirm highly similar clusters identified by search|hub.
 
+# SearchHub Basic Training - How To Set Up Redirects
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FAgJtXpWgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## In this video we describe the 3 different types of redirects.
+1. <a href="https://youtu.be/FAgJtXpWgiw?t=36">Query Cluster Redirects</a>
+2.  <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
+3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
+
+
 # Glossary  
 ## Search Insights KPIs  
 |KPI |Explanation |  
