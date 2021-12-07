@@ -145,18 +145,18 @@ This function allows you to confirm highly similar clusters identified by search
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
 # SmartSuggest
-When collecting the suggestions, the SmartSuggest module follows a staging approach. The next stage is carried out if the previous one(s) did not provide the number of suggestions requested. As an example, this could look like this for a request to return 10 suggestions:
+The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional suggestions from the less condfident stages, if we are not able to provide the amount of suggestions requested. Here is a short example for a request to return 10 suggestions:
 1. Search only in the cluster label
 2. Search in all variants of the cluster
 3. Fuzzy search in the cluster label with edit distance 1
 4. Fuzzy search in the cluster label with edit distance 2
-If the first stage finds >= 10 suggestions, it is canceled immediately after this. If < 10 suggestions are found, the next stage is run through, etc. until the desired number of hits has been found at the end.
+If the first stage finds >= 10 suggestions, we return the suggestions. If less than 10 suggestions are found, the next stage is initiated, etc. until the desired amount of suggestions has been found.
 
 ## Basic settings - Fuzziness
-Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not enter the *Fuzzy-Stages* if the stage(s) beforhand found any number of hits, regardless if it's less than the requested number of suggestions. So it can happen that if you ask for 10 suggestions, only one will be delivered. If you set the setting to __recall__, the *Fussy-Stages* will be run through in any case if the previous stage(s) could not provide the requested number of suggestions.
+Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not execute the *Fuzzy-Stages* if the stage(s) beforhand found any suggestions, regardless if it's less than the requested amount of suggestions. Therefor it could happen that only one suggestion will be returned even if you ask for 10. If you set the setting to __recall__, the *Fussy-Stages* will be executed if the previous stage(s) could not provide the requested amount of suggestions.
 
 ## Basic settings - Sorting
-Controls the order in which suggestions are returned by the module. The default is set to __group sorting__ which means that the suggestions are first sorted by the order of the stage(s) they were found and subsequently they are sorted on *weight* within their groups. The weight is determined by the ranking settings you make. If you set the setting to __score sorting__ suggestion are sorted purely on their *weight*.
+Controls the order in which suggestions are returned by the module. The default is set to __confidence sorting__ where the suggestions are primarily sorted by confidence and subsequently by *weight*. Alternatively you could set it to __group sorting__ where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on *weight* within their groups. The weight is determined by the ranking settings you define.
 
 # Glossary  
 ## Search Insights KPIs  
