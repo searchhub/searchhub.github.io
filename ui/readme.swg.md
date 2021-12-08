@@ -161,7 +161,9 @@ Controls the order in which suggestions are returned by the module. The default 
 # Glossary  
 ## Search Insights KPIs  
 |KPI |Explanation |  
-|--|--|  
+|--|--| 
+|Suggest-CTR |Number of unique Suggest-Clicks divided by the number of unique Suggestions.|  
+|Suggest-MRR |Average daily Mean-Reciprocal-Rank (Measuring the ranking-quality of suggestions) of clicked Suggestions.|  
 |#Searches |*Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.|  
 |Category |The most represented Product-Category for products bought in relation to a search term. (This needs some Sort of Identifier (ProductID or URL) that maps a Result Pageview to SKU data (in this case the category))|
 |Clicks |The amount of unique result Pageviews per session.|  
