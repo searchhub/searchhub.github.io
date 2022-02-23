@@ -171,8 +171,9 @@ html,body{height:100%}body.mobile{position:relative}body.pace-primary .pace .pac
 
 .hero-video .video-icon {
     position: absolute;
+    width: 100%;
     top: 50%;
-    left: 55%;
+    left: 56%;        
     transform: translate(-50%, -50%);
 }
 .d-inline-block {
@@ -188,32 +189,6 @@ html,body{height:100%}body.mobile{position:relative}body.pace-primary .pace .pac
     border-radius: 50%;
     background: #425cbb;
     color: #fff;
-}
-.fa, .fas {
-    font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 }
-.fa, .fas, .far, .fal, .fab {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
 
-.background {
-    background-image:url(../images/background.png);
-    min-height: 40px;
-    z-index: 9999;
-    ground-repeat:no-repeat;
-        background-size:cover;
-    width:100%;
-    margin-left:50%;
-    margin-top:-168px;
-    -ms-transform:translateX(-50%);
-    transform:translateX(-50%);
-    
-    overflow:hidden;
-}
