@@ -181,13 +181,13 @@ html,body{height:100%}body.mobile{position:relative}body.pace-primary .pace .pac
 }
 
 .hero-video .video-icon i {
-    width: 125px;
-    height: 125px;
+    width: 80px;
+    height: 80px;
     font-size: 1.6em;
     line-height: 100px;
     text-align: center;
     border-radius: 50%;
-    background: #000000;
+    background: #425cbb;
     color: #fff;
     font-weight: 900;
 }
