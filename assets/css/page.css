@@ -172,8 +172,8 @@ html,body{height:100%}body.mobile{position:relative}body.pace-primary .pace .pac
 .hero-video .video-icon {
     position: absolute;
     width: 100%;
-    top: 50%;
-    left: 56%;        
+    top: 85%;
+    left: 50%;        
     transform: translate(-50%, -50%);
 }
 .d-inline-block {
