@@ -30,6 +30,18 @@ specifically focus optimization efforts.
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
+# searchhub Search Insights Training
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+searchhub Search Insights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
+
+## This video will show you how to:
+1. Audit Search Engine Performance
+2. Identify greatest impact zones of optimization
+3. Report on the success of your optimizations
+4. Track daily and weekly progress
+
 # SmartSuggest
 
 The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
