@@ -1,4 +1,4 @@
-# Welcome to search|hub
+# Welcome to searchhub
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -7,20 +7,20 @@ We are the world's first search query optimization machine specializing in incre
 
 In this video, Jonathan Ross walks us through how Machine Learning Algorithms are able to assist our customers in autonomous site-search optimization.
 
-# Searchhub Basic Training - How do I Merge Clusters?
+# searchhub Basic Training - How do I Merge Clusters?
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3sKhtLw-1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video will introduce how to merge clusters using our category and filter selection tools.
 
-# Searchhub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
+# searchhub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W_FzhKrHeyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video will introduce _how to use the fingerprint button to confirm highly similar clusters identified by search|hub_, as well as, using pre-defined filters to more
 specifically focus optimization efforts.
 
-# SearchHub Basic Training - How To Set Up Redirects
+# searchhub Basic Training - How To Set Up Redirects
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FAgJtXpWgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,6 +29,18 @@ specifically focus optimization efforts.
 1. <a href="https://youtu.be/FAgJtXpWgiw?t=36">Query Cluster Redirects</a>
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
+
+# searchhub Search Insights Training
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+searchhub Search Insights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
+
+## This video will show you how to:
+1. Audit Search Engine Performance
+2. Identify greatest impact zones of optimization
+3. Report on the success of your optimizations
+4. Track daily and weekly progress
 
 # SmartSuggest
 
