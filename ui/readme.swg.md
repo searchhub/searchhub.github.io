@@ -91,6 +91,9 @@ Your feedback will be stored in the training history which can be accessed via t
 feedback. Please **note** that any change will only affect the clusters when our AI runs the next night. If you need to fix something quickly, you
 can still head over to the query cluster view and merge/unmerge a cluster manually.
 
+## Manual training
+Only certain combinations of queries can be selected for AI training. SearchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
+
 # Glossary
 
 ## Search Insights KPIs
