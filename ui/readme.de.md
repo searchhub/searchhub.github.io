@@ -105,7 +105,7 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |#Searches |*Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.|  
 |Category |The most represented Product-Category for products bought in relation to a search term. (This needs some Sort of Identifier (ProductID or URL) that maps a Result page view to SKU data (in this case the category))|
 |Clicks |The amount of unique result page views per session.|  
-|CR in %|Number of unique orders per session divided by the number of unique searches per session.|  
+|CR in %|Number of unique ordered items divided by the number of unique searches per session.|  
 |CTR in %|Number of unique product detail page impressions per session divided by the number of unique searches per session.|  
 |Exit rate in %|Number of exits per session divided by the number of unique searches per session.|  
 |Exits in %|The number of exits from your site that occurred following an initial result from your site-search.|  
