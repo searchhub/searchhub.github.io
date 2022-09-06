@@ -42,48 +42,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css"/>
     <meta name="google-site-verification" content="vp0b90rNCPS1qDXHJc4_t5T2l48BKE7WTeFbBjPbPBI" />	
-
-  <script data-cookieconsent="ignore">
-        var animationDelay = 2500;
-        animateHeadline($('.cd-headline'));
-        function animateHeadline($headlines) {
-            $headlines.each(function(){
-                var headline = $(this);
-                //trigger animation
-                setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
-                //other checks here ...
-            });
-        }
-        function hideWord($word) {
-            var nextWord = takeNext($word);
-            switchWord($word, nextWord);
-            setTimeout(function(){ hideWord(nextWord) }, animationDelay);
-        }
-        function takeNext($word) {
-            return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
-        }
-        function switchWord($oldWord, $newWord) {
-            $oldWord.removeClass('is-visible').addClass('is-hidden');
-            $newWord.removeClass('is-hidden').addClass('is-visible');
-        }
-    </script>
-    <script data-cookieconsent="ignore">
-		$( function() {
-			$( '.type-text' ).each( function() {
-				var items = $( this ).attr( 'title' ) + ';' + $( this ).text();
-				$( this ).empty().attr( 'title', '' ).teletype( {
-					text: $.map( items.split( ';' ), $.trim ),
-					typeDelay: 10,
-					backDelay: 20,
-					cursor: '▋', 
-					delay: 1000,
-					preserve: true,                    
-					loop: 1,
-                    humanise:true
-				} );
-			} );
-		} );
-	</script>
+ 
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="8f12a725-5173-4bf0-861a-c1680c3724f0" data-blockingmode="auto" type="text/javascript"></script>
 
 </head>
@@ -574,6 +533,47 @@ CXP’s search|hub is a perfect fit for us at yukko.com. We kept the flexibility
 <script type="text/javascript" src="assets/plugins/jquery.teletype.min.js"></script>
 <!-- <script type="text/javascript" id="cookiebanner" src="assets/plugins/cookiebanner.min.js"></script> -->
 	
+ <script data-cookieconsent="ignore">
+        var animationDelay = 2500;
+        animateHeadline($('.cd-headline'));
+        function animateHeadline($headlines) {
+            $headlines.each(function(){
+                var headline = $(this);
+                //trigger animation
+                setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
+                //other checks here ...
+            });
+        }
+        function hideWord($word) {
+            var nextWord = takeNext($word);
+            switchWord($word, nextWord);
+            setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+        }
+        function takeNext($word) {
+            return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+        }
+        function switchWord($oldWord, $newWord) {
+            $oldWord.removeClass('is-visible').addClass('is-hidden');
+            $newWord.removeClass('is-hidden').addClass('is-visible');
+        }
+    </script>
+    <script data-cookieconsent="ignore">
+		$( function() {
+			$( '.type-text' ).each( function() {
+				var items = $( this ).attr( 'title' ) + ';' + $( this ).text();
+				$( this ).empty().attr( 'title', '' ).teletype( {
+					text: $.map( items.split( ';' ), $.trim ),
+					typeDelay: 10,
+					backDelay: 20,
+					cursor: '▋', 
+					delay: 1000,
+					preserve: true,                    
+					loop: 1,
+                    humanise:true
+				} );
+			} );
+		} );
+	</script>	
 
 					   
 <script type="text/javascript" src="assets/plugins/custom-home.js"></script> 
