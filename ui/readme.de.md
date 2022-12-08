@@ -117,3 +117,13 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |Revenue |The total revenue from web ecommerce or in-app transactions.|  
 |Uplift|Increase of #Searches when comparing a defined date range.|  
 |Value per Search (VPS)|Sum of all orders divided by the sum of all searches within a day.|
+
+## Cluster view - Merge types
+
+|Merge type |Explanation |  
+|--|--|  
+|User-Merge |A Merge based on explicit searchhub-user decisions (direct-merge, fingerprint-merge)|
+|Confident-AI-Merge |A Merge based on explicit searchhub decisions with high confidence (known-misspellings, known-lemmata)|
+|Concept-AI-Merge |A Merge based on explicit searchhub Concepts (concepts are contextualized synonyms - "TV" = "television")|
+|Explicit-AI-Merge |A Merge based on explicit searchhub-user AI-Training decisions ("highboard" is related to "highbord")|
+|Implicit-AI-Merge |A Merge based on implicit searchhub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white")|
