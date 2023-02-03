@@ -109,7 +109,7 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |CTR in %|Number of unique product detail page impressions per session divided by the number of unique searches per session.|  
 |Exit rate in %|Number of exits per session divided by the number of unique searches per session.|  
 |Exits in %|The number of exits from your site that occurred following an initial result from your site-search.|  
-|Findability™ in %|The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**.|  
+|Findability in %|The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**.|  
 |Human rate in %|Number of unique searches per session that could be identified as searches issued by users and not bots, referral-links, campaigns, etc. divided by the number of all unique searches per session.|  
 |No Result in %|Number of unique searches per session that produced a zero result.|  
 |Orders |The total number of completed purchases on your site.|  
@@ -117,6 +117,17 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |Revenue |The total revenue from web ecommerce or in-app transactions.|  
 |Uplift|Increase of #Searches when comparing a defined date range.|  
 |Value per Search (VPS)|Sum of all orders divided by the sum of all searches within a day.|
+
+## Query view - Standard KPIs
+
+|KPI |Explanation |
+|--|--|
+|Popularity |Number of unique user searches within a static time range, normally the last 28 days. |
+|Samples    |Number of unique user searches from time ranges where a particular query was not redirected by searchHub. |
+|Reliability|A score between 0 and 1 that considers the age and the size of the samples to evaluate the reliability of the other KPIs. |
+|Findability|Same as *Findability* at *Search Insights KPIs* |
+|Sellability|The *Sellability* is a measure on how good found products (clicked) are actually put into cart and bought afterwards. It's a weighted average of two rates, **carts**/**clicks** and **orders**/**carts**, with a double weight to the cart-related score. For shops without order-tracking, only the cart related rate is used. |
+|PickingScore|A weighted average of Findability and Sellability with double the weight on Findability. |
 
 ## Cluster view - Merge types
 
