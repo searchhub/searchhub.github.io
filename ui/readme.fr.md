@@ -42,6 +42,10 @@ searchhub Search Insights allows you to audit the performance, and optimize the 
 3. Report on the success of your optimizations
 4. Track daily and weekly progress
 
+# Keyboard Shortcuts
+
+Press 'Shift'+'?' anywhere in the UI to open up an overview of all supported shortcuts.
+
 # SmartSuggest
 
 The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
