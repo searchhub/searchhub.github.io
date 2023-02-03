@@ -124,10 +124,10 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |--|--|
 |Popularity |Number of unique user searches within a static time range, normally the last 28 days. |
 |Samples    |Number of unique user searches from time ranges where a particular query was not redirected by searchHub. |
-|Reliability|A score between 0 and 1 that considers the age and the size of the samples to evaluate the reliability of the other KPIs. |
-|Findability|Same as *Findability* at *Search Insights KPIs* |
-|Sellability|The *Sellability* is a measure on how good found products (clicked) are actually put into cart and bought afterwards. It's a weighted average of two rates, **carts**/**clicks** and **orders**/**carts**, with a double weight to the cart-related score. For shops without order-tracking, only the cart related rate is used. |
-|PickingScore|A weighted average of Findability and Sellability with double the weight on Findability. |
+|Reliability|A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs. |
+|Findability|Same as *Findability*, as seen in *Search Insights KPIs* |
+|Sellability|The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
+|PickingScore|A weighted average of Findability and Sellability with double the weight applied to Findability. |
 
 ## Cluster view - Merge types
 
