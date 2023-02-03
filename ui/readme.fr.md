@@ -44,7 +44,7 @@ searchhub Search Insights allows you to audit the performance, and optimize the 
 
 # Keyboard Shortcuts
 
-Press 'Shift'+'?' anywhere in the UI to open up an overview of all supported shortcuts.
+Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the curser focus is not placed on an input field.
 
 # SmartSuggest
 
