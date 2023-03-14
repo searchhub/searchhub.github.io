@@ -42,6 +42,10 @@ searchhub Search Insights allows you to audit the performance, and optimize the 
 3. Report on the success of your optimizations
 4. Track daily and weekly progress
 
+# Keyboard Shortcuts
+
+Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the curser focus is not placed on an input field.
+
 # SmartSuggest
 
 The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
@@ -94,9 +98,33 @@ can still head over to the query cluster view and merge/unmerge a cluster manual
 ## Manual training
 Only certain combinations of queries can be selected for AI training. SearchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
 
+# Search Insights
+
+## Underperforming queries
+
+The "Searches without result" table has an additional toggle button that controls how zero results are interpreted
+
+1. Overall  
+   represents the standard view for zero result data. If a query is a significant zero result, it means that more than 50% of the time it was queried, it led to a zero result. This will lead to the query being counted as a zero result for the period selected, and shown here.
+2. Recent  
+   filters the overall view by excluding zero-result-data with less than 50% of the queries during a day leading to a zero-result, since the last time it was seen.
+
+## Top queries
+
+Explanation of the info column icons
+
+![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
+The initial type of query detection involves identifying broad queries, which are queries that require multiple refinements before users can ultimately locate the products they seek.
+
+![bad ranking](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/ranking.png)  
+The second type of query detection involves identifying queries where search result ranking requires improvement. This is because users have to navigate too deeply into the result set before finding the desired products.
+
+![bar relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/relevance.png)  
+The third type of query detection involves identifying queries with a high likelihood of severe relevance issues. In these cases, users become so frustrated with the search results that they abandon the online store.
+
 # Glossary
 
-## Search Insights KPIs
+## Search Insights - KPIs
 
 |KPI |Explanation |  
 |--|--|  
@@ -127,7 +155,7 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |Reliability|A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs. |
 |Findability|Same as *Findability*, as seen in *Search Insights KPIs* |
 |Sellability|The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
-|PickingScore|A weighted average of Findability and Sellability with double the weight applied to Findability. |
+|Confidence |A weighted average of Findability and Sellability with double the weight applied to Findability. |
 
 ## Cluster view - Merge types
 
@@ -138,3 +166,12 @@ Only certain combinations of queries can be selected for AI training. SearchHub 
 |Concept-AI-Merge |A Merge based on explicit searchhub Concepts (concepts are contextualized synonyms - "TV" = "television")|
 |Explicit-AI-Merge |A Merge based on explicit searchhub-user AI-Training decisions ("highboard" is related to "highbord")|
 |Implicit-AI-Merge |A Merge based on implicit searchhub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white")|
+
+## Cluster view - Query scores
+
+|Score |Explanation |  
+|--|--|  
+|Confidence |The confidence score shows how sure searchHub is that this particular query is the best one.|
+|Correctness |The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.|
+|WordValidation |The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.|
+|LMProbability |The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense.|
