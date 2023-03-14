@@ -155,7 +155,7 @@ The third type of query detection involves identifying queries with a high likel
 |Reliability|A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs. |
 |Findability|Same as *Findability*, as seen in *Search Insights KPIs* |
 |Sellability|The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
-|PickingScore|A weighted average of Findability and Sellability with double the weight applied to Findability. |
+|Confidence |A weighted average of Findability and Sellability with double the weight applied to Findability. |
 
 ## Cluster view - Merge types
 
