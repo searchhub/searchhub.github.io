@@ -71,6 +71,14 @@ Controls the order in which suggestions are returned by the module. The default 
 subsequently by *weight*. Alternatively you could set it to __group sorting__ where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on *weight*
 within their groups. The weight is determined by the ranking settings you define.
 
+## Basic settings - AI Suggestions
+
+This setting determines the quantity of AI suggestions that will be displayed. When present, these suggestions will always appear above the search results.  
+The AI-generated suggestions are designed to enhance both the findability and sellability of products, and are based on the user’s search refinement behavior. 
+For instance, for a general query such as “men”, the AI will identify the currently most relevant refined queries, such as “men’s fashion” and “men’s shoes”.  
+In cases where there are bad or no search results, the AI will generate “relaxed-queries” that have previously led to successful search sessions.  
+(This functionality depends on our search-collector and can only deliver additional value if the search-collector is implemented correctly.)
+
 # AI-Training
 
 The AI-Training view enables you to train and improve searchhub’s clustering at large scale. There will always be some cases where searchhub on its own might not be confident
