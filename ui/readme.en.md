@@ -63,7 +63,7 @@ suggestions has been found.
 
 Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not execute the *Fuzzy-Stages* if the stage(s)
 beforehand found any suggestions, regardless if it's less than the requested amount of suggestions. Therefor it could happen that only one suggestion will be returned even if you
-ask for 10. If you set the setting to __recall__, the *Fussy-Stages* will be executed if the previous stage(s) could not provide the requested amount of suggestions.
+ask for 10. If you set the setting to __recall__, the *Fuzzy-Stages* will be executed if the previous stage(s) could not provide the requested amount of suggestions.
 
 ## Basic settings - Sorting
 
