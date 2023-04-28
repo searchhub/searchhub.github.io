@@ -127,8 +127,11 @@ The initial type of query detection involves identifying broad queries, which ar
 ![bad ranking](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/ranking.png)  
 The second type of query detection involves identifying queries where search result ranking requires improvement. This is because users have to navigate too deeply into the result set before finding the desired products.
 
-![bar relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/relevance.png)  
+![bad relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/relevance.png)  
 The third type of query detection involves identifying queries with a high likelihood of severe relevance issues. In these cases, users become so frustrated with the search results that they abandon the online store.
+
+![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
+The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
 
 # Glossary
 
