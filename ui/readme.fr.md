@@ -1,188 +1,178 @@
-# Welcome to searchhub
+# Bienvenue sur searchhub{#welcome-to-searchhub}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Welcome to __search|hub__ from __CXP Commerce Experts__.
-We are the world's first search query optimization machine specializing in increasing the conversion from your current site-search. __We make your site-search understand humans__.
+Bienvenue sur __search|hub__ par __CXP Commerce Experts__.
+searchHub est la première plateforme d'optimisation des requêtes de recherche au monde, spécialisée dans l'augmentation du taux de conversion de votre recherche e-commerce existante. Nous aidons votre recherche de site web à mieux comprendre les requêtes de vos clients.
 
-In this video, Jonathan Ross walks us through how Machine Learning Algorithms are able to assist our customers in autonomous site-search optimization.
+Dans cette vidéo, Jonathan Ross nous guide à travers la plateforme et montre comment les algorithmes d'apprentissage automatique nous aident à optimiser de manière autonome la recherche sur le site web.
 
-# searchhub Basic Training - How do I Merge Clusters?
+# searchhub Formation de base - Comment fusionner des clusters?{#searchhub-basic-training---how-do-i-merge-clusters}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3sKhtLw-1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video will introduce how to merge clusters using our category and filter selection tools.
+Dans cette vidéo, nous vous montrons comment fusionner efficacement des clusters à l'aide de nos outils de filtrage.
 
-# searchhub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
+# searchhub Formation de base - Fusion de clusters à l'aide du bouton d'empreinte digitale et de filtres prédéfinis.{#searchhub-basic-training--using-the-fingerprint-button-and-pre-defined-filters}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W_FzhKrHeyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video will introduce _how to use the fingerprint button to confirm highly similar clusters identified by search|hub_, as well as, using pre-defined filters to more
-specifically focus optimization efforts.
+Cette vidéo vise à montrer comment vous pouvez fusionner encore plus efficacement des clusters hautement similaires identifiés à l'aide du bouton d'empreinte digitale de searchhub en appliquant des critères de filtrage prédéfinis.
 
-# searchhub Basic Training - How To Set Up Redirects
+# searchhub Formation de base - Comment créer des redirections de recherche?{#searchhub-basic-training---how-to-set-up-redirects}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FAgJtXpWgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## In this video we describe the 3 different types of redirects.
+## Dans cette vidéo, nous vous familiarisons avec les 3 types différents de redirections de recherche proposés par searchhub.{#in-this-video-we-describe-the-3-different-types-of-redirects}
 
 1. <a href="https://youtu.be/FAgJtXpWgiw?t=36">Query Cluster Redirects</a>
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
-# searchhub Search Insights Training
+# searchhub SearchInsights Formation{#searchhub-search-insights-training}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-searchhub Search Insights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
+searchhub Search Insights vous offre la possibilité de surveiller en continu les performances de votre recherche actuelle, d'identifier les potentiels et de dériver les optimisations les plus prometteuses.
 
-## This video will show you how to:
-1. Audit Search Engine Performance
-2. Identify the greatest impact zones of optimization
-3. Report on the success of your optimizations
-4. Track daily and weekly progress
+## Dans cette vidéo, nous vous montrons comment:{#this-video-will-show-you-how-to}
+1. Surveiller les performances de votre recherche
+2. Identifier les principaux leviers pour une amélioration supplémentaire
+3. Rapporter l'impact de vos optimisations
+4. Suivre toutes les métriques pertinentes au fil du temps
 
-# Keyboard Shortcuts
+# Keyboard Shortcuts{#keyboard-shortcuts}
 
-Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the curser focus is not placed on an input field.
+Appuyez sur 'Shift'+'?' pour obtenir un aperçu de tous les raccourcis disponibles que vous pouvez utiliser pour rendre votre travail avec searchhub encore plus efficace.
 
-# SmartSuggest
+# SmartSuggest{#smartsuggest}
 
-The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
-suggestions from the less confident stages, if we are not able to provide the amount of suggestions requested. Here is a short example for a request to return 10 suggestions:
+SmartSuggest utilise un processus en plusieurs étapes pour déterminer les meilleures suggestions de recherche possibles. La base de ces suggestions est toujours constituée de celles qui présentent la plus grande confiance. D'autres suggestions de recherche issues de méthodes moins confiantes ne sont prises en compte que si un nombre suffisant de suggestions de recherche n'a pas encore été déterminé.
+Voici un petit exemple qui illustre le processus décrit pour une requête de suggestion qui doit renvoyer 10 suggestions de recherche:
 
-1. Search only in the cluster label
-2. Search in all variants of the cluster
-3. Fuzzy search in the cluster label with edit distance 1
-4. Fuzzy search in the cluster label with edit distance 2
 
-If the first stage finds >= 10 suggestions, we return the suggestions. If less than 10 suggestions are found, the next stage is initiated, etc. until the desired amount of
-suggestions has been found.
+1. Recherche uniquement dans les libellés des clusters
+2. Recherche également dans toutes les variantes des clusters
+3. Recherche floue dans les libellés des clusters avec une distance d'édition maximale de 1
+4. Recherche floue dans les libellés des clusters avec une distance d'édition maximale de 2
 
-## Basic settings - Fuzziness
+Si la première étape trouve >= 10 suggestions, nous renvoyons les suggestions. Si moins de 10 suggestions sont trouvées, la prochaine étape est lancée, et ainsi de suite, jusqu'à ce que le nombre souhaité de suggestions soit trouvé.
 
-Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not execute the *Fuzzy-Stages* if the stage(s)
-beforehand found any suggestions, regardless if it's less than the requested amount of suggestions. Therefor it could happen that only one suggestion will be returned even if you
-ask for 10. If you set the setting to __recall__, the *Fuzzy-Stages* will be executed if the previous stage(s) could not provide the requested amount of suggestions.
+## Configuration de base - Fuzziness{#basic-settings---fuzziness}
 
-## Basic settings - Sorting
+Avec cette option, vous pouvez définir la proportion de suggestions de recherche floues dans les résultats globaux. La valeur par défaut est définie sur __precision__. Dans ce réglage, aucune suggestion de recherche floue _n'est_ générée. Cela peut entraîner occasionnellement une différence dans le nombre de suggestions de recherche générées. Si le réglage est modifié sur __recall__, le même nombre de suggestions de recherche est toujours généré en remplissant la liste avec des suggestions de recherche floues.
 
-Controls the order in which suggestions are returned by the module. The default is set to __confidence sorting__ where the suggestions are primarily sorted by confidence and
-subsequently by *weight*. Alternatively you could set it to __group sorting__ where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on *weight*
-within their groups. The weight is determined by the ranking settings you define.
+## Configuration de base - Trier{#basic-settings---sorting}
 
-## Basic settings - AI Suggestions
+Avec ce paramètre, vous pouvez définir le tri des suggestions de recherche. La valeur par défaut est définie sur __confidence sorting__. Dans ce réglage, les suggestions de recherche sont d'abord triées par confiance, puis par le poids réglable. En alternative, vous pouvez également passer à __group sorting__. Dans ce réglage, les suggestions de recherche sont affichées par blocs en fonction des niveaux de confiance, en triant à l'intérieur des niveaux par poids. Le poids est déterminé par le réglage de classement que vous avez défini.
 
-This setting determines the quantity of AI suggestions that will be displayed. When present, these suggestions will always appear above the search results.  
-The AI-generated suggestions are designed to enhance both the findability and sellability of products, and are based on the user’s search refinement behavior.
-For instance, for a general query such as “men”, the AI will identify the currently most relevant refined queries, such as “men’s fashion” and “men’s shoes”.  
-In cases where there are bad or no search results, the AI will generate “relaxed-queries” that have previously led to successful search sessions.  
-(This functionality depends on our search-collector and can only deliver additional value if the search-collector is implemented correctly.)
+## Configuration de base - AI suggestion{#basic-settings---ai-suggestions}
 
-# AI-Training
+Avec ce paramètre, vous pouvez définir le nombre maximal de suggestions AI à afficher. Si des suggestions AI existent pour une saisie utilisateur, elles sont toujours affichées en première position.
+Les suggestions AI visent à maximiser à la fois la facilité de recherche et la capacité à vendre au sein d'une session de recherche. Elles sont donc basées sur le comportement de recherche analysé de vos clients.
+Par exemple, prenons une requête de recherche assez générique telle que "hommes". L'IA de searchhub reconnaît qu'il s'agit d'une requête générique et génère automatiquement des suggestions de recherche alternatives pertinentes mais moins génériques, telles que "vêtements pour hommes", "pantalons pour hommes" ou "chaussures pour hommes", afin d'améliorer la spécificité de la facilité de recherche et de vente.
+(Cette fonctionnalité est utilisable uniquement en conjonction avec le search-collector de searchhub.)
 
-The AI-Training view enables you to train and improve searchhub’s clustering at large scale. There will always be some cases where searchhub on its own might not be confident
-enough to decide if two words or search phrases are similar enough to merge them together. For these particular cases we created the AI-Training view. In this view we expose the
-most prominent of these cases and give you as a users the chance to give feedback.
+# AI-Formation{#ai-training}
 
-## Training process
+Avec la vue d'entraînement de l'IA (AI-Training view), vous pouvez aider searchhub à améliorer efficacement la qualité du regroupement en apportant vos connaissances spécifiques sur votre assortiment. Searchhub cherche à éviter les mauvaises décisions. Par conséquent, il peut arriver que searchhub ne soit pas suffisamment sûr pour prendre une décision autonome quant à savoir si deux mots ou expressions ont réellement la même signification ou non. Dans de tels cas précis, vous avez la possibilité de former l'IA pour l'améliorer davantage.
 
-A pair of queries that might likely be related to each other will be presented to you at the top. To be able to better judge if these queries are really related to each other
-you’ll also be presented related clusters for each of the queries.
-Based on this information you’ll be able to give the following feedback:
+## Procédé de Formation{#training-process}
 
-1. No - I’m sure that both queries have a different meaning.
-2. Not sure - I have not enough information or confidence to give feedback.
-3. Yes - I’m 100% sure that both queries have exactly the same meaning.
+Pendant l'entraînement, vous verrez des paires de mots ou de phrases pour lesquelles searchhub a identifié une relation. Vous aurez ensuite la possibilité de choisir l'une des trois alternatives de rétroaction suivantes :
 
-Please **note** that your feedback will only affect the clusters when our AI runs the next night.
+1. Non - Je suis certain que les deux mots ou phrases n'ont pas la même signification.
+2. Je suis incertain - Je n'ai pas suffisamment d'informations pour prendre une décision sûre.
+3. Oui - Je suis sûr à 100% que les deux mots ou phrases ont la même signification.
 
-## Training History
+Veuillez accorder à searchhub le temps nécessaire pour traiter les commentaires que vous avez fournis pendant la nuit.
 
-Your feedback will be stored in the training history which can be accessed via the history icon. In the Training history view you’ll be able to check and edit all of your given
-feedback. Please **note** that any change will only affect the clusters when our AI runs the next night. If you need to fix something quickly, you
-can still head over to the query cluster view and merge/unmerge a cluster manually.
+## Formation Histoire{#training-history}
 
-## Manual training
-Only certain combinations of queries can be selected for AI training. SearchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
+Toutes les rétroactions sont enregistrées dans ce qu'on appelle l'historique d'entraînement et sont accessibles via l'icône d'historique. Vous pouvez consulter et éventuellement modifier tous les éléments de l'historique d'entraînement à tout moment.
+Veuillez accorder à searchhub le temps nécessaire pour traiter les commentaires que vous avez fournis pendant la nuit. Si vous devez intervenir rapidement, vous pouvez toujours effectuer les modifications nécessaires dans la vue "Query Cluster" en fusionnant ou en désappariant les éléments.
 
-# Search Insights
 
-## Underperforming queries
+## Formation manuele{#manual-training}
+Seules certaines combinaisons de requêtes peuvent être sélectionnées pour l'entraînement de l'IA. SearchHub filtre déjà ces combinaisons en fonction de certains critères. Entre autres, la <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> ne doit pas être supérieure à 2.
 
-The "Searches without result" table has an additional toggle button that controls how zero results are interpreted
+# Search Insights{#search-insights}
 
-1. Overall  
-   represents the standard view for zero result data. If a query is a significant zero result, it means that more than 50% of the time it was queried, it led to a zero result. This will lead to the query being counted as a zero result for the period selected, and shown here.
-2. Recent  
-   filters the overall view by excluding zero-result-data with less than 50% of the queries during a day leading to a zero-result, since the last time it was seen.
+## Requêtes sous-performantes{#underperforming-queries}
 
-## Top queries
+Dans l'aperçu des "recherches sans résultat", vous avez la possibilité de choisir entre les deux vues suivantes:
 
-Explanation of the info column icons
+1. Globale (Overall)
+   La vue par défaut, "Globale", comprend toutes les requêtes qui ont abouti à une absence de résultats dans au moins 50% des recherches.
+2. Récentes (Recent)
+   Avec l'option "Récentes", vous pouvez affiner davantage la liste. En sélectionnant cette option, seules les requêtes qui ont abouti à une absence de résultats dans au moins 50% des recherches le jour où elles ont été consultées pour la dernière fois seront affichées.
+
+## Requêtes les plus populaires{#top-queries}
+
+Explication des icônes différentes de la colonne d'informations
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
-The initial type of query detection involves identifying broad queries, which are queries that require multiple refinements before users can ultimately locate the products they seek.
+Cet icône indique des requêtes de recherche non uniques. Ces requêtes nécessitent souvent plusieurs interactions supplémentaires (filtres, tri) avant que les chercheurs ne trouvent les produits qu'ils recherchent.
 
 ![bad ranking](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/ranking.png)  
-The second type of query detection involves identifying queries where search result ranking requires improvement. This is because users have to navigate too deeply into the result set before finding the desired products.
+Cet icône indique des requêtes de recherche dont le classement des produits présente un potentiel d'amélioration significatif, car la majorité des produits cliqués et achetés ne se trouvent pas aux meilleures positions.
 
 ![bad relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/relevance.png)  
-The third type of query detection involves identifying queries with a high likelihood of severe relevance issues. In these cases, users become so frustrated with the search results that they abandon the online store.
+Cet icône indique des requêtes de recherche dont le résultat conduit très souvent les clients à quitter la boutique. Cela est souvent un indicateur d'un résultat totalement irrélevant.
 
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
-The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
+Cet icône indique des requêtes de recherche qui n'entraînent aucune interaction de la part des clients. Cela est souvent un indicateur de résultats partiellement pertinents.
 
-# Glossary
+# Glossaire{#glossary}
 
-## Search Insights - KPIs
+## Search Insights - KPIs{#search-insights---kpis}
 
-|KPI |Explanation |  
+|KPI |Explication |  
 |--|--|  
-|Suggest-CTR |Number of unique Suggest-Clicks divided by the number of unique Suggestions.|
-|Suggest-MRR |Average daily Mean-Reciprocal-Rank (Measuring the ranking-quality of suggestions) of clicked Suggestions.|
-|#Searches |*Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.|  
-|Category |The most represented Product-Category for products bought in relation to a search term. (This needs some Sort of Identifier (ProductID or URL) that maps a Result page view to SKU data (in this case the category))|
-|Clicks |The amount of unique result page views per session.|  
-|CR in %|Number of unique ordered items divided by the number of unique searches per session.|  
-|CTR in %|Number of unique product detail page impressions per session divided by the number of unique searches per session.|  
-|Exit rate in %|Number of exits per session divided by the number of unique searches per session.|  
-|Exits in %|The number of exits from your site that occurred following an initial result from your site-search.|  
-|Findability in %|The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**.|  
-|Human rate in %|Number of unique searches per session that could be identified as searches issued by users and not bots, referral-links, campaigns, etc. divided by the number of all unique searches per session.|  
-|No Result in %|Number of unique searches per session that produced a zero result.|  
-|Orders |The total number of completed purchases on your site.|  
-|Ranking in %|The frequency with which a search result is clicked on the first page of search results. Ranking is the number of top, or first page product click (K-Clicks) divided by the overall number of clicks (nr of clicks).|
-|Revenue |The total revenue from web ecommerce or in-app transactions.|  
-|Uplift|Increase of #Searches when comparing a defined date range.|  
-|Value per Search (VPS)|Sum of all orders divided by the sum of all searches within a day.|
+|Suggest-CTR |Le nombre de clics uniques sur les suggestions divisé par le nombre de suggestions uniques.|
+|Suggest-MRR |La moyenne quotidienne du Mean Reciprocal Rank (un indicateur de la qualité du classement des suggestions) des suggestions cliquées.|
+|#Searches |*Total Unique Searches* Le nombre de recherches uniques par visiteur.|  
+|Category |Les catégories de produits ayant la plus grande proportion d'interactions pour chaque requête de recherche.|
+|Clicks |Le nombre de clics uniques sur les produits par session.|  
+|CR % |Le nombre de SKU (unités de gestion des stocks) uniques achetés divisé par le nombre de recherches uniques par session.|
+|CTR % |Le nombre de vues uniques de pages de détails de produits divisé par le nombre de recherches uniques par session.|  
+|Exit rate % |Le nombre de sorties divisé par le nombre de recherches uniques par session.|  
+|Exits % |Le nombre de sorties immédiatement après l'affichage d'une page de résultats de recherche.|  
+|Findability % |La findabilité est une mesure de la qualité des résultats de recherche et représente une moyenne pondérée des signaux positifs et négatifs des utilisateurs. Les signaux négatifs sont les **sorties**, les **rebonds**, les **absences de clics** et les **parcours de recherche longs**. Les signaux positifs sont les **clics**, le **taux de clics sur la première page** de résultats, les **ajouts au panier** et les **achats**.|  
+|Human rate % |Le nombre de recherches uniques par session effectuées par de véritables utilisateurs, excluant les bots, les liens de référence, les campagnes, etc., divisé par le nombre de recherches uniques par session.|  
+|No Result % |Le nombre de recherches uniques par session qui ont abouti à un résultat nul.|  
+|Orders |Le nombre total de sessions qui ont abouti à un achat.|  
+|Ranking % |Le nombre de clics sur les produits d'un résultat de recherche pondéré en fonction des positions, divisé par le nombre total de clics pour ce résultat de recherche.|
+|Revenue |Le chiffre d'affaires total réalisé directement via la recherche.|  
+|Uplift |L'augmentation en pourcentage des recherches pendant la période définie.|  
+|Value per Search (VPS) |La somme du chiffre d'affaires réalisé directement via la recherche, divisée par le nombre de recherches uniques.|
 
-## Query view - Standard KPIs
+## Query view - Indicateurs KPI standard{#query-view---standard-kpis}
 
-|KPI |Explanation |
+|KPI |Explication |
 |--|--|
-|Popularity |Number of unique user searches within a static time range, normally the last 28 days. |
-|Samples    |Number of unique user searches from time ranges where a particular query was not redirected by searchHub. |
-|Reliability|A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs. |
-|Findability|Same as *Findability*, as seen in *Search Insights KPIs* |
-|Sellability|The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
-|Confidence |A weighted average of Findability and Sellability with double the weight applied to Findability. |
+|Popularity |Le nombre de recherches uniques des 28 derniers jours..|
+|Samples    |Le nombre d'occurrences échantillonnées de recherches uniques qui n'ont pas été mappées par searchHub.|
+|Reliability |EUne mesure de la fiabilité des autres indicateurs clés de performance qui combine l'âge et la pertinence des données collectées.|
+|Findability |Le même indicateur clé de performance (KPI) de "Findability" que celui utilisé dans les "KPIs de Search Insights". |
+|Sellability |La *Sellability* est une mesure de la probabilité d'achat après une recherche. Cet indicateur clé de performance (KPI) représente une moyenne pondérée des deux taux, soit "clics dans le panier/total des clics" et "achats/clics dans le panier". |
+|Confidence |La "confiance" décide du "MasterQuery" (la requête de recherche avec la plus haute confiance devient le "MasterQuery", sauf exceptions ou intervention manuelle). Elle représente une moyenne pondérée des deux KPI "Findability" et "Sellability". |
 
-## Cluster view - Merge types
+## Cluster view - Types de fusion{#cluster-view---merge-types}
 
-|Merge type |Explanation |  
+|Merge type |Explication |  
 |--|--|  
-|User-Merge |A Merge based on explicit searchhub-user decisions (direct-merge, fingerprint-merge)|
-|Confident-AI-Merge |A Merge based on explicit searchhub decisions with high confidence (known-misspellings, known-lemmata)|
-|Concept-AI-Merge |A Merge based on explicit searchhub Concepts (concepts are contextualized synonyms - "TV" = "television")|
-|Explicit-AI-Merge |A Merge based on explicit searchhub-user AI-Training decisions ("highboard" is related to "highbord")|
-|Implicit-AI-Merge |A Merge based on implicit searchhub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white")|
+|User-Merge |Un fusionnement utilisateur est un fusionnement basé exclusivement sur les retours d'expérience explicites des utilisateurs de searchhub (fusion directe, fusion par empreinte).|
+|Confident-AI-Merge |Un fusionnement basé sur les connaissances explicites de searchhub et ayant une forte confiance (fautes d'orthographe connues, lemmes connus).|
+|Concept-AI-Merge |Un fusionnement basé sur les connaissances explicites par le biais des concepts de searchhub (les concepts sont des synonymes sensibles au contexte - "TV" = "télévision").|
+|Explicit-AI-Merge |Un fusionnement basé sur les commentaires explicites de l'entraînement de l'IA utilisateur de searchHub ("highboard" est lié à "highbord").|
+|Implicit-AI-Merge |Un fusionnement qui a été appris implicitement à partir des commentaires de l'entraînement de l'IA utilisateur de searchhub (parce que "highboard" est similaire à "highbord", l'IA apprend également que "highboard blanc" est similaire à "highbord blanc").|
 
-## Cluster view - Query scores
+## Cluster view - Scores de requête{#cluster-view---query-scores}
 
-|Score |Explanation |  
+|Score |Explication |  
 |--|--|  
-|Confidence |The confidence score shows how sure searchHub is that this particular query is the best one.|
-|Correctness |The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.|
-|WordValidation |The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.|
-|LMProbability |The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense.|
+|Confidence |La confiance décide du MasterQuery (la requête de recherche avec la plus haute confiance devient le MasterQuery, sauf exceptions, surrégulation manuelle).|
+|Correctness |Ce chiffre est une mesure de l'exactitude linguistique et contextuelle de la requête de recherche, et donc le produit de la WordValidation et de la LMProbability.|
+|WordValidation |Cette valeur est une mesure de l'exactitude linguistique des termes individuels d'une requête de recherche. Si tous les termes d'une requête de recherche sont linguistiquement corrects, le score est de 1.0.|
+|LMProbability |La pertinence contextuelle d'une requête de recherche est déterminée par la probabilité du modèle linguistique. Par exemple, la requête de recherche "femme homme" est linguistiquement correcte et obtient donc un score de validation de mot de 1.0. Cependant, la probabilité du modèle linguistique est de 0.0 car les deux termes ne font aucun sens ensemble.|
