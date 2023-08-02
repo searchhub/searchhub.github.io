@@ -74,18 +74,18 @@ Als Beispiel betrachten wir eine recht generische Suchanfrage nach "männer". Di
 
 ## Inspirierende AI Vorschläge{#inspirational-ai-suggestions}
 
-Mit unseren AI-gesteuerten inspirierenden Vorschlägen können Sie Ihren Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeigen, noch bevor sie mit der Eingabe beginnen, basierend auf den folgenden vordefinierten Keywords:
+Mit unseren KI-gesteuerten inspirierenden Vorschlägen können Sie Ihren Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeigen, noch bevor diese mit der Eingabe beginnen. Die folgenden Vorschlags-Typen stehen zur Verfügung:
 
 1. MOST_INSPIRING  
-   Vorschläge basierend auf unserem AI-gestützten Empfehlungssystem, das eine intelligente Mischung der folgenden vier Strategien verwendet.
+   Vorschläge basierend auf unserem KI-gestützten Empfehlungssystem, das eine intelligente Mischung der folgenden vier Strategien verwendet.
 2. MOST_POPULAR  
-   Vorschläge basieren auf den am häufigsten gesuchten Begriffen.
+   Vorschläge basierend auf den am häufigsten gesuchten Begriffen.
 3. MOST_POPULARITY_UPLIFT  
-   Vorschläge werden basierend auf den derzeit angesagtesten Suchen ausgewählt, um aktuelle Trends zu optimieren.
+   Vorschläge basierend auf den derzeit angesagtesten Suchen, um auf aktuelle Trends zu optimieren.
 4. HIGHEST_FINDABILITY_UPLIFT  
-   Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, die das einfachste Sucherlebnis bieten und die Reibung minimieren.
+   Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, deren Ergebnisqualität in letzter Zeit gesteiegen ist - möglicherweise durch Sortimentsoptimierungen
 5. HIGHEST_SELLABILITY_UPLIFT  
-   Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, die die Wahrscheinlichkeit von Add-to-Cart-Ereignissen maximieren, um die Verkaufsfähigkeit zu optimieren.
+   Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, die die Wahrscheinlichkeit von Add-to-Cart-Ereignissen maximieren, um auf Verkaufsfähigkeit zu optimieren.
 
 # AI-Training{#ai-training}
 
