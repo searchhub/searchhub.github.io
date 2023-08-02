@@ -65,16 +65,16 @@ Mithilfe dieser Einstellung legst Du den Anteil der unscharfen Such-Vorschläge 
 
 Mit dieser Einstellung legst Du die Sortierung der Such-Vorschläge fest. Die Voreinstellung ist auf __confidence sorting__ eingestellt. In dieser Einstellung werden die Such-Vorschläge zunächst nach Konfidenz und dann nach dem einstellbaren _Gewicht_ sortiert. Alternativ kann auch auf __group sorting__ umgestellt werden. Bei dieser Einstellung werden die Such-Vorschläge blockweise auf Basis der Konfidenz-stufen dargestellt, wobei innerhalb der Stufen nach _Gewicht_ sortiert wird. Das _Gewicht_ wird über die Ranking Einstellung bestimmt die Du festgelegt hast.
 
-## Basis Einstellung - AI Vorschläge{#basic-settings---ai-suggestions}
+## Basis Einstellung - AI Suggests{#basic-settings---ai-suggestions}
 
-Mithilfe dieser Einstellung legst Du die maximale Anzahl an AI Vorschläge fest, die ausgespielt werden soll. Sofern zu einer User-Eingabe AI Vorschläge existieren werden diese stets auf den ersten Positionen ausgespielt.  
-AI-Vorschläge verfolgen das Ziel sowohl die Findability als auch die Sellability innerhalb einer Such-Session zu maximieren. Daher basieren sie auf dem analysierten Such-Verhalten Deiner Kunden.
+Mithilfe dieser Einstellung legst Du die maximale Anzahl an AI Suggests fest, die ausgespielt werden soll. Sofern zu einer User-Eingabe AI Suggests existieren werden diese stets auf den ersten Positionen ausgespielt.  
+AI-Suggests verfolgen das Ziel sowohl die Findability als auch die Sellability innerhalb einer Such-Session zu maximieren. Daher basieren sie auf dem analysierten Such-Verhalten Deiner Kunden.
 Als Beispiel betrachten wir eine recht generische Suchanfrage nach "männer". Die searchHub AI erkennt, dass es sich um eine generische Suchanfrage handelt und ermittelt automatisch relevante weniger generische alternativ Such-Vorschläge wie "männer bekleidung" und männer hosen" oder "männer schuhe" um die spezifische Findability und Sellability zu erhöhen. 
 (Diese Funktionalität ist nur in Verbindung mit dem searchHub search-collector nutzbar)
 
-## Inspirierende AI Vorschläge{#inspirational-ai-suggestions}
+## Inspirierende AI Suggests{#inspirational-ai-suggestions}
 
-Mit unseren KI-gesteuerten inspirierenden Vorschlägen können Sie Ihren Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeigen, noch bevor diese mit der Eingabe beginnen. Die folgenden Vorschlags-Typen stehen zur Verfügung:
+Mit unseren KI-gestützten inspirierenden Vorschlägen können Sie Ihren Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeigen, noch bevor diese mit der Eingabe beginnen. Die folgenden Vorschlags-Typen stehen zur Verfügung:
 
 1. MOST_INSPIRING  
    Vorschläge basierend auf unserem KI-gestützten Empfehlungssystem, das eine intelligente Mischung der folgenden vier Strategien verwendet.
