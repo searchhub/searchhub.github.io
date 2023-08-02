@@ -73,6 +73,21 @@ Les suggestions AI visent à maximiser à la fois la facilité de recherche et l
 Par exemple, prenons une requête de recherche assez générique telle que "hommes". L'IA de searchhub reconnaît qu'il s'agit d'une requête générique et génère automatiquement des suggestions de recherche alternatives pertinentes mais moins génériques, telles que "vêtements pour hommes", "pantalons pour hommes" ou "chaussures pour hommes", afin d'améliorer la spécificité de la facilité de recherche et de vente.
 (Cette fonctionnalité est utilisable uniquement en conjonction avec le search-collector de searchhub.)
 
+## Suggestions inspirantes de l'IA{#inspirational-ai-suggestions}
+
+Nos suggestions inspirantes alimentées par l'IA vous permettent désormais d'afficher à vos utilisateurs des suggestions d'auto-complétion et de recherche avant même qu'ils ne commencent à taper, sur la base des mots-clés prédéfinis suivants:
+
+1. MOST_INSPIRING  
+   suggestions basées sur notre système de recommandation alimenté par l'IA qui utilise un mélange intelligent des quatre stratégies suivantes.
+2. MOST_POPULAR  
+   les suggestions sont basées sur les éléments les plus fréquemment recherchés.
+3. MOST_POPULARITY_UPLIFT  
+   sont choisies en fonction des recherches les plus tendances afin d'optimiser les résultats en fonction des tendances actuelles.
+4. HIGHEST_FINDABILITY_UPLIFT  
+   les suggestions sont choisies en fonction des recherches qui offrent l'expérience de recherche la plus facile, en minimisant les frictions.
+5. HIGHEST_SELLABILITY_UPLIFT  
+   les suggestions sont sélectionnées sur la base de recherches qui maximisent la probabilité d'événements d'ajout au panier afin d'optimiser la vendabilité.
+
 # AI-Formation{#ai-training}
 
 Avec la vue d'entraînement de l'IA (AI-Training view), vous pouvez aider searchhub à améliorer efficacement la qualité du regroupement en apportant vos connaissances spécifiques sur votre assortiment. Searchhub cherche à éviter les mauvaises décisions. Par conséquent, il peut arriver que searchhub ne soit pas suffisamment sûr pour prendre une décision autonome quant à savoir si deux mots ou expressions ont réellement la même signification ou non. Dans de tels cas précis, vous avez la possibilité de former l'IA pour l'améliorer davantage.
@@ -102,9 +117,9 @@ Seules certaines combinaisons de requêtes peuvent être sélectionnées pour l'
 
 Dans l'aperçu des "recherches sans résultat", vous avez la possibilité de choisir entre les deux vues suivantes:
 
-1. Globale (Overall)
+1. Globale (Overall)  
    La vue par défaut, "Globale", comprend toutes les requêtes qui ont abouti à une absence de résultats dans au moins 50% des recherches.
-2. Récentes (Recent)
+2. Récentes (Recent)  
    Avec l'option "Récentes", vous pouvez affiner davantage la liste. En sélectionnant cette option, seules les requêtes qui ont abouti à une absence de résultats dans au moins 50% des recherches le jour où elles ont été consultées pour la dernière fois seront affichées.
 
 ## Requêtes les plus populaires{#top-queries}
@@ -127,52 +142,52 @@ Cet icône indique des requêtes de recherche qui n'entraînent aucune interacti
 
 ## Search Insights - KPIs{#search-insights---kpis}
 
-|KPI |Explication |  
-|--|--|  
-|Suggest-CTR |Le nombre de clics uniques sur les suggestions divisé par le nombre de suggestions uniques.|
-|Suggest-MRR |La moyenne quotidienne du Mean Reciprocal Rank (un indicateur de la qualité du classement des suggestions) des suggestions cliquées.|
-|#Searches |*Total Unique Searches* Le nombre de recherches uniques par visiteur.|  
-|Category |Les catégories de produits ayant la plus grande proportion d'interactions pour chaque requête de recherche.|
-|Clicks |Le nombre de clics uniques sur les produits par session.|  
-|CR % |Le nombre de SKU (unités de gestion des stocks) uniques achetés divisé par le nombre de recherches uniques par session.|
-|CTR % |Le nombre de vues uniques de pages de détails de produits divisé par le nombre de recherches uniques par session.|  
-|Exit rate % |Le nombre de sorties divisé par le nombre de recherches uniques par session.|  
-|Exits % |Le nombre de sorties immédiatement après l'affichage d'une page de résultats de recherche.|  
-|Findability % |La findabilité est une mesure de la qualité des résultats de recherche et représente une moyenne pondérée des signaux positifs et négatifs des utilisateurs. Les signaux négatifs sont les **sorties**, les **rebonds**, les **absences de clics** et les **parcours de recherche longs**. Les signaux positifs sont les **clics**, le **taux de clics sur la première page** de résultats, les **ajouts au panier** et les **achats**.|  
-|Human rate % |Le nombre de recherches uniques par session effectuées par de véritables utilisateurs, excluant les bots, les liens de référence, les campagnes, etc., divisé par le nombre de recherches uniques par session.|  
-|No Result % |Le nombre de recherches uniques par session qui ont abouti à un résultat nul.|  
-|Orders |Le nombre total de sessions qui ont abouti à un achat.|  
-|Ranking % |Le nombre de clics sur les produits d'un résultat de recherche pondéré en fonction des positions, divisé par le nombre total de clics pour ce résultat de recherche.|
-|Revenue |Le chiffre d'affaires total réalisé directement via la recherche.|  
-|Uplift |L'augmentation en pourcentage des recherches pendant la période définie.|  
-|Value per Search (VPS) |La somme du chiffre d'affaires réalisé directement via la recherche, divisée par le nombre de recherches uniques.|
+| KPI                    | Explication                                                                                                                                                                                                                                                                                                                                                                                                                             |  
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Suggest-CTR            | Le nombre de clics uniques sur les suggestions divisé par le nombre de suggestions uniques.                                                                                                                                                                                                                                                                                                                                             |
+| Suggest-MRR            | La moyenne quotidienne du Mean Reciprocal Rank (un indicateur de la qualité du classement des suggestions) des suggestions cliquées.                                                                                                                                                                                                                                                                                                    |
+| #Searches              | *Total Unique Searches* Le nombre de recherches uniques par visiteur.                                                                                                                                                                                                                                                                                                                                                                   |  
+| Category               | Les catégories de produits ayant la plus grande proportion d'interactions pour chaque requête de recherche.                                                                                                                                                                                                                                                                                                                             |
+| Clicks                 | Le nombre de clics uniques sur les produits par session.                                                                                                                                                                                                                                                                                                                                                                                |  
+| CR %                   | Le nombre de SKU (unités de gestion des stocks) uniques achetés divisé par le nombre de recherches uniques par session.                                                                                                                                                                                                                                                                                                                 |
+| CTR %                  | Le nombre de vues uniques de pages de détails de produits divisé par le nombre de recherches uniques par session.                                                                                                                                                                                                                                                                                                                       |  
+| Exit rate %            | Le nombre de sorties divisé par le nombre de recherches uniques par session.                                                                                                                                                                                                                                                                                                                                                            |  
+| Exits %                | Le nombre de sorties immédiatement après l'affichage d'une page de résultats de recherche.                                                                                                                                                                                                                                                                                                                                              |  
+| Findability %          | La findabilité est une mesure de la qualité des résultats de recherche et représente une moyenne pondérée des signaux positifs et négatifs des utilisateurs. Les signaux négatifs sont les **sorties**, les **rebonds**, les **absences de clics** et les **parcours de recherche longs**. Les signaux positifs sont les **clics**, le **taux de clics sur la première page** de résultats, les **ajouts au panier** et les **achats**. |  
+| Human rate %           | Le nombre de recherches uniques par session effectuées par de véritables utilisateurs, excluant les bots, les liens de référence, les campagnes, etc., divisé par le nombre de recherches uniques par session.                                                                                                                                                                                                                          |  
+| No Result %            | Le nombre de recherches uniques par session qui ont abouti à un résultat nul.                                                                                                                                                                                                                                                                                                                                                           |  
+| Orders                 | Le nombre total de sessions qui ont abouti à un achat.                                                                                                                                                                                                                                                                                                                                                                                  |  
+| Ranking %              | Le nombre de clics sur les produits d'un résultat de recherche pondéré en fonction des positions, divisé par le nombre total de clics pour ce résultat de recherche.                                                                                                                                                                                                                                                                    |
+| Revenue                | Le chiffre d'affaires total réalisé directement via la recherche.                                                                                                                                                                                                                                                                                                                                                                       |  
+| Uplift                 | L'augmentation en pourcentage des recherches pendant la période définie.                                                                                                                                                                                                                                                                                                                                                                |  
+| Value per Search (VPS) | La somme du chiffre d'affaires réalisé directement via la recherche, divisée par le nombre de recherches uniques.                                                                                                                                                                                                                                                                                                                       |
 
 ## Query view - Indicateurs KPI standard{#query-view---standard-kpis}
 
-|KPI |Explication |
-|--|--|
-|Popularity |Le nombre de recherches uniques des 28 derniers jours..|
-|Samples    |Le nombre d'occurrences échantillonnées de recherches uniques qui n'ont pas été mappées par searchHub.|
-|Reliability |EUne mesure de la fiabilité des autres indicateurs clés de performance qui combine l'âge et la pertinence des données collectées.|
-|Findability |Le même indicateur clé de performance (KPI) de "Findability" que celui utilisé dans les "KPIs de Search Insights". |
-|Sellability |La *Sellability* est une mesure de la probabilité d'achat après une recherche. Cet indicateur clé de performance (KPI) représente une moyenne pondérée des deux taux, soit "clics dans le panier/total des clics" et "achats/clics dans le panier". |
-|Confidence |La "confiance" décide du "MasterQuery" (la requête de recherche avec la plus haute confiance devient le "MasterQuery", sauf exceptions ou intervention manuelle). Elle représente une moyenne pondérée des deux KPI "Findability" et "Sellability". |
+| KPI         | Explication                                                                                                                                                                                                                                         |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Popularity  | Le nombre de recherches uniques des 28 derniers jours..                                                                                                                                                                                             |
+| Samples     | Le nombre d'occurrences échantillonnées de recherches uniques qui n'ont pas été mappées par searchHub.                                                                                                                                              |
+| Reliability | EUne mesure de la fiabilité des autres indicateurs clés de performance qui combine l'âge et la pertinence des données collectées.                                                                                                                   |
+| Findability | Le même indicateur clé de performance (KPI) de "Findability" que celui utilisé dans les "KPIs de Search Insights".                                                                                                                                  |
+| Sellability | La *Sellability* est une mesure de la probabilité d'achat après une recherche. Cet indicateur clé de performance (KPI) représente une moyenne pondérée des deux taux, soit "clics dans le panier/total des clics" et "achats/clics dans le panier". |
+| Confidence  | La "confiance" décide du "MasterQuery" (la requête de recherche avec la plus haute confiance devient le "MasterQuery", sauf exceptions ou intervention manuelle). Elle représente une moyenne pondérée des deux KPI "Findability" et "Sellability". |
 
 ## Cluster view - Types de fusion{#cluster-view---merge-types}
 
-|Merge type |Explication |  
-|--|--|  
-|User-Merge |Un fusionnement utilisateur est un fusionnement basé exclusivement sur les retours d'expérience explicites des utilisateurs de searchhub (fusion directe, fusion par empreinte).|
-|Confident-AI-Merge |Un fusionnement basé sur les connaissances explicites de searchhub et ayant une forte confiance (fautes d'orthographe connues, lemmes connus).|
-|Concept-AI-Merge |Un fusionnement basé sur les connaissances explicites par le biais des concepts de searchhub (les concepts sont des synonymes sensibles au contexte - "TV" = "télévision").|
-|Explicit-AI-Merge |Un fusionnement basé sur les commentaires explicites de l'entraînement de l'IA utilisateur de searchHub ("highboard" est lié à "highbord").|
-|Implicit-AI-Merge |Un fusionnement qui a été appris implicitement à partir des commentaires de l'entraînement de l'IA utilisateur de searchhub (parce que "highboard" est similaire à "highbord", l'IA apprend également que "highboard blanc" est similaire à "highbord blanc").|
+| Merge type         | Explication                                                                                                                                                                                                                                                    |  
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| User-Merge         | Un fusionnement utilisateur est un fusionnement basé exclusivement sur les retours d'expérience explicites des utilisateurs de searchhub (fusion directe, fusion par empreinte).                                                                               |
+| Confident-AI-Merge | Un fusionnement basé sur les connaissances explicites de searchhub et ayant une forte confiance (fautes d'orthographe connues, lemmes connus).                                                                                                                 |
+| Concept-AI-Merge   | Un fusionnement basé sur les connaissances explicites par le biais des concepts de searchhub (les concepts sont des synonymes sensibles au contexte - "TV" = "télévision").                                                                                    |
+| Explicit-AI-Merge  | Un fusionnement basé sur les commentaires explicites de l'entraînement de l'IA utilisateur de searchHub ("highboard" est lié à "highbord").                                                                                                                    |
+| Implicit-AI-Merge  | Un fusionnement qui a été appris implicitement à partir des commentaires de l'entraînement de l'IA utilisateur de searchhub (parce que "highboard" est similaire à "highbord", l'IA apprend également que "highboard blanc" est similaire à "highbord blanc"). |
 
 ## Cluster view - Scores de requête{#cluster-view---query-scores}
 
-|Score |Explication |  
-|--|--|  
-|Confidence |La confiance décide du MasterQuery (la requête de recherche avec la plus haute confiance devient le MasterQuery, sauf exceptions, surrégulation manuelle).|
-|Correctness |Ce chiffre est une mesure de l'exactitude linguistique et contextuelle de la requête de recherche, et donc le produit de la WordValidation et de la LMProbability.|
-|WordValidation |Cette valeur est une mesure de l'exactitude linguistique des termes individuels d'une requête de recherche. Si tous les termes d'une requête de recherche sont linguistiquement corrects, le score est de 1.0.|
-|LMProbability |La pertinence contextuelle d'une requête de recherche est déterminée par la probabilité du modèle linguistique. Par exemple, la requête de recherche "femme homme" est linguistiquement correcte et obtient donc un score de validation de mot de 1.0. Cependant, la probabilité du modèle linguistique est de 0.0 car les deux termes ne font aucun sens ensemble.|
+| Score          | Explication                                                                                                                                                                                                                                                                                                                                                         |  
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Confidence     | La confiance décide du MasterQuery (la requête de recherche avec la plus haute confiance devient le MasterQuery, sauf exceptions, surrégulation manuelle).                                                                                                                                                                                                          |
+| Correctness    | Ce chiffre est une mesure de l'exactitude linguistique et contextuelle de la requête de recherche, et donc le produit de la WordValidation et de la LMProbability.                                                                                                                                                                                                  |
+| WordValidation | Cette valeur est une mesure de l'exactitude linguistique des termes individuels d'une requête de recherche. Si tous les termes d'une requête de recherche sont linguistiquement corrects, le score est de 1.0.                                                                                                                                                      |
+| LMProbability  | La pertinence contextuelle d'une requête de recherche est déterminée par la probabilité du modèle linguistique. Par exemple, la requête de recherche "femme homme" est linguistiquement correcte et obtient donc un score de validation de mot de 1.0. Cependant, la probabilité du modèle linguistique est de 0.0 car les deux termes ne font aucun sens ensemble. |

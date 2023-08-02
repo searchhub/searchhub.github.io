@@ -79,6 +79,21 @@ For instance, for a general query such as “men”, the AI will identify the cu
 In cases where there are bad or no search results, the AI will generate “relaxed-queries” that have previously led to successful search sessions.  
 (This functionality depends on our search-collector and can only deliver additional value if the search-collector is implemented correctly.)
 
+## Inspirational AI-Suggestions
+
+Our AI-powered inspirational suggestions now enable you to show your users auto-completion and search suggestions even before they start typing based on the following pre-defined keywords:
+
+1. MOST_INSPIRING  
+   suggestions based on our AI-powered recommendation system that uses an intelligent blend of the following four strategies.
+2. MOST_POPULAR  
+   suggestions are based on the most frequently searched items.
+3. MOST_POPULARITY_UPLIFT  
+   suggestions are chosen based on the most trending searches to optimize for current trends.
+4. HIGHEST_FINDABILITY_UPLIFT  
+   suggestions are chosen based on searches that provide the easiest search experience, minimizing friction.
+5. HIGHEST_SELLABILITY_UPLIFT  
+   suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
+
 # AI-Training
 
 The AI-Training view enables you to train and improve searchhub’s clustering at large scale. There will always be some cases where searchhub on its own might not be confident
@@ -137,52 +152,52 @@ The fourth type of query detection involves identifying queries with a high like
 
 ## Search Insights - KPIs
 
-|KPI |Explanation |  
-|--|--|  
-|Suggest-CTR |Number of unique Suggest-Clicks divided by the number of unique Suggestions.|
-|Suggest-MRR |Average daily Mean-Reciprocal-Rank (Measuring the ranking-quality of suggestions) of clicked Suggestions.|
-|#Searches |*Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.|  
-|Category |The most represented Product-Category for products bought in relation to a search term. (This needs some Sort of Identifier (ProductID or URL) that maps a Result page view to SKU data (in this case the category))|
-|Clicks |The amount of unique result page views per session.|  
-|CR in %|Number of unique ordered items divided by the number of unique searches per session.|  
-|CTR in %|Number of unique product detail page impressions per session divided by the number of unique searches per session.|  
-|Exit rate in %|Number of exits per session divided by the number of unique searches per session.|  
-|Exits in %|The number of exits from your site that occurred following an initial result from your site-search.|  
-|Findability in %|The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**.|  
-|Human rate in %|Number of unique searches per session that could be identified as searches issued by users and not bots, referral-links, campaigns, etc. divided by the number of all unique searches per session.|  
-|No Result in %|Number of unique searches per session that produced a zero result.|  
-|Orders |The total number of completed purchases on your site.|  
-|Ranking in %|The frequency with which a search result is clicked on the first page of search results. Ranking is the number of top, or first page product click (K-Clicks) divided by the overall number of clicks (nr of clicks).|
-|Revenue |The total revenue from web ecommerce or in-app transactions.|  
-|Uplift|Increase of #Searches when comparing a defined date range.|  
-|Value per Search (VPS)|Sum of all orders divided by the sum of all searches within a day.|
+| KPI                    | Explanation                                                                                                                                                                                                                                                                                                           |  
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Suggest-CTR            | Number of unique Suggest-Clicks divided by the number of unique Suggestions.                                                                                                                                                                                                                                          |
+| Suggest-MRR            | Average daily Mean-Reciprocal-Rank (Measuring the ranking-quality of suggestions) of clicked Suggestions.                                                                                                                                                                                                             |
+| #Searches              | *Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.                                                                                                                                                              |  
+| Category               | The most represented Product-Category for products bought in relation to a search term. (This needs some Sort of Identifier (ProductID or URL) that maps a Result page view to SKU data (in this case the category))                                                                                                  |
+| Clicks                 | The amount of unique result page views per session.                                                                                                                                                                                                                                                                   |  
+| CR in %                | Number of unique ordered items divided by the number of unique searches per session.                                                                                                                                                                                                                                  |  
+| CTR in %               | Number of unique product detail page impressions per session divided by the number of unique searches per session.                                                                                                                                                                                                    |  
+| Exit rate in %         | Number of exits per session divided by the number of unique searches per session.                                                                                                                                                                                                                                     |  
+| Exits in %             | The number of exits from your site that occurred following an initial result from your site-search.                                                                                                                                                                                                                   |  
+| Findability in %       | The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**. |  
+| Human rate in %        | Number of unique searches per session that could be identified as searches issued by users and not bots, referral-links, campaigns, etc. divided by the number of all unique searches per session.                                                                                                                    |  
+| No Result in %         | Number of unique searches per session that produced a zero result.                                                                                                                                                                                                                                                    |  
+| Orders                 | The total number of completed purchases on your site.                                                                                                                                                                                                                                                                 |  
+| Ranking in %           | The frequency with which a search result is clicked on the first page of search results. Ranking is the number of top, or first page product click (K-Clicks) divided by the overall number of clicks (nr of clicks).                                                                                                 |
+| Revenue                | The total revenue from web ecommerce or in-app transactions.                                                                                                                                                                                                                                                          |  
+| Uplift                 | Increase of #Searches when comparing a defined date range.                                                                                                                                                                                                                                                            |  
+| Value per Search (VPS) | Sum of all orders divided by the sum of all searches within a day.                                                                                                                                                                                                                                                    |
 
 ## Query view - Standard KPIs
 
-|KPI |Explanation |
-|--|--|
-|Popularity |Number of unique user searches within a static time range, normally the last 28 days. |
-|Samples    |Number of unique user searches from time ranges where a particular query was not redirected by searchHub. |
-|Reliability|A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs. |
-|Findability|Same as *Findability*, as seen in *Search Insights KPIs* |
-|Sellability|The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
-|Confidence |A weighted average of Findability and Sellability with double the weight applied to Findability. |
+| KPI         | Explanation                                                                                                                                                                                                                                                                                                                                          |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Popularity  | Number of unique user searches within a static time range, normally the last 28 days.                                                                                                                                                                                                                                                                |
+| Samples     | Number of unique user searches from time ranges where a particular query was not redirected by searchHub.                                                                                                                                                                                                                                            |
+| Reliability | A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs.                                                                                                                                                                                                                      |
+| Findability | Same as *Findability*, as seen in *Search Insights KPIs*                                                                                                                                                                                                                                                                                             |
+| Sellability | The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
+| Confidence  | A weighted average of Findability and Sellability with double the weight applied to Findability.                                                                                                                                                                                                                                                     |
 
 ## Cluster view - Merge types
 
-|Merge type |Explanation |  
-|--|--|  
-|User-Merge |A Merge based on explicit searchhub-user decisions (direct-merge, fingerprint-merge)|
-|Confident-AI-Merge |A Merge based on explicit searchhub decisions with high confidence (known-misspellings, known-lemmata)|
-|Concept-AI-Merge |A Merge based on explicit searchhub Concepts (concepts are contextualized synonyms - "TV" = "television")|
-|Explicit-AI-Merge |A Merge based on explicit searchhub-user AI-Training decisions ("highboard" is related to "highbord")|
-|Implicit-AI-Merge |A Merge based on implicit searchhub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white")|
+| Merge type         | Explanation                                                                                                                                                                             |  
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| User-Merge         | A Merge based on explicit searchhub-user decisions (direct-merge, fingerprint-merge)                                                                                                    |
+| Confident-AI-Merge | A Merge based on explicit searchhub decisions with high confidence (known-misspellings, known-lemmata)                                                                                  |
+| Concept-AI-Merge   | A Merge based on explicit searchhub Concepts (concepts are contextualized synonyms - "TV" = "television")                                                                               |
+| Explicit-AI-Merge  | A Merge based on explicit searchhub-user AI-Training decisions ("highboard" is related to "highbord")                                                                                   |
+| Implicit-AI-Merge  | A Merge based on implicit searchhub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white") |
 
 ## Cluster view - Query scores
 
-|Score |Explanation |  
-|--|--|  
-|Confidence |The confidence score shows how sure searchHub is that this particular query is the best one.|
-|Correctness |The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.|
-|WordValidation |The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.|
-|LMProbability |The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense.|
+| Score          | Explanation                                                                                                                                                                                                                                                                                           |  
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Confidence     | The confidence score shows how sure searchHub is that this particular query is the best one.                                                                                                                                                                                                          |
+| Correctness    | The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.                                                                                                                                                                        |
+| WordValidation | The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.                                                                                                                                          |
+| LMProbability  | The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense. |
