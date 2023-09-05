@@ -44,7 +44,7 @@ searchhub Search Insights allows you to audit the performance, and optimize the 
 
 # Keyboard Shortcuts
 
-Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the curser focus is not placed on an input field.
+Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the cursor focus is not placed on an input field.
 
 # SmartSuggest
 
@@ -93,6 +93,13 @@ Our AI-powered inspirational suggestions now enable you to show your users auto-
    suggestions are chosen based on searches that provide the easiest search experience, minimizing friction.
 5. HIGHEST_SELLABILITY_UPLIFT  
    suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
+
+# Query-Cluster
+We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result. 
+However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose, 
+simply prefix your query with a **+**.  
+E.g., **+women shirt**.  
+These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no query in all clusters matches.
 
 # AI-Training
 

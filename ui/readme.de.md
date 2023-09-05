@@ -83,9 +83,16 @@ Mit unseren KI-gestützten inspirierenden Vorschlägen können Sie Ihren Nutzern
 3. MOST_POPULARITY_UPLIFT  
    Vorschläge basierend auf den derzeit angesagtesten Suchen, um auf aktuelle Trends zu optimieren.
 4. HIGHEST_FINDABILITY_UPLIFT  
-   Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, deren Ergebnisqualität in letzter Zeit gesteiegen ist - möglicherweise durch Sortimentsoptimierungen
+   Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, deren Ergebnisqualität in letzter Zeit gestiegen ist - möglicherweise durch Sortimentsoptimierungen
 5. HIGHEST_SELLABILITY_UPLIFT  
    Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, die die Wahrscheinlichkeit von Add-to-Cart-Ereignissen maximieren, um auf Verkaufsfähigkeit zu optimieren.
+
+# Query-Cluster{#query-cluster}
+
+Für die Suche innerhalb der Cluster-Liste benutzen wird per Standard eine intelligente, leicht fehlertolerante Suchfunktion mit dem Ziel, das beste allgemeine Ergebnis bereitzustellen.
+Manchmal ist es jedoch notwendig, einen bestimmten Query zu finden, der exakt der Eingabe ins Suchfeld entspricht. Hierfür kannst Du dem Suchbegriff ein **+** voranstellen,   
+z.B.: **+hemd blau xl**.  
+Diese exakte Suchen liefert einen einzelnen Cluster zurück, wenn eine darin enthaltene Variante genau mit dem eingegebenen Query übereinstimmt. 
 
 # AI-Training{#ai-training}
 
@@ -109,7 +116,7 @@ Bitte gib searchHub über Nacht Zeit, das von Dir abgegebene Feedback zu verarbe
 ## Manuelles training{#manual-training}
 searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchsten Einfluss auf die Suchqualität. Solltest Du dennoch mal ein Paar vermissen, dann kannst du hier selbst welche erstellen. Allerdings darf die Distanz zwischen beiden Worten nicht zu groß sein (<a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> darf 2 nicht überschreiten).
 
-# searchInsights{#search-insights}
+# Search Insights{#search-insights}
 
 ## Underperforming queries{#underperforming-queries}
 

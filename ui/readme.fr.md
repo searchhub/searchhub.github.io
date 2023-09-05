@@ -88,6 +88,14 @@ Nos suggestions inspirantes alimentées par l'IA vous permettent désormais d'af
 5. HIGHEST_SELLABILITY_UPLIFT  
    les suggestions sont sélectionnées sur la base de recherches qui maximisent la probabilité d'événements d'ajout au panier afin d'optimiser la vendabilité.
 
+# Query-Cluster{#query-cluster}
+
+Le comportement par défaut lors de la recherche dans les grappes est une combinaison de différentes techniques dans le but de fournir le meilleur résultat général.
+Cependant, il est parfois nécessaire de trouver une seule requête qui corresponde exactement à ce que vous avez saisi dans le champ de recherche. Pour ce faire, il suffit d'utiliser la syntaxe suivante
+utilisez simplement cette syntaxe spéciale : préfixez votre requête par un **+**.  
+Par exemple, **+chemise femme**.  
+Ces recherches spéciales renvoient soit un seul groupe si une variante correspond exactement à la requête saisie, soit un résultat vide s'il n'existe aucun groupe correspondant à cette requête.
+
 # AI-Formation{#ai-training}
 
 Avec la vue d'entraînement de l'IA (AI-Training view), vous pouvez aider searchhub à améliorer efficacement la qualité du regroupement en apportant vos connaissances spécifiques sur votre assortiment. Searchhub cherche à éviter les mauvaises décisions. Par conséquent, il peut arriver que searchhub ne soit pas suffisamment sûr pour prendre une décision autonome quant à savoir si deux mots ou expressions ont réellement la même signification ou non. Dans de tels cas précis, vous avez la possibilité de former l'IA pour l'améliorer davantage.
