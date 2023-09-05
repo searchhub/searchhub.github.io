@@ -89,12 +89,10 @@ Mit unseren KI-gestützten inspirierenden Vorschlägen können Sie Ihren Nutzern
 
 # Query-Cluster{#query-cluster}
 
-Das Standardverhalten bei der Suche innerhalb Clustern ist eine Kombination verschiedener Techniken mit dem Ziel, das beste allgemeine Ergebnis bereitzustellen.
-Manchmal ist es jedoch notwendig, einen bestimmten Query zu finden, der genau dem entspricht, was Sie in das Suchfeld eingeben. Hierfür verwenden Sie einfach diese spezielle Syntax:
-Stellen Sie Ihrer Abfrage ein **+** voran.  
-Z.B.: **+hemd blau xl**.  
-Diese speziellen Suchen liefern entweder einen einzelnen Cluster zurück, wenn eine Variante genau mit dem eingegebenen Query übereinstimmt, oder ein leeres Ergebnis, 
-wenn kein Cluster gefunden wird, der diesen Query enthält.
+Für die Suche innerhalb der Cluster-Liste benutzen wird per Standard eine intelligente, leicht fehlertolerante Suchfunktion mit dem Ziel, das beste allgemeine Ergebnis bereitzustellen.
+Manchmal ist es jedoch notwendig, einen bestimmten Query zu finden, der exakt der Eingabe ins Suchfeld entspricht. Hierfür kannst Du dem Suchbegriff ein **+** voranstellen,   
+z.B.: **+hemd blau xl**.  
+Diese exakte Suchen liefert einen einzelnen Cluster zurück, wenn eine darin enthaltene Variante genau mit dem eingegebenen Query übereinstimmt. 
 
 # AI-Training{#ai-training}
 
