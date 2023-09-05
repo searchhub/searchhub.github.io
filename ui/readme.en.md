@@ -95,12 +95,11 @@ Our AI-powered inspirational suggestions now enable you to show your users auto-
    suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
 
 # Query-Cluster
-
-The default behavior when searching within clusters is a combination of different techniques with the goal of providing the best general-purpose result. 
+We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result. 
 However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose, 
-simply use this special syntax: prefix your query with a **+**.  
+simply prefix your query with a **+**.  
 E.g., **+women shirt**.  
-These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no cluster matching that query exists.
+These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no query in all clusters matches.
 
 # AI-Training
 
