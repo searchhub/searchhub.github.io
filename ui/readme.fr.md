@@ -199,3 +199,23 @@ Cet icône indique des requêtes de recherche qui n'entraînent aucune interacti
 | Correctness    | Ce chiffre est une mesure de l'exactitude linguistique et contextuelle de la requête de recherche, et donc le produit de la WordValidation et de la LMProbability.                                                                                                                                                                                                  |
 | WordValidation | Cette valeur est une mesure de l'exactitude linguistique des termes individuels d'une requête de recherche. Si tous les termes d'une requête de recherche sont linguistiquement corrects, le score est de 1.0.                                                                                                                                                      |
 | LMProbability  | La pertinence contextuelle d'une requête de recherche est déterminée par la probabilité du modèle linguistique. Par exemple, la requête de recherche "femme homme" est linguistiquement correcte et obtient donc un score de validation de mot de 1.0. Cependant, la probabilité du modèle linguistique est de 0.0 car les deux termes ne font aucun sens ensemble. |
+
+## Vue de cluster - Filtre de cluster
+
+| Filtre	 | Explication                                                                                                                                                                                                                                                                                                                                                         |  
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Sans Master-Query	| Clusters qui n'ont pas été exportés en raison du manque de confiance de searchHub dans la sélection d'une requête principale. |
+| Master-Query Manuellement Outrepassé	| Clusters présentant une Master-Query sélectionnée explicitement par l'utilisateur, contrairement à l'inclination de searchHub vers une autre basée sur les indicateurs de performance clés (KPI). |
+| Fusionné	| Clusters qui ont été consolidés ou combinés. |
+| Non Fusionné	| Clusters qui n'ont pas été consolidés ou non combinés. |
+| Master-Query Manuellement Sélectionné	| Clusters avec une Master-Query sélectionnée manuellement, indépendamment de la possibilité que le système choisisse la même ou une Master-Query différente. |
+| Requête Manuellement Ajoutée	| Clusters incorporant une requête ou des requêtes insérées manuellement. |
+| Avec Requête de Campagne	| Clusters contenant des requêtes signalées comme étant curatées. |
+| Avec Requête de Suggest-Whitelist	| Clusters dans lesquels l'étiquette Suggest a été ajoutée ou modifiée par un utilisateur, divergeant de l'étiquette automatiquement sélectionnée.   |
+| Fusionné Automatiquement	| Clusters qui ont été fusionnés automatiquement par searchHub en utilisant l'IA et/ou les commentaires implicites/explicites de l'utilisateur. |
+| Tous les Résultats à Zéro	| Clusters où le matchCount pour toutes les requêtes est égal à zéro. |
+| Listes Blanches Potentielles |	Clusters générant un trafic et des événements substantiels sans qu'aucune requête connue ne soit identifiée par searchHub. |
+| Fusions Potentielles	| Clusters générant un trafic et des événements importants où searchHub a identifié des fusions potentielles mais n'a pas la confiance nécessaire pour les exécuter. |
+| Étiquette Validée	| Clusters dans lesquels searchHub identifie l'étiquette représentant la requête contenant les informations les plus précieuses. |
+| Étiquette Non Validée	| Clusters dans lesquels searchHub n'a pas pu identifier l'étiquette représentant la requête contenant les informations les plus précieuses. |
+| Master-Query avec peu de résultats	| Clusters avec des Master-Queries (MQ) qui fournissent des résultats mais qui, en moyenne, génèrent cinq résultats ou moins. |
