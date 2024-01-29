@@ -198,3 +198,22 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion a
 | Correctness    | Dieser Wert ist ein Maß für die linguistische und kontextuelle Korrektheit der Suchanfrage und damit das Produkt aus WordValidation und LMProbability (s.u.).                                                                                                                                                     |
 | WordValidation | Dieser Wert ist ein Maß für die linguistische Korrektheit der einzelnen Terme einer Suchanfrage. Sind sämtliche Terme einer Suchanfrage linguistisch korrekt ist der Score = 1.0                                                                                                                                  |
 | LMProbability  | Die kontextuelle Korrektheit einer Suchanfrage wird durch die language model probability ermittelt. Beispiel: Die Suchanfrage "damen herren" ist linguistisch korrekt und erhält somit einen WordValidationsScore von 1.0. Aber die LM-Probability ist 0.0 da die beiden Terme in Verbindung keinen Sinn ergeben. |
+
+## Clusteransicht - Clusterfilter
+| Filter	| Erklärung
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Ohne Master-Query	| Cluster, die aufgrund des mangelnden Vertrauens von searchHub in die Auswahl einer Master-Query nicht exportiert wurden. |
+| Manuell überstellte Master-Query	| Cluster, die eine vom Benutzer explizit ausgewählte Master-Query aufweisen, im Gegensatz zur Neigung von searchHub zu einer anderen auf Basis von Key Performance Indicators (KPIs). |
+| Fusioniert	| Cluster, die konsolidiert oder kombiniert wurden. |
+| Nicht fusioniert	| Cluster, die nicht konsolidiert oder nicht kombiniert wurden. |
+| Manuell ausgewählte Master-Query	| Cluster mit manuell ausgewählter Master-Query, unabhängig davon, ob das System dieselbe oder eine andere Master-Query auswählen würde. |
+| Manuell hinzugefügte Abfrage	| Cluster, die manuell eingefügte Abfragen enthalten. |
+| Mit Kampagnenabfrage	| Cluster mit als kuratiert markierten Abfragen |
+| Mit Suggest-Whitelist-Abfrage	| Cluster, in denen das Suggest-Label von einem Benutzer hinzugefügt oder geändert wurde und sich von der automatisch ausgewählten Bezeichnung unterscheidet. |
+| Automatisch fusioniert	| Cluster, die von searchHub automatisch mithilfe von KI und/oder implizitem/explicit Benutzerfeedback fusioniert wurden. |
+| Alle null Ergebnisse	| Cluster, bei denen der matchCount für alle Abfragen gleich null ist. |
+| Potenzielle Whitelists	| Cluster, die erheblichen Verkehr und Ereignisse aufweisen, ohne dass eine bekannte Abfrage von searchHub identifiziert wurde. |
+| Potenzielle Fusionen	| Cluster, die erheblichen Verkehr und Ereignisse aufweisen, bei denen searchHub potenzielle Fusionen identifiziert hat, aber das Vertrauen fehlt, um sie auszuführen. |
+| Validierte Bezeichnung	| Cluster, in denen searchHub die Bezeichnung identifiziert, die die Abfrage mit den wertvollsten Informationen darstellt. |
+| Nicht validierte Bezeichnung	| Cluster, in denen searchHub die Bezeichnung nicht identifizieren konnte, die die Abfrage mit den wertvollsten Informationen darstellt. |
+| Master-Query mit wenigen Ergebnissen	| Cluster mit Master-Queries (MQ), die Ergebnisse liefern, aber im Durchschnitt fünf oder weniger Ergebnisse generieren. |
