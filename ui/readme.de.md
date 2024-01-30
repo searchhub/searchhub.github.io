@@ -198,3 +198,23 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion a
 | Correctness    | Dieser Wert ist ein Maß für die linguistische und kontextuelle Korrektheit der Suchanfrage und damit das Produkt aus WordValidation und LMProbability (s.u.).                                                                                                                                                     |
 | WordValidation | Dieser Wert ist ein Maß für die linguistische Korrektheit der einzelnen Terme einer Suchanfrage. Sind sämtliche Terme einer Suchanfrage linguistisch korrekt ist der Score = 1.0                                                                                                                                  |
 | LMProbability  | Die kontextuelle Korrektheit einer Suchanfrage wird durch die language model probability ermittelt. Beispiel: Die Suchanfrage "damen herren" ist linguistisch korrekt und erhält somit einen WordValidationsScore von 1.0. Aber die LM-Probability ist 0.0 da die beiden Terme in Verbindung keinen Sinn ergeben. |
+
+## Cluster view - Cluster Filter
+
+| Filter                             | Erklärung                                                                                                                                                        |  
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Ohne Master-Query                  | Cluster, die aufgrund zu weniger bzw. uneindeutiger Daten keinen Master-Query erhalten haben                                                                       |
+| Manuell überstimmter Master-Query  | Cluster, die einen manuell ausgewählten Master-Query haben, bei denen searchHub aufgrund der Daten zu einer anderen Entscheidung gekommen wäre.                    |
+| Zusammengeführt                    | Cluster, die mit anderen Clustern zusammengeführt wurden.                                                                                                          |
+| Nicht zusammengeführt              | Cluster, die nicht mit anderen Clustern zusammengeführt wurden                                                                                                     |
+| Manuell gewählter Master-Query     | Cluster mit manuell ausgewähltem Master-Query, unabhängig davon, ob das System denselben oder einen anderen Master-Query auswählen würde.                          |
+| Manuell hinzugefügter Query        | Cluster, die einen oder mehrere manuell hinzugefügte Suchbegriffe enthalten.                                                                                       |
+| Mit Kampagnen Query                | Cluster mit als kuratiert markierten Suchbegriffen                                                                                                                 |
+| Mit Suggest-Whitelist-Query        | Cluster, in denen das Suggest-Label manuell hinzugefügt oder geändert wurde und sich von dem automatisch ausgewählten Suggest-Label unterscheidet.                 |
+| Automatisch zusammengeführt        | Cluster, die von searchHub automatisch mithilfe von KI und/oder Benutzerfeedback (z.B. AI-Training) zusammengeführt wurden.                                        |
+| Alle ohne Treffer                  | Cluster, für die es keine Suchtreffer gibt.                                                                                                                        |
+| Potenzielle Whitelists             | Populäre Cluster ohne Master-Query, die Potential für ein manuelles Setzen des Master-Query bieten                                                                 |
+| Potenzielle Merges                 | Populäre Cluster, die möglicherweise manuell mit anderen Clustern gemerged werden können                                                                           |
+| Validiertes Label                  | Cluster, deren Label von searchHub gegen das kundenspezifische LanguageModel validiert werden konnte.                                                              |
+| Unbekanntes Label                  | Cluster, ohne validiertes Label                                                                                                                                    |
+| Master-Query mit wenig Treffern    | Cluster mit Master-Query, die weniger als 6 Suchtreffer erzielen |
