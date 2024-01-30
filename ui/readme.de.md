@@ -218,3 +218,4 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion a
 | Validiertes Label                  | Cluster, deren Label von searchHub gegen das kundenspezifische LanguageModel validiert werden konnte.                                                              |
 | Unbekanntes Label                  | Cluster, ohne validiertes Label                                                                                                                                    |
 | Master-Query mit wenig Treffern    | Cluster mit Master-Query, die weniger als 6 Suchtreffer erzielen |
+
