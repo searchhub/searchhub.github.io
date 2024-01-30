@@ -210,3 +210,23 @@ The fourth type of query detection involves identifying queries with a high like
 | Correctness    | The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.                                                                                                                                                                        |
 | WordValidation | The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.                                                                                                                                          |
 | LMProbability  | The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense. |
+
+## Cluster view - Cluster Filter
+
+| Filter          | Explanation                                                                                                                                                                                                                                                                                           |  
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Without Master-Query     | Clusters that haven't been exported due to searchHub's lack of confidence in selecting a master query.                                                                                                                                                                                                          |
+| Manually overruled Master-Query    | Clusters featuring a user-explicitly selected Master-Query, contrary to searchHub's inclination towards a different one based on Key Performance Indicators (KPIs).                                                                                                                                                                        |
+| Merged | Clusters that have been consolidated or combined.                                                                                                                                          |
+| Not Merged  | Clusters that have been unconsolidated or uncombined. |
+| Manually Picked Master-Query    | Clusters with a manually selected MasterQuery, regardless of whether the system would choose the same or a different MasterQuery.                                                                                                                                                                        |
+| Manually added Query | Clusters incorporating a manually inserted query/queries.                                                                                                                                          |
+| With Campaign Query  | Clusters containing Queries flagged as curated |
+| With Suggest-Whitelist-Query    | Clusters in which the Suggest-Label has been either added or modified by a user, diverging from the automatically selected label.                                                                                                                                                                        |
+| Merged automatically | Clusters that were automatically merged by searchHub utilizing AI and/or implicit/explicit user feedback.                                                                                                                                          |
+| All zero Result  | Clusters where the matchCount for all queries is equal to zero. |
+| Potential Whitelists  | Clusters experiencing substantial traffic and events without any known Query identified by searchHub. |
+| Potential Merges  | Clusters experiencing significant traffic and events where searchHub has identified potential merges but lacks the confidence to execute them. |
+| Validated Label  | Clusters in which searchHub identifies the Label, representing the query containing the most valuable information. |
+| Unvalidated Label  | Clusters in which searchHub could not identify the Label, representing the query containing the most valuable information. |
+| Master-Query with few results  | Clusters with Master Queries (MQ) that yield results but, on average, generate five or fewer results. |
