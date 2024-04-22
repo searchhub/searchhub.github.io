@@ -139,9 +139,16 @@ The "Searches without result" table has an additional toggle button that control
 2. Recent  
    filters the overall view by excluding zero-result-data with less than 50% of the queries during a day leading to a zero-result, since the last time it was seen.
 
-## Top queries
+## Popular Queries{#top-queries}
 
-Explanation of the info column icons
+Search terms with the highest volume are listed in the "Popular Queries" table.
+
+The "Trending Queries" table lists search terms that had a significant increase in search volume compared to the same previous period. The corresponding increase in search volume is shown in the *Uplift* column.
+
+
+*Explanation of the info column icons*
+
+Both tables may contain one or more of the following icons.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
 The initial type of query detection involves identifying broad queries, which are queries that require multiple refinements before users can ultimately locate the products they seek.
@@ -155,7 +162,11 @@ The third type of query detection involves identifying queries with a high likel
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
 
+
 # Glossary
+
+Definition of some KPIs and terms at searchHub.
+
 
 ## Search Insights - KPIs
 

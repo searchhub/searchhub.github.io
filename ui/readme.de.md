@@ -118,6 +118,8 @@ searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchst
 
 # Search Insights{#search-insights}
 
+Es gibt folgende Ansichten in Search Insights.
+
 ## Underperforming queries{#underperforming-queries}
 
 In der Übersicht über die "Suchen ohne Ergebnis" kannst Du zwischen zwei Ansichten wählen:
@@ -127,9 +129,16 @@ In der Übersicht über die "Suchen ohne Ergebnis" kannst Du zwischen zwei Ansic
 2. kürzlich  
    Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchanfragen angezeigt, die an dem Tag, an dem sie das letzte Mal erfasst wurden in mindestens 50% der Suchen zu einem Null-Treffer geführt haben. 
 
-## Top queries{#top-queries}
+## Popular Queries{#top-queries}
 
-Die Icons der Info-Spalte
+In der Tabelle "Popular Queries" werden Suchbegriffe mit dem höchsten Aufkommen gelistet.
+
+In der Tabelle "Trending Queries" sind Suchbegriffe gelistet, welche im Vergleich zum gleichen vorherigen Zeitraum einen deutlichen Anstieg im Suchvolumen hatten. In der Spalte *Uplift* ist der entsprechende Anstieg an Suchvolumen angegeben.
+
+
+*Die Icons der Info-Spalte*
+
+In beiden Tabell gibt es unter Umstände folgende Icons zu sehen.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
 Dieses Icon markiert un-eindeutige Such-Anfragen. Diese Such-Anfragen benötigen häufig gleich mehrere weitere Interaktionen (Filter, Sortierung) bevor Suchende die Produkte finden, die sie suchen.
@@ -144,6 +153,9 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis bei Kunden sehr häufig dazu f
 Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion aufweisen. Dies ist sehr häufig ein Indiz für teilweise irrelevante Ergebnisse.
 
 # Glossary{#glossary}
+
+Definition einiger KPIs und Begriffe bei searchHub.
+
 
 ## Search Insights - KPIs{#search-insights---kpis}
 

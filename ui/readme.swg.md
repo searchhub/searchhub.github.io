@@ -74,7 +74,7 @@ within their groups. The weight is determined by the ranking settings you define
 ## Basic settings - AI Suggestions
 
 This setting determines the quantity of AI suggestions that will be displayed. When present, these suggestions will always appear above the search results.  
-The AI-generated suggestions are designed to enhance both the findability and sellability of products, and are based on the user’s search refinement behavior. 
+The AI-generated suggestions are designed to enhance both the findability and sellability of products, and are based on the user’s search refinement behavior.
 For instance, for a general query such as “men”, the AI will identify the currently most relevant refined queries, such as “men’s fashion” and “men’s shoes”.  
 In cases where there are bad or no search results, the AI will generate “relaxed-queries” that have previously led to successful search sessions.  
 (This functionality depends on our search-collector and can only deliver additional value if the search-collector is implemented correctly.)
@@ -95,12 +95,11 @@ Our AI-powered inspirational suggestions now enable you to show your users auto-
    suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
 
 # Query-Cluster
-
-The default behavior when searching within clusters is a combination of different techniques with the goal of providing the best general-purpose result.
-However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose,
-simply use this special syntax: prefix your query with a **+**.  
+We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result. 
+However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose, 
+simply prefix your query with a **+**.  
 E.g., **+women shirt**.  
-These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no cluster matching that query exists.
+These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no query in all clusters matches.
 
 # AI-Training
 
@@ -140,9 +139,16 @@ The "Searches without result" table has an additional toggle button that control
 2. Recent  
    filters the overall view by excluding zero-result-data with less than 50% of the queries during a day leading to a zero-result, since the last time it was seen.
 
-## Top queries
+## Popular Queries{#top-queries}
 
-Explanation of the info column icons
+Search terms with the highest volume are listed in the "Popular Queries" table.
+
+The "Trending Queries" table lists search terms that had a significant increase in search volume compared to the same previous period. The corresponding increase in search volume is shown in the *Uplift* column.
+
+
+*Explanation of the info column icons*
+
+Both tables may contain one or more of the following icons.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
 The initial type of query detection involves identifying broad queries, which are queries that require multiple refinements before users can ultimately locate the products they seek.
@@ -156,7 +162,11 @@ The third type of query detection involves identifying queries with a high likel
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
 
+
 # Glossary
+
+Definition of some KPIs and terms at searchHub.
+
 
 ## Search Insights - KPIs
 
@@ -191,6 +201,8 @@ The fourth type of query detection involves identifying queries with a high like
 | Sellability | The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
 | Confidence  | A weighted average of Findability and Sellability with double the weight applied to Findability.                                                                                                                                                                                                                                                     |
 
+\* *The number of searches and all used KPIs are counted unique per query and session.*
+
 ## Cluster view - Merge types
 
 | Merge type         | Explanation                                                                                                                                                                             |  
@@ -209,3 +221,23 @@ The fourth type of query detection involves identifying queries with a high like
 | Correctness    | The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.                                                                                                                                                                        |
 | WordValidation | The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.                                                                                                                                          |
 | LMProbability  | The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense. |
+
+## Cluster view - Cluster Filter
+
+| Filter          | Explanation                                                                                                                                                                                                                                                                                           |  
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Without Master-Query     | Clusters that haven't been exported due to searchHub's lack of confidence in selecting a master query.                                                                                                                                                                                                          |
+| Manually overruled Master-Query    | Clusters featuring a user-explicitly selected Master-Query, contrary to searchHub's inclination towards a different one based on Key Performance Indicators (KPIs).                                                                                                                                                                        |
+| Merged | Clusters that have been consolidated or combined.                                                                                                                                          |
+| Not Merged  | Clusters that have been unconsolidated or uncombined. |
+| Manually Picked Master-Query    | Clusters with a manually selected MasterQuery, regardless of whether the system would choose the same or a different MasterQuery.                                                                                                                                                                        |
+| Manually added Query | Clusters incorporating a manually inserted query/queries.                                                                                                                                          |
+| With Campaign Query  | Clusters containing Queries flagged as curated |
+| With Suggest-Whitelist-Query    | Clusters in which the Suggest-Label has been either added or modified by a user, diverging from the automatically selected label.                                                                                                                                                                        |
+| Merged automatically | Clusters that were automatically merged by searchHub utilizing AI and/or implicit/explicit user feedback.                                                                                                                                          |
+| All zero Result  | Clusters where the matchCount for all queries is equal to zero. |
+| Potential Whitelists  | Clusters experiencing substantial traffic and events without any known Query identified by searchHub. |
+| Potential Merges  | Clusters experiencing significant traffic and events where searchHub has identified potential merges but lacks the confidence to execute them. |
+| Validated Label  | Clusters in which searchHub identifies the Label, representing the query containing the most valuable information. |
+| Unvalidated Label  | Clusters in which searchHub could not identify the Label, representing the query containing the most valuable information. |
+| Master-Query with few results  | Clusters with Master Queries (MQ) that yield results but, on average, generate five or fewer results. |

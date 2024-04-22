@@ -132,7 +132,14 @@ Dans l'aperçu des "recherches sans résultat", vous avez la possibilité de cho
 
 ## Requêtes les plus populaires{#top-queries}
 
-Explication des icônes différentes de la colonne d'informations
+Dans le tableau "Popular Queries" sont listés les termes de recherche ayant le plus de succès.
+
+Dans le tableau "Trending Queries" sont listés les termes de recherche qui ont connu une nette augmentation du volume de recherche par rapport à la même période précédente. La colonne *Uplift* indique l'augmentation correspondante du volume de recherche.
+
+
+*Explication des icônes différentes de la colonne d'informations*
+
+Dans les deux tableaux, on peut voir les icônes suivantes.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
 Cet icône indique des requêtes de recherche non uniques. Ces requêtes nécessitent souvent plusieurs interactions supplémentaires (filtres, tri) avant que les chercheurs ne trouvent les produits qu'ils recherchent.
@@ -147,6 +154,8 @@ Cet icône indique des requêtes de recherche dont le résultat conduit très so
 Cet icône indique des requêtes de recherche qui n'entraînent aucune interaction de la part des clients. Cela est souvent un indicateur de résultats partiellement pertinents.
 
 # Glossaire{#glossary}
+
+Définition de quelques KPI et termes utilisés par searchHub.
 
 ## Search Insights - KPIs{#search-insights---kpis}
 
