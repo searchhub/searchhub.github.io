@@ -30,11 +30,11 @@ specifically focus optimization efforts.
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
-# searchHub Search Insights Training
+# searchHub searchInsights Training
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-searchHub Search Insights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
+searchHub searchInsights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
 
 ## This video will show you how to:
 1. Audit Search Engine Performance
@@ -46,7 +46,7 @@ searchHub Search Insights allows you to audit the performance, and optimize the 
 
 Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the cursor focus is not placed on an input field.
 
-# SmartSuggest
+# smartSuggest
 
 The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
 suggestions from the less confident stages, if we are not able to provide the amount of suggestions requested. Here is a short example for a request to return 10 suggestions:
@@ -128,7 +128,7 @@ can still head over to the query cluster view and merge/unmerge a cluster manual
 ## Manual training
 Only certain combinations of queries can be selected for AI training. searchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
 
-# Search Insights
+# searchInsights
 
 ## Underperforming queries
 
@@ -168,7 +168,7 @@ The fourth type of query detection involves identifying queries with a high like
 Definition of some KPIs and terms at searchHub.
 
 
-## Search Insights - KPIs
+## searchInsights - KPIs
 
 | KPI                    | Explanation                                                                                                                                                                                                                                                                                                           |  
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -197,7 +197,7 @@ Definition of some KPIs and terms at searchHub.
 | Popularity  | Number of unique user searches within a static time range, normally the last 28 days.                                                                                                                                                                                                                                                                |
 | Samples     | “How good was this query” before searchHub modified the query. And how many samples (unchanged searches) do we have from this time period.                                                                                                                                                                                                           |
 | Reliability | A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs.                                                                                                                                                                                                                      |
-| Findability | Same as *Findability*, as seen in *Search Insights KPIs*                                                                                                                                                                                                                                                                                             |
+| Findability | Same as *Findability*, as seen in *searchInsights KPIs*                                                                                                                                                                                                                                                                                             |
 | Sellability | The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
 | Confidence  | A weighted average of Findability and Sellability with double the weight applied to Findability.                                                                                                                                                                                                                                                     |
 

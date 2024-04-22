@@ -33,7 +33,7 @@ Cette vidéo vise à montrer comment vous pouvez fusionner encore plus efficacem
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-searchHub Search Insights vous offre la possibilité de surveiller en continu les performances de votre recherche actuelle, d'identifier les potentiels et de dériver les optimisations les plus prometteuses.
+searchHub searchInsights vous offre la possibilité de surveiller en continu les performances de votre recherche actuelle, d'identifier les potentiels et de dériver les optimisations les plus prometteuses.
 
 ## Dans cette vidéo, nous vous montrons comment:{#this-video-will-show-you-how-to}
 1. Surveiller les performances de votre recherche
@@ -45,9 +45,9 @@ searchHub Search Insights vous offre la possibilité de surveiller en continu le
 
 Appuyez sur 'Shift'+'?' pour obtenir un aperçu de tous les raccourcis disponibles que vous pouvez utiliser pour rendre votre travail avec searchHub encore plus efficace.
 
-# SmartSuggest{#smartsuggest}
+# smartSuggest{#smartsuggest}
 
-SmartSuggest utilise un processus en plusieurs étapes pour déterminer les meilleures suggestions de recherche possibles. La base de ces suggestions est toujours constituée de celles qui présentent la plus grande confiance. D'autres suggestions de recherche issues de méthodes moins confiantes ne sont prises en compte que si un nombre suffisant de suggestions de recherche n'a pas encore été déterminé.
+smartSuggest utilise un processus en plusieurs étapes pour déterminer les meilleures suggestions de recherche possibles. La base de ces suggestions est toujours constituée de celles qui présentent la plus grande confiance. D'autres suggestions de recherche issues de méthodes moins confiantes ne sont prises en compte que si un nombre suffisant de suggestions de recherche n'a pas encore été déterminé.
 Voici un petit exemple qui illustre le processus décrit pour une requête de suggestion qui doit renvoyer 10 suggestions de recherche:
 
 
@@ -119,7 +119,7 @@ Veuillez accorder à searchHub le temps nécessaire pour traiter les commentaire
 ## Formation manuele{#manual-training}
 Seules certaines combinaisons de requêtes peuvent être sélectionnées pour l'entraînement de l'IA. searchHub filtre déjà ces combinaisons en fonction de certains critères. Entre autres, la <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> ne doit pas être supérieure à 2.
 
-# Search Insights{#search-insights}
+# searchInsights{#search-insights}
 
 ## Requêtes sous-performantes{#underperforming-queries}
 
@@ -157,7 +157,7 @@ Cet icône indique des requêtes de recherche qui n'entraînent aucune interacti
 
 Définition de quelques KPI et termes utilisés par searchHub.
 
-## Search Insights - KPIs{#search-insights---kpis}
+## searchInsights - KPIs{#search-insights---kpis}
 
 | KPI                    | Explication                                                                                                                                                                                                                                                                                                                                                                                                                             |  
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -186,7 +186,7 @@ Définition de quelques KPI et termes utilisés par searchHub.
 | Popularity  | Le nombre de recherches uniques des 28 derniers jours..                                                                                                                                                                                             |
 | Samples     | «Quelle était la qualité de cette requête» avant que searchHub ne modifie. Et combien d’échantillons (recherches non modifiées) avons-nous de cette période?                                                                                        |
 | Reliability | EUne mesure de la fiabilité des autres indicateurs clés de performance qui combine l'âge et la pertinence des données collectées.                                                                                                                   |
-| Findability | Le même indicateur clé de performance (KPI) de "Findability" que celui utilisé dans les "KPIs de Search Insights".                                                                                                                                  |
+| Findability | Le même indicateur clé de performance (KPI) de "Findability" que celui utilisé dans les "KPIs de searchInsights".                                                                                                                                  |
 | Sellability | La *Sellability* est une mesure de la probabilité d'achat après une recherche. Cet indicateur clé de performance (KPI) représente une moyenne pondérée des deux taux, soit "clics dans le panier/total des clics" et "achats/clics dans le panier". |
 | Confidence  | La "confiance" décide du "MasterQuery" (la requête de recherche avec la plus haute confiance devient le "MasterQuery", sauf exceptions ou intervention manuelle). Elle représente une moyenne pondérée des deux KPI "Findability" et "Sellability". |
 

@@ -45,9 +45,9 @@ searchHub searchInsights gibt Dir die Möglichkeit, die Performance Deiner aktue
 
 Drücke 'Shift'+'?' um eine Übersicht über alle vorhandenen shortcuts zu bekommen. Damit machst Du Deine Arbeit mit searchHub noch effizienter. 
 
-# SmartSuggest{#smartsuggest}
+# smartSuggest{#smartsuggest}
 
-SmartSuggest nutzt einen mehrstufigen Prozess, um die bestmöglichen Such-Vorschläge zu ermitteln. Als Grundlage dienen immer diejenigen Such-Vorschläge, die die höchste Konfidenz aufweisen. Weitere Such-Vorschläge aus weniger konfidenten Methoden werden nur hinzugezogen, sofern noch nicht genügend Such-Vorschläge ermittelt werden konnten. 
+smartSuggest nutzt einen mehrstufigen Prozess, um die bestmöglichen Such-Vorschläge zu ermitteln. Als Grundlage dienen immer diejenigen Such-Vorschläge, die die höchste Konfidenz aufweisen. Weitere Such-Vorschläge aus weniger konfidenten Methoden werden nur hinzugezogen, sofern noch nicht genügend Such-Vorschläge ermittelt werden konnten. 
 Anbei ein kleines Beispiel, das den beschriebenen Prozess für eine Suggest-Anfrage die 10 Such-Vorschläge zurückliefern soll verdeutlicht: 
 
 1. Suche nur in den Cluster-Labels
@@ -116,9 +116,9 @@ Bitte gib searchHub über Nacht Zeit, das von Dir abgegebene Feedback zu verarbe
 ## Manuelles training{#manual-training}
 searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchsten Einfluss auf die Suchqualität. Solltest Du dennoch mal ein Paar vermissen, dann kannst du hier selbst welche erstellen. Allerdings darf die Distanz zwischen beiden Worten nicht zu groß sein (<a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> darf 2 nicht überschreiten).
 
-# Search Insights{#search-insights}
+# searchInsights{#search-insights}
 
-Es gibt folgende Ansichten in Search Insights.
+Es gibt folgende Ansichten in searchInsights.
 
 ## Underperforming queries{#underperforming-queries}
 
@@ -157,7 +157,7 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion a
 Definition einiger KPIs und Begriffe bei searchHub.
 
 
-## Search Insights - KPIs{#search-insights---kpis}
+## searchInsights - KPIs{#search-insights---kpis}
 
 | KPI                    | Erklärung                                                                                                                                                                                                                                                                                                                                                    |  
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
