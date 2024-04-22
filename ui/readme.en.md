@@ -128,7 +128,7 @@ can still head over to the query cluster view and merge/unmerge a cluster manual
 ## Manual training
 Only certain combinations of queries can be selected for AI training. searchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
 
-# searchInsights
+# searchInsights{#search-insights}
 
 ## Underperforming queries
 
@@ -168,7 +168,7 @@ The fourth type of query detection involves identifying queries with a high like
 Definition of some KPIs and terms at searchHub.
 
 
-## searchInsights - KPIs
+## searchInsights - KPIs{#search-insights---kpis}
 
 | KPI                    | Explanation                                                                                                                                                                                                                                                                                                           |  
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
