@@ -1,39 +1,39 @@
-# Bienvenue sur searchhub{#welcome-to-searchhub}
+# Bienvenue sur searchHub{#welcome-to-searchhub}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Bienvenue sur __search|hub__ par __CXP Commerce Experts__.
+Bienvenue sur __searchHub__ par __CXP Commerce Experts__.
 searchHub est la première plateforme d'optimisation des requêtes de recherche au monde, spécialisée dans l'augmentation du taux de conversion de votre recherche e-commerce existante. Nous aidons votre recherche de site web à mieux comprendre les requêtes de vos clients.
 
 Dans cette vidéo, Jonathan Ross nous guide à travers la plateforme et montre comment les algorithmes d'apprentissage automatique nous aident à optimiser de manière autonome la recherche sur le site web.
 
-# searchhub Formation de base - Comment fusionner des clusters?{#searchhub-basic-training---how-do-i-merge-clusters}
+# searchHub Formation de base - Comment fusionner des clusters?{#searchhub-basic-training---how-do-i-merge-clusters}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3sKhtLw-1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Dans cette vidéo, nous vous montrons comment fusionner efficacement des clusters à l'aide de nos outils de filtrage.
 
-# searchhub Formation de base - Fusion de clusters à l'aide du bouton d'empreinte digitale et de filtres prédéfinis.{#searchhub-basic-training--using-the-fingerprint-button-and-pre-defined-filters}
+# searchHub Formation de base - Fusion de clusters à l'aide du bouton d'empreinte digitale et de filtres prédéfinis.{#searchhub-basic-training--using-the-fingerprint-button-and-pre-defined-filters}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W_FzhKrHeyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Cette vidéo vise à montrer comment vous pouvez fusionner encore plus efficacement des clusters hautement similaires identifiés à l'aide du bouton d'empreinte digitale de searchhub en appliquant des critères de filtrage prédéfinis.
+Cette vidéo vise à montrer comment vous pouvez fusionner encore plus efficacement des clusters hautement similaires identifiés à l'aide du bouton d'empreinte digitale de searchHub en appliquant des critères de filtrage prédéfinis.
 
-# searchhub Formation de base - Comment créer des redirections de recherche?{#searchhub-basic-training---how-to-set-up-redirects}
+# searchHub Formation de base - Comment créer des redirections de recherche?{#searchhub-basic-training---how-to-set-up-redirects}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FAgJtXpWgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Dans cette vidéo, nous vous familiarisons avec les 3 types différents de redirections de recherche proposés par searchhub.{#in-this-video-we-describe-the-3-different-types-of-redirects}
+## Dans cette vidéo, nous vous familiarisons avec les 3 types différents de redirections de recherche proposés par searchHub.{#in-this-video-we-describe-the-3-different-types-of-redirects}
 
 1. <a href="https://youtu.be/FAgJtXpWgiw?t=36">Query Cluster Redirects</a>
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
-# searchhub SearchInsights Formation{#searchhub-search-insights-training}
+# searchHub SearchInsights Formation{#searchhub-search-insights-training}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-searchhub Search Insights vous offre la possibilité de surveiller en continu les performances de votre recherche actuelle, d'identifier les potentiels et de dériver les optimisations les plus prometteuses.
+searchHub Search Insights vous offre la possibilité de surveiller en continu les performances de votre recherche actuelle, d'identifier les potentiels et de dériver les optimisations les plus prometteuses.
 
 ## Dans cette vidéo, nous vous montrons comment:{#this-video-will-show-you-how-to}
 1. Surveiller les performances de votre recherche
@@ -43,7 +43,7 @@ searchhub Search Insights vous offre la possibilité de surveiller en continu le
 
 # Keyboard Shortcuts{#keyboard-shortcuts}
 
-Appuyez sur 'Shift'+'?' pour obtenir un aperçu de tous les raccourcis disponibles que vous pouvez utiliser pour rendre votre travail avec searchhub encore plus efficace.
+Appuyez sur 'Shift'+'?' pour obtenir un aperçu de tous les raccourcis disponibles que vous pouvez utiliser pour rendre votre travail avec searchHub encore plus efficace.
 
 # SmartSuggest{#smartsuggest}
 
@@ -70,8 +70,8 @@ Avec ce paramètre, vous pouvez définir le tri des suggestions de recherche. La
 
 Avec ce paramètre, vous pouvez définir le nombre maximal de suggestions AI à afficher. Si des suggestions AI existent pour une saisie utilisateur, elles sont toujours affichées en première position.
 Les suggestions AI visent à maximiser à la fois la facilité de recherche et la capacité à vendre au sein d'une session de recherche. Elles sont donc basées sur le comportement de recherche analysé de vos clients.
-Par exemple, prenons une requête de recherche assez générique telle que "hommes". L'IA de searchhub reconnaît qu'il s'agit d'une requête générique et génère automatiquement des suggestions de recherche alternatives pertinentes mais moins génériques, telles que "vêtements pour hommes", "pantalons pour hommes" ou "chaussures pour hommes", afin d'améliorer la spécificité de la facilité de recherche et de vente.
-(Cette fonctionnalité est utilisable uniquement en conjonction avec le search-collector de searchhub.)
+Par exemple, prenons une requête de recherche assez générique telle que "hommes". L'IA de searchHub reconnaît qu'il s'agit d'une requête générique et génère automatiquement des suggestions de recherche alternatives pertinentes mais moins génériques, telles que "vêtements pour hommes", "pantalons pour hommes" ou "chaussures pour hommes", afin d'améliorer la spécificité de la facilité de recherche et de vente.
+(Cette fonctionnalité est utilisable uniquement en conjonction avec le search-collector de searchHub.)
 
 ## Suggestions inspirantes de l'IA{#inspirational-ai-suggestions}
 
@@ -98,26 +98,26 @@ Ces recherches spéciales renvoient soit un seul groupe si une variante correspo
 
 # AI-Formation{#ai-training}
 
-Avec la vue d'entraînement de l'IA (AI-Training view), vous pouvez aider searchhub à améliorer efficacement la qualité du regroupement en apportant vos connaissances spécifiques sur votre assortiment. Searchhub cherche à éviter les mauvaises décisions. Par conséquent, il peut arriver que searchhub ne soit pas suffisamment sûr pour prendre une décision autonome quant à savoir si deux mots ou expressions ont réellement la même signification ou non. Dans de tels cas précis, vous avez la possibilité de former l'IA pour l'améliorer davantage.
+Avec la vue d'entraînement de l'IA (AI-Training view), vous pouvez aider searchHub à améliorer efficacement la qualité du regroupement en apportant vos connaissances spécifiques sur votre assortiment. searchHub cherche à éviter les mauvaises décisions. Par conséquent, il peut arriver que searchHub ne soit pas suffisamment sûr pour prendre une décision autonome quant à savoir si deux mots ou expressions ont réellement la même signification ou non. Dans de tels cas précis, vous avez la possibilité de former l'IA pour l'améliorer davantage.
 
 ## Procédé de Formation{#training-process}
 
-Pendant l'entraînement, vous verrez des paires de mots ou de phrases pour lesquelles searchhub a identifié une relation. Vous aurez ensuite la possibilité de choisir l'une des trois alternatives de rétroaction suivantes :
+Pendant l'entraînement, vous verrez des paires de mots ou de phrases pour lesquelles searchHub a identifié une relation. Vous aurez ensuite la possibilité de choisir l'une des trois alternatives de rétroaction suivantes :
 
 1. Non - Je suis certain que les deux mots ou phrases n'ont pas la même signification.
 2. Je suis incertain - Je n'ai pas suffisamment d'informations pour prendre une décision sûre.
 3. Oui - Je suis sûr à 100% que les deux mots ou phrases ont la même signification.
 
-Veuillez accorder à searchhub le temps nécessaire pour traiter les commentaires que vous avez fournis pendant la nuit.
+Veuillez accorder à searchHub le temps nécessaire pour traiter les commentaires que vous avez fournis pendant la nuit.
 
 ## Formation Histoire{#training-history}
 
 Toutes les rétroactions sont enregistrées dans ce qu'on appelle l'historique d'entraînement et sont accessibles via l'icône d'historique. Vous pouvez consulter et éventuellement modifier tous les éléments de l'historique d'entraînement à tout moment.
-Veuillez accorder à searchhub le temps nécessaire pour traiter les commentaires que vous avez fournis pendant la nuit. Si vous devez intervenir rapidement, vous pouvez toujours effectuer les modifications nécessaires dans la vue "Query Cluster" en fusionnant ou en désappariant les éléments.
+Veuillez accorder à searchHub le temps nécessaire pour traiter les commentaires que vous avez fournis pendant la nuit. Si vous devez intervenir rapidement, vous pouvez toujours effectuer les modifications nécessaires dans la vue "Query Cluster" en fusionnant ou en désappariant les éléments.
 
 
 ## Formation manuele{#manual-training}
-Seules certaines combinaisons de requêtes peuvent être sélectionnées pour l'entraînement de l'IA. SearchHub filtre déjà ces combinaisons en fonction de certains critères. Entre autres, la <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> ne doit pas être supérieure à 2.
+Seules certaines combinaisons de requêtes peuvent être sélectionnées pour l'entraînement de l'IA. searchHub filtre déjà ces combinaisons en fonction de certains critères. Entre autres, la <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> ne doit pas être supérieure à 2.
 
 # Search Insights{#search-insights}
 
@@ -185,11 +185,11 @@ Cet icône indique des requêtes de recherche qui n'entraînent aucune interacti
 
 | Merge type         | Explication                                                                                                                                                                                                                                                    |  
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| User-Merge         | Un fusionnement utilisateur est un fusionnement basé exclusivement sur les retours d'expérience explicites des utilisateurs de searchhub (fusion directe, fusion par empreinte).                                                                               |
-| Confident-AI-Merge | Un fusionnement basé sur les connaissances explicites de searchhub et ayant une forte confiance (fautes d'orthographe connues, lemmes connus).                                                                                                                 |
-| Concept-AI-Merge   | Un fusionnement basé sur les connaissances explicites par le biais des concepts de searchhub (les concepts sont des synonymes sensibles au contexte - "TV" = "télévision").                                                                                    |
+| User-Merge         | Un fusionnement utilisateur est un fusionnement basé exclusivement sur les retours d'expérience explicites des utilisateurs de searchHub (fusion directe, fusion par empreinte).                                                                               |
+| Confident-AI-Merge | Un fusionnement basé sur les connaissances explicites de searchHub et ayant une forte confiance (fautes d'orthographe connues, lemmes connus).                                                                                                                 |
+| Concept-AI-Merge   | Un fusionnement basé sur les connaissances explicites par le biais des concepts de searchHub (les concepts sont des synonymes sensibles au contexte - "TV" = "télévision").                                                                                    |
 | Explicit-AI-Merge  | Un fusionnement basé sur les commentaires explicites de l'entraînement de l'IA utilisateur de searchHub ("highboard" est lié à "highbord").                                                                                                                    |
-| Implicit-AI-Merge  | Un fusionnement qui a été appris implicitement à partir des commentaires de l'entraînement de l'IA utilisateur de searchhub (parce que "highboard" est similaire à "highbord", l'IA apprend également que "highboard blanc" est similaire à "highbord blanc"). |
+| Implicit-AI-Merge  | Un fusionnement qui a été appris implicitement à partir des commentaires de l'entraînement de l'IA utilisateur de searchHub (parce que "highboard" est similaire à "highbord", l'IA apprend également que "highboard blanc" est similaire à "highbord blanc"). |
 
 ## Cluster view - Scores de requête{#cluster-view---query-scores}
 

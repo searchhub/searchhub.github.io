@@ -1,26 +1,26 @@
-# Welcome to searchhub
+# Welcome to searchHub
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Welcome to __search|hub__ from __CXP Commerce Experts__.
+Welcome to __searchHub__ from __CXP Commerce Experts__.
 We are the world's first search query optimization machine specializing in increasing the conversion from your current site-search. __We make your site-search understand humans__.
 
 In this video, Jonathan Ross walks us through how Machine Learning Algorithms are able to assist our customers in autonomous site-search optimization.
 
-# searchhub Basic Training - How do I Merge Clusters?
+# searchHub Basic Training - How do I Merge Clusters?
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3sKhtLw-1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video will introduce how to merge clusters using our category and filter selection tools.
 
-# searchhub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
+# searchHub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W_FzhKrHeyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video will introduce _how to use the fingerprint button to confirm highly similar clusters identified by search|hub_, as well as, using pre-defined filters to more
+This video will introduce _how to use the fingerprint button to confirm highly similar clusters identified by searchHub_, as well as, using pre-defined filters to more
 specifically focus optimization efforts.
 
-# searchhub Basic Training - How To Set Up Redirects
+# searchHub Basic Training - How To Set Up Redirects
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FAgJtXpWgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -30,11 +30,11 @@ specifically focus optimization efforts.
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
-# searchhub Search Insights Training
+# searchHub Search Insights Training
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-searchhub Search Insights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
+searchHub Search Insights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
 
 ## This video will show you how to:
 1. Audit Search Engine Performance
@@ -103,7 +103,7 @@ These special searches return either a single cluster if any variant matches the
 
 # AI-Training
 
-The AI-Training view enables you to train and improve searchhub’s clustering at large scale. There will always be some cases where searchhub on its own might not be confident
+The AI-Training view enables you to train and improve searchHub’s clustering at large scale. There will always be some cases where searchHub on its own might not be confident
 enough to decide if two words or search phrases are similar enough to merge them together. For these particular cases we created the AI-Training view. In this view we expose the
 most prominent of these cases and give you as a users the chance to give feedback.
 
@@ -126,7 +126,7 @@ feedback. Please **note** that any change will only affect the clusters when our
 can still head over to the query cluster view and merge/unmerge a cluster manually.
 
 ## Manual training
-Only certain combinations of queries can be selected for AI training. SearchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
+Only certain combinations of queries can be selected for AI training. searchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
 
 # Search Insights
 
@@ -196,11 +196,11 @@ The fourth type of query detection involves identifying queries with a high like
 
 | Merge type         | Explanation                                                                                                                                                                             |  
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| User-Merge         | A Merge based on explicit searchhub-user decisions (direct-merge, fingerprint-merge)                                                                                                    |
-| Confident-AI-Merge | A Merge based on explicit searchhub decisions with high confidence (known-misspellings, known-lemmata)                                                                                  |
-| Concept-AI-Merge   | A Merge based on explicit searchhub Concepts (concepts are contextualized synonyms - "TV" = "television")                                                                               |
-| Explicit-AI-Merge  | A Merge based on explicit searchhub-user AI-Training decisions ("highboard" is related to "highbord")                                                                                   |
-| Implicit-AI-Merge  | A Merge based on implicit searchhub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white") |
+| User-Merge         | A Merge based on explicit searchHub-user decisions (direct-merge, fingerprint-merge)                                                                                                    |
+| Confident-AI-Merge | A Merge based on explicit searchHub decisions with high confidence (known-misspellings, known-lemmata)                                                                                  |
+| Concept-AI-Merge   | A Merge based on explicit searchHub Concepts (concepts are contextualized synonyms - "TV" = "television")                                                                               |
+| Explicit-AI-Merge  | A Merge based on explicit searchHub-user AI-Training decisions ("highboard" is related to "highbord")                                                                                   |
+| Implicit-AI-Merge  | A Merge based on implicit searchHub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white") |
 
 ## Cluster view - Query scores
 

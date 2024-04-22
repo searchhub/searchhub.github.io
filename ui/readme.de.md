@@ -2,7 +2,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Willkommen bei __search|hub__ von __CXP Commerce Experts__.
+Willkommen bei __searchHub__ von __CXP Commerce Experts__.
 searchHub ist die weltweit erste Suchanfragen-Optimierungsplattform, die sich auf die Erhöhung der Konversionsrate Ihrer bestehenden Ecommerce-Suche spezialisiert hat. Wir helfen Deiner Website-Suche dabei, die Suchanfragen Deiner Kund:innen besser zu verstehen.
 
 In diesem Video führt uns Jonathan Ross durch die Plattform und zeigt, wie uns die Machine-Learning-Algorithmen bei der autonomen Optimierung der Website-Suche helfen.
@@ -96,7 +96,7 @@ Diese exakte Suchen liefert einen einzelnen Cluster zurück, wenn eine darin ent
 
 # AI-Training{#ai-training}
 
-Über die AI-Training view hilfst Du searchHub dabei, die Clustering-Qualität effizient weiter zu verbessern indem Du Dein spezifisches Wissen über Dein Sortiment einbringst. SearchHub versucht stets falsche Entscheidungen zu vermeiden. Wenn sich searchHub nicht sicher genug ist, um eigenständig die Entscheidung zu treffen, ob zwei Wörter oder Phrasen in Deinem Sortiments-Kontext wirklich dieselbe Bedeutung haben oder nicht, bekommst Du hier die Möglichkeit die AI zu trainieren und Sie weiter zu verbessern.
+Über die AI-Training view hilfst Du searchHub dabei, die Clustering-Qualität effizient weiter zu verbessern indem Du Dein spezifisches Wissen über Dein Sortiment einbringst. searchHub versucht stets falsche Entscheidungen zu vermeiden. Wenn sich searchHub nicht sicher genug ist, um eigenständig die Entscheidung zu treffen, ob zwei Wörter oder Phrasen in Deinem Sortiments-Kontext wirklich dieselbe Bedeutung haben oder nicht, bekommst Du hier die Möglichkeit die AI zu trainieren und Sie weiter zu verbessern.
 
 ## Trainings Prozess{#training-process}
 
