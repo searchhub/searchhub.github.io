@@ -138,7 +138,7 @@ In der Tabelle "Trending Queries" sind Suchbegriffe gelistet, welche im Vergleic
 
 *Die Icons der Info-Spalte*
 
-In beiden Tabell gibt es unter Umstände folgende Icons zu sehen.
+In beiden Tabellen gibt es unter Umstände folgende Icons zu sehen.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
 Dieses Icon markiert un-eindeutige Such-Anfragen. Diese Such-Anfragen benötigen häufig gleich mehrere weitere Interaktionen (Filter, Sortierung) bevor Suchende die Produkte finden, die sie suchen.

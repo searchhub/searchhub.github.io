@@ -143,7 +143,7 @@ The "Searches without result" table has an additional toggle button that control
 
 Search terms with the highest volume are listed in the "Popular Queries" table.
 
-The "Trending Queries" table lists search terms that had a significant increase in search volume compared to the same previous period. The corresponding increase in search volume is shown in the *Uplift* column.
+The "Trending Queries" table lists search terms that had a significant increase in search volume compared to the previous period. The corresponding increase in search volume is shown in the *Uplift* column.
 
 
 *Explanation of the info column icons*
@@ -165,7 +165,7 @@ The fourth type of query detection involves identifying queries with a high like
 
 # Glossary
 
-Definition of some KPIs and terms at searchHub.
+KPI and term definitions in searchHub.
 
 
 ## searchInsights - KPIs{#search-insights---kpis}
