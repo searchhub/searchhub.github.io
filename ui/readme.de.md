@@ -2,7 +2,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Willkommen bei __search|hub__ von __CXP Commerce Experts__.
+Willkommen bei __searchHub__ von __CXP Commerce Experts__.
 searchHub ist die weltweit erste Suchanfragen-Optimierungsplattform, die sich auf die Erhöhung der Konversionsrate Ihrer bestehenden Ecommerce-Suche spezialisiert hat. Wir helfen Deiner Website-Suche dabei, die Suchanfragen Deiner Kund:innen besser zu verstehen.
 
 In diesem Video führt uns Jonathan Ross durch die Plattform und zeigt, wie uns die Machine-Learning-Algorithmen bei der autonomen Optimierung der Website-Suche helfen.
@@ -45,9 +45,9 @@ searchHub searchInsights gibt Dir die Möglichkeit, die Performance Deiner aktue
 
 Drücke 'Shift'+'?' um eine Übersicht über alle vorhandenen shortcuts zu bekommen. Damit machst Du Deine Arbeit mit searchHub noch effizienter. 
 
-# SmartSuggest{#smartsuggest}
+# smartSuggest{#smartsuggest}
 
-SmartSuggest nutzt einen mehrstufigen Prozess, um die bestmöglichen Such-Vorschläge zu ermitteln. Als Grundlage dienen immer diejenigen Such-Vorschläge, die die höchste Konfidenz aufweisen. Weitere Such-Vorschläge aus weniger konfidenten Methoden werden nur hinzugezogen, sofern noch nicht genügend Such-Vorschläge ermittelt werden konnten. 
+smartSuggest nutzt einen mehrstufigen Prozess, um die bestmöglichen Such-Vorschläge zu ermitteln. Als Grundlage dienen immer diejenigen Such-Vorschläge, die die höchste Konfidenz aufweisen. Weitere Such-Vorschläge aus weniger konfidenten Methoden werden nur hinzugezogen, sofern noch nicht genügend Such-Vorschläge ermittelt werden konnten. 
 Anbei ein kleines Beispiel, das den beschriebenen Prozess für eine Suggest-Anfrage die 10 Such-Vorschläge zurückliefern soll verdeutlicht: 
 
 1. Suche nur in den Cluster-Labels
@@ -96,7 +96,7 @@ Diese exakte Suchen liefert einen einzelnen Cluster zurück, wenn eine darin ent
 
 # AI-Training{#ai-training}
 
-Über die AI-Training view hilfst Du searchHub dabei, die Clustering-Qualität effizient weiter zu verbessern indem Du Dein spezifisches Wissen über Dein Sortiment einbringst. SearchHub versucht stets falsche Entscheidungen zu vermeiden. Wenn sich searchHub nicht sicher genug ist, um eigenständig die Entscheidung zu treffen, ob zwei Wörter oder Phrasen in Deinem Sortiments-Kontext wirklich dieselbe Bedeutung haben oder nicht, bekommst Du hier die Möglichkeit die AI zu trainieren und Sie weiter zu verbessern.
+Über die AI-Training view hilfst Du searchHub dabei, die Clustering-Qualität effizient weiter zu verbessern indem Du Dein spezifisches Wissen über Dein Sortiment einbringst. searchHub versucht stets falsche Entscheidungen zu vermeiden. Wenn sich searchHub nicht sicher genug ist, um eigenständig die Entscheidung zu treffen, ob zwei Wörter oder Phrasen in Deinem Sortiments-Kontext wirklich dieselbe Bedeutung haben oder nicht, bekommst Du hier die Möglichkeit die AI zu trainieren und Sie weiter zu verbessern.
 
 ## Trainings Prozess{#training-process}
 
@@ -116,7 +116,9 @@ Bitte gib searchHub über Nacht Zeit, das von Dir abgegebene Feedback zu verarbe
 ## Manuelles training{#manual-training}
 searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchsten Einfluss auf die Suchqualität. Solltest Du dennoch mal ein Paar vermissen, dann kannst du hier selbst welche erstellen. Allerdings darf die Distanz zwischen beiden Worten nicht zu groß sein (<a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> darf 2 nicht überschreiten).
 
-# Search Insights{#search-insights}
+# searchInsights{#search-insights}
+
+Es gibt folgende Ansichten in searchInsights.
 
 ## Underperforming queries{#underperforming-queries}
 
@@ -127,9 +129,16 @@ In der Übersicht über die "Suchen ohne Ergebnis" kannst Du zwischen zwei Ansic
 2. kürzlich  
    Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchanfragen angezeigt, die an dem Tag, an dem sie das letzte Mal erfasst wurden in mindestens 50% der Suchen zu einem Null-Treffer geführt haben. 
 
-## Top queries{#top-queries}
+## Popular Queries{#top-queries}
 
-Die Icons der Info-Spalte
+In der Tabelle "Popular Queries" werden Suchbegriffe mit dem höchsten Aufkommen gelistet.
+
+In der Tabelle "Trending Queries" sind Suchbegriffe gelistet, welche im Vergleich zum gleichen vorherigen Zeitraum einen deutlichen Anstieg im Suchvolumen hatten. In der Spalte *Uplift* ist der entsprechende Anstieg an Suchvolumen angegeben.
+
+
+*Die Icons der Info-Spalte*
+
+In beiden Tabellen gibt es unter Umstände folgende Icons zu sehen.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
 Dieses Icon markiert un-eindeutige Such-Anfragen. Diese Such-Anfragen benötigen häufig gleich mehrere weitere Interaktionen (Filter, Sortierung) bevor Suchende die Produkte finden, die sie suchen.
@@ -145,7 +154,10 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion a
 
 # Glossary{#glossary}
 
-## Search Insights - KPIs{#search-insights---kpis}
+Definition einiger KPIs und Begriffe bei searchHub.
+
+
+## searchInsights - KPIs{#search-insights---kpis}
 
 | KPI                    | Erklärung                                                                                                                                                                                                                                                                                                                                                    |  
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
