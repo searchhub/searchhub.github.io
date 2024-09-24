@@ -147,7 +147,7 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion a
 
 ## Underperforming queries{#underperforming-queries}
 
-Das Chart "Entwicklung über Analysezeitraum" zeigt den Anteil der jeweiligen Suchbegriffe an allen Suchbegriffen. Wichtig: es handelt sich hierbei nicht um die Anzahl der Suchanfragen  
+Das Chart "Entwicklung über Analysezeitraum" zeigt den Anteil der jeweiligen Suchbegriffe an allen Suchbegriffen. Wichtig: es handelt sich hierbei nicht um die Anzahl der Suchanfragen.  
 
 In der Tabelle "Suchbegriffe ohne Ergebnis" kannst Du zwischen zwei Ansichten wählen:
 
@@ -156,14 +156,13 @@ In der Tabelle "Suchbegriffe ohne Ergebnis" kannst Du zwischen zwei Ansichten w�
 2. kürzlich  
    Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchbegriffe angezeigt, die an dem Tag an dem sie das letzte Mal erfasst wurden, in mindestens 50% der Fälle zu einem Null-Treffer geführt haben. Wurde ein 0-Treffer-Suchbegriff innerhalb des Analyse-Zeitraums neu zu einem Cluster mit MasterQuery hinzugefügt, dann wird er für diesen Zeitraum trotzdem weiterhin hier angezeigt. 
 
+Die Tabellen "Suchen mit niedriger CTR", "Suchen mit niedriger Findability™" und "Suchen mit niedriger CR™" zeigen die Suchbegriffe des schwächsten Quartils der jeweiligen KPI. Die dynamische Obergrenze des Quartils ist in der Klammer angegeben.
+
+Die Tabelle "Suchen mit niedriger CR" ist ergänzend dazu gefiltert auf Suchbegriffe mit einer CR > 0%.
+
 ## Performance Charts{#performance-charts}
 
 Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen (nicht: Suchbegriffe) ohne Suchergebnis an allen Suchanfragen
-
-## Popular Queries{#top-queries}
-
-In der Tabelle "Popular Queries" werden Suchbegriffe mit dem höchsten Aufkommen gelistet.
-
 
 # Glossary{#glossary}
 
