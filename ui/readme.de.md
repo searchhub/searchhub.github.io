@@ -118,16 +118,9 @@ searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchst
 
 # searchInsights{#search-insights}
 
+Für alle Suchbegriffe in searchInsights gilt: Es handelt sich immer um die effektiv an die Suchmaschine gesendeten Suchbegriffe ("searchQuery"). Das kann der vom Benutzer eingegebene Suchbegriff sein ("userQuery"), falls dieser nicht zu einem MasterQuery gemapped wurde. In allen anderen Fällen ist es der MasterQuery. 
+
 Es gibt folgende Ansichten in searchInsights.
-
-## Underperforming queries{#underperforming-queries}
-
-In der Übersicht über die "Suchen ohne Ergebnis" kannst Du zwischen zwei Ansichten wählen:
-
-1. gesamt  
-   Die Voreinstellung _Overall_ enthält alle Suchanfragen, die in mindestens 50% der Suchen zu einem Null-Treffer geführt haben. 
-2. kürzlich  
-   Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchanfragen angezeigt, die an dem Tag, an dem sie das letzte Mal erfasst wurden in mindestens 50% der Suchen zu einem Null-Treffer geführt haben. 
 
 ## Popular Queries{#top-queries}
 
@@ -151,6 +144,26 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis bei Kunden sehr häufig dazu f
 
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion aufweisen. Dies ist sehr häufig ein Indiz für teilweise irrelevante Ergebnisse.
+
+## Underperforming queries{#underperforming-queries}
+
+Das Chart "Entwicklung über Analysezeitraum" zeigt den Anteil der jeweiligen Suchbegriffe an allen Suchbegriffen. Wichtig: es handelt sich hierbei nicht um die Anzahl der Suchanfragen  
+
+In der Tabelle "Suchbegriffe ohne Ergebnis" kannst Du zwischen zwei Ansichten wählen:
+
+1. gesamt  
+   Die Voreinstellung _Overall_ enthält alle Suchbegriffe, die in mindestens 50% der Fälle zu einem Null-Treffer geführt haben. 
+2. kürzlich  
+   Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchbegriffe angezeigt, die an dem Tag an dem sie das letzte Mal erfasst wurden, in mindestens 50% der Fälle zu einem Null-Treffer geführt haben. Wurde ein 0-Treffer-Suchbegriff innerhalb des Analyse-Zeitraums neu zu einem Cluster mit MasterQuery hinzugefügt, dann wird er für diesen Zeitraum trotzdem weiterhin hier angezeigt. 
+
+## Performance Charts{#performance-charts}
+
+Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen (nicht: Suchbegriffe) ohne Suchergebnis an allen Suchanfragen
+
+## Popular Queries{#top-queries}
+
+In der Tabelle "Popular Queries" werden Suchbegriffe mit dem höchsten Aufkommen gelistet.
+
 
 # Glossary{#glossary}
 
