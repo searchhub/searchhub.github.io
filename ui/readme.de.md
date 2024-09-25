@@ -151,8 +151,8 @@ Das Chart "Entwicklung über Analysezeitraum" zeigt den Anteil der Suchanfragen 
 niedrigen KPIs an allen Suchanfragen. Im Fall von CTR, CR und Findability™ ist das das unterste Quantil, 
 im Fall von "Ohne Treffer" alle mit einer 0-Treffer-Rate > 50% am jeweiligen Tag
 
-In der Tabelle "Suchbegriffe ohne Ergebnis" zeigt Suchbegriffe, die eine 0-Treffer-Rate > 50% aufweisen. 
-Du kannst zwischen zwei Ansichten wählen:
+Die Tabelle "Suchbegriffe ohne Ergebnis" listet Suchbegriffe, die eine 0-Treffer-Rate > 50% aufweisen. 
+Zwei Ansichten stehen zur Verfügung:
 
 1. gesamt  
    Die Voreinstellung _Overall_ enthält alle Suchbegriffe, die in mindestens 50% der Fälle zu einem Null-Treffer geführt haben. 
