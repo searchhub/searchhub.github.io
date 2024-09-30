@@ -128,6 +128,7 @@ In der Tabelle "Popular Queries" werden Suchbegriffe mit dem höchsten Aufkommen
 
 In der Tabelle "Trending Queries" sind Suchbegriffe gelistet, welche im Vergleich zum gleichen vorherigen Zeitraum einen deutlichen Anstieg im Suchvolumen hatten. In der Spalte *Uplift* ist der entsprechende Anstieg an Suchvolumen angegeben.
 
+In beiden Tabellen lassen sich die Spalten mehrfach sortieren durch Shift+Klick bzw. Strg+Klick auf die Spaltenüberschrift (⌘+Klick auf dem Mac) 
 
 *Die Icons der Info-Spalte*
 
