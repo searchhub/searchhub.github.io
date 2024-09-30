@@ -130,21 +130,17 @@ Only certain combinations of queries can be selected for AI training. searchHub 
 
 # searchInsights{#search-insights}
 
-## Underperforming queries
+Für all d'Suchbegriffe in searchInsights gilt: Des send immer die Begriffe, die an d'Suchmaschine g'schickt werded ("searchQuery"). Des ka der Begriff sei, den dr Benutzer ei'gebba hot ("userQuery"), falls der net zu nem MasterQuery gmapped wurde. In alle andere Fäll isch's der MasterQuery.
 
-The "Searches without result" table has an additional toggle button that controls how zero results are interpreted
-
-1. Overall  
-   represents the standard view for zero result data. If a query is a significant zero result, it means that more than 50% of the time it was queried, it led to a zero result. This will lead to the query being counted as a zero result for the period selected, and shown here.
-2. Recent  
-   filters the overall view by excluding zero-result-data with less than 50% of the queries during a day leading to a zero-result, since the last time it was seen.
+Es gibt folgende Ansichta in searchInsights.
 
 ## Popular Queries{#top-queries}
 
-Search terms with the highest volume are listed in the "Popular Queries" table.
+In dr Tabelle "Popular Queries" send d'Begriffe aufgelistet, wo am meischt g'sucht werded.
 
-The "Trending Queries" table lists search terms that had a significant increase in search volume compared to the previous period. The corresponding increase in search volume is shown in the *Uplift* column.
+In dr Tabelle "Trending Queries" send Begriffe drinn, wo im Vergleich zum vorherige Zeitraum a deutliches Suchvolumen-Zuwachs hend. In dr Spalte Uplift steht drentsprechende Zuwachs.
 
+In beide Tabelle kann mer d’Spalte mehfach sortiere, wenn mer Shift+Klick oder Strg+Klick auf d’Spaltenüberschrift druckt (⌘+Klick beim Mac).
 
 *Explanation of the info column icons*
 
@@ -162,12 +158,41 @@ The third type of query detection involves identifying queries with a high likel
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
 
+## Underperforming queries
+
+Dr Chart "Entwicklung über Analysezeitraum" zeigt, wieviel Anteil von all d'Suche (einmal pro Session) besonders niedrige KPIs händ. Bei CTR, CR ond Findability™ isch des dr unterste Quantil, bei "Ohne Treffer" send alle Suchedrinner, wo über 50% Null-Treffer-Rate am jeweilige Tag hend.
+
+D'Lischde "Suchbegriffe ohne Ergebnis" zeigt d'Begriffe, wo a 0-Treffer-Rate über 50% hend. Zwei Ansichta gibt's do:
+
+1. gesamt
+   Die Vorgabe Overall zeigt all Begriffe, wo in mindestens 50% von dr Fälle zu Null-Treffer führd hend.
+2. kürzlich
+   Bei dr Ansicht Recent werd d’Liste enger gmacht. Es werdet bloß noch d’Begriffe azeigt, wo am Tag, wo se des letzte Mal erfasst wurde, in mindestens 50% von dr Fälle zu Null-Treffer führd hend. Wurde a 0-Treffer-Begriff während dr Analyse-Zeit neu zu nem Cluster mit MasterQuery dazu gmacht, dann zeigt mer dr immer noch hier.
+
+D' Tabelle "Suchbegriffe mit niedriger CTR", "Suchbegriffe mit niedriger Findability™" ond "Suchbegriffe mit niedriger CR" zeigen d'Begriffe aus'm schwächste Quantil vo jeda KPI. Dr dynamisch berechnete oberste Grenze vom Quantil wird als Prozentwert azeigt, ond des gilt bloß für den ausgewählte Analysezeitraum.
+
+Dr Tabelle "Suchbegriffe mit niedriger CR" isch no extra gfiltert für Begriffe mit em CR > 0%.
+
+## Performance Charts{#performance-charts}
+
+Dr Chart "Entwicklung Suchen ohne Ergebnis" zeigt, wieviel Anteil von all d'Suche (net Begriffe) ohne Treffer an all Suchanfragen send.
 
 # Glossary
 
 KPI and term definitions in searchHub.
 
+## allgemein{#glossary---general}
 
+| Begriff       | Erklärung                                                                                                                                    |  
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique heisst, dass ebbes bloß einmal pro Session zählt. Sucht oder klickt a Benutzer fünfmol des Gleiche, dann zählts trotzdem bloß einmal. |
+| Suchbegriff | Des isch dr Inhalt von dr Suche, also dr Text, noch dem g'sucht wurde                                                                        | 
+| Suchanfrage | A unique Suchanfrage. A Begriff ka in vieled verschiedene Anfragen verwendet worde sei                                                       | 
+| userQuery | Dr Begriff, den a Benutzer in d’Suche eigebba hot                                                                                            | 
+| masterQuery | Dr Begriff, den searchHub als beschde Variante vom userQuery g'funda hot (kann glei sei)                                                     | 
+| searchQuery | Dr Begriff, den searchHub an d’Suchmaschine weiterg'schickt hot (also userQuery oder masterQuery)                                            | 
+| Suggest-Click | A Klick auf an Vorschlag von smartSuggest                                                                                                    | 
+| Produkt-Click | A Klick auf a Produkt, des in dr Ergebnis-Lischte (net im Suggest!) azeigt wurde                                                             |
 ## searchInsights - KPIs{#search-insights---kpis}
 
 | KPI                    | Explanation                                                                                                                                                                                                                                                                                                           |  
