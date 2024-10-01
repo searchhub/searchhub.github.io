@@ -130,21 +130,17 @@ Only certain combinations of queries can be selected for AI training. searchHub 
 
 # searchInsights{#search-insights}
 
-## Underperforming queries
+For all search terms in searchInsights, the following applies: These are always the search terms ("searchQuery") actually sent to the search engine. This may be the search term entered by the user ("userQuery") if it has not been mapped to a MasterQuery. In all other cases, it is the MasterQuery.
 
-The "Searches without result" table has an additional toggle button that controls how zero results are interpreted
-
-1. Overall  
-   represents the standard view for zero result data. If a query is a significant zero result, it means that more than 50% of the time it was queried, it led to a zero result. This will lead to the query being counted as a zero result for the period selected, and shown here.
-2. Recent  
-   filters the overall view by excluding zero-result-data with less than 50% of the queries during a day leading to a zero-result, since the last time it was seen.
+The following views are available in searchInsights.
 
 ## Popular Queries{#top-queries}
 
-Search terms with the highest volume are listed in the "Popular Queries" table.
+In the "Popular Queries" table, search terms with the highest volume are listed.
 
-The "Trending Queries" table lists search terms that had a significant increase in search volume compared to the previous period. The corresponding increase in search volume is shown in the *Uplift* column.
+In the "Trending Queries" table, search terms are listed that have experienced a significant increase in search volume compared to the same previous period. The corresponding increase in search volume is indicated in the Uplift column.
 
+In both tables, the columns can be sorted multiple times by Shift+Click or Ctrl+Click on the column header (⌘+Click on Mac).
 
 *Explanation of the info column icons*
 
@@ -162,11 +158,41 @@ The third type of query detection involves identifying queries with a high likel
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
 
+## Underperforming queries
+
+The chart "Trend over Analysis Period" shows the proportion of search queries (unique per session) with particularly low KPIs across all search queries. For CTR, CR, and Findability™, this represents the lowest quantile, while for "No Results," it includes all queries with a no-hit rate of over 50% on the respective day.
+
+The table "Search Terms with No Results" lists search terms that have a no-hit rate of over 50%. Two views are available:
+
+1. Overall
+   The default setting Overall includes all search terms that resulted in no hits in at least 50% of the cases.
+2. Recent
+   The Recent setting further narrows down the list. It only shows search terms that, on the last day they were recorded, resulted in no hits in at least 50% of the cases. If a no-hit search term has been newly added to a cluster with a MasterQuery during the analysis period, it will still be displayed here for that period.
+
+The tables "Search Terms with Low CTR," "Search Terms with Low Findability™," and "Search Terms with Low CR" show the search terms in the weakest quantile of the respective KPI. The dynamically determined upper limit of the quantile for the analysis period is indicated as a percentage. This also means that the displayed percentage values apply only to the selected analysis period.
+
+The table "Search Terms with Low CR" is additionally filtered to include search terms with a CR greater than 0%.
+
+## Performance Charts
+
+The chart "Trend of Searches with No Results" shows the proportion of all search queries (not search terms) with no search results in relation to all search queries.
 
 # Glossary
 
 KPI and term definitions in searchHub.
 
+## General{#glossary---general}
+
+| KPI           | Explanation                                                                                                                                                                                      |  
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique means that something is counted only once per session. If a user searches for the same thing five times or clicks several times in the same search result, it is still counted only once. |
+| Search Term | The content of a search query, i.e., the text that was searched for                                                                                                                              | 
+| Search Query | A unique search query. A search term may have been used in many different search queries                                                                                                         | 
+| userQuery | The search term that a user entered into the search box                                                                                                                                          | 
+| masterQuery | The search term that searchHub determined to be the best version of the userQuery (may be identical to the userQuery)                                                                            | 
+| searchQuery | The search term that searchHub passed on to the search engine (either the userQuery or the masterQuery)                                                                                          | 
+| Suggest-Click | A click on a search term suggested by smartSuggest                                                                                                                                               | 
+| Product-Click | A click on a product displayed in the search results (not in the Suggest!)                                                                                                                       |
 
 ## searchInsights - KPIs{#search-insights---kpis}
 

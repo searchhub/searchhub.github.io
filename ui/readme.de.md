@@ -118,16 +118,9 @@ searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchst
 
 # searchInsights{#search-insights}
 
+Für alle Suchbegriffe in searchInsights gilt: Es handelt sich immer um die effektiv an die Suchmaschine gesendeten Suchbegriffe ("searchQuery"). Das kann der vom Benutzer eingegebene Suchbegriff sein ("userQuery"), falls dieser nicht zu einem MasterQuery gemapped wurde. In allen anderen Fällen ist es der MasterQuery. 
+
 Es gibt folgende Ansichten in searchInsights.
-
-## Underperforming queries{#underperforming-queries}
-
-In der Übersicht über die "Suchen ohne Ergebnis" kannst Du zwischen zwei Ansichten wählen:
-
-1. gesamt  
-   Die Voreinstellung _Overall_ enthält alle Suchanfragen, die in mindestens 50% der Suchen zu einem Null-Treffer geführt haben. 
-2. kürzlich  
-   Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchanfragen angezeigt, die an dem Tag, an dem sie das letzte Mal erfasst wurden in mindestens 50% der Suchen zu einem Null-Treffer geführt haben. 
 
 ## Popular Queries{#top-queries}
 
@@ -135,6 +128,7 @@ In der Tabelle "Popular Queries" werden Suchbegriffe mit dem höchsten Aufkommen
 
 In der Tabelle "Trending Queries" sind Suchbegriffe gelistet, welche im Vergleich zum gleichen vorherigen Zeitraum einen deutlichen Anstieg im Suchvolumen hatten. In der Spalte *Uplift* ist der entsprechende Anstieg an Suchvolumen angegeben.
 
+In beiden Tabellen lassen sich die Spalten mehrfach sortieren durch Shift+Klick bzw. Strg+Klick auf die Spaltenüberschrift (⌘+Klick auf dem Mac) 
 
 *Die Icons der Info-Spalte*
 
@@ -152,9 +146,45 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis bei Kunden sehr häufig dazu f
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion aufweisen. Dies ist sehr häufig ein Indiz für teilweise irrelevante Ergebnisse.
 
-# Glossary{#glossary}
+## Underperforming queries
+
+Das Chart "Entwicklung über Analysezeitraum" zeigt den Anteil der Suchanfragen (unique pro Session) mit besonders 
+niedrigen KPIs an allen Suchanfragen. Im Fall von CTR, CR und Findability™ ist das das unterste Quantil, 
+im Fall von "Ohne Treffer" alle mit einer 0-Treffer-Rate > 50% am jeweiligen Tag
+
+Die Tabelle "Suchbegriffe ohne Ergebnis" listet Suchbegriffe, die eine 0-Treffer-Rate > 50% aufweisen. 
+Zwei Ansichten stehen zur Verfügung:
+
+1. gesamt  
+   Die Voreinstellung _Overall_ enthält alle Suchbegriffe, die in mindestens 50% der Fälle zu einem Null-Treffer geführt haben. 
+2. kürzlich  
+   Über die Einstellung _Recent_ wird die Liste weiter eingegrenzt. Es werden nur noch diejenigen Suchbegriffe angezeigt, die an dem Tag an dem sie das letzte Mal erfasst wurden, in mindestens 50% der Fälle zu einem Null-Treffer geführt haben. Wurde ein 0-Treffer-Suchbegriff innerhalb des Analyse-Zeitraums neu zu einem Cluster mit MasterQuery hinzugefügt, dann wird er für diesen Zeitraum trotzdem weiterhin hier angezeigt. 
+
+Die Tabellen "Suchbegriffe mit niedriger CTR", "Suchbegriffe mit niedriger Findability™" und "Suchbegriffe mit niedriger CR" zeigen die Suchbegriffe des schwächsten Quantils der jeweiligen KPI. 
+Die für den Analysezeitraum dynamisch ermittelte Obergrenze des Quantils ist als Prozentwert angegeben. Das bedeutet auch, dass die dargestellten %-Werte nur für den jeweils gewählten Analysezeitraum gelten. 
+
+Die Tabelle "Suchbegriffe mit niedriger CR" ist ergänzend dazu gefiltert auf Suchbegriffe mit einer CR > 0%.
+
+## Performance Charts
+
+Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen (nicht: Suchbegriffe) ohne Suchergebnis an allen Suchanfragen
+
+# Glossar{#glossary}
 
 Definition einiger KPIs und Begriffe bei searchHub.
+
+## Allgemein{#glossary---general}
+
+| Begriff       | Erklärung                                                                                                                                                                                    |  
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique bedeutet, dass etwas einmal pro Session und Suchbegriff gezählt wird. Sucht ein User fünfmal dasselbe oder klickt mehrfach im Suchergebnis, dann wird es trotzdem nur einmal gezählt. |
+| Suchbegriff   | Der Inhalt einer Suchanfrage, also der Text nach dem gesucht wurde                                                                                                                           |
+| Suchanfrage   | Eine unique Suchanfrage. Ein Suchbegriff kann in vielen verschiedenen Suchanfragen verwendet worden sein                                                                                     |
+| userQuery     | Der Suchbegriff, den ein User in die Suchbox eingegeben hat                                                                                                                                  |
+| masterQuery   | Der Suchbegriff, den searchHub als beste Variante des userQuery festgestellt hat (kann identisch mit dem userQuery sein)                                                                     |
+| searchQuery   | Der Suchbegriff, den searchHub an die Suchmaschine weitergegeben hat (also entweder der userQuery oder der masterQuery)                                                                      |
+| Suggest-Click | Ein Klick auf einen von smartSuggest vorgeschlagenen Suchbegriff                                                                                                                             |
+| Produkt-Click | Ein Klick auf ein im Suchergebnis (nicht im Suggest!) angezeigtes Produkt                                                                                                                    |
 
 
 ## searchInsights - KPIs{#search-insights---kpis}
@@ -164,13 +194,13 @@ Definition einiger KPIs und Begriffe bei searchHub.
 | Suggest-CTR            | Anzahl an unique Suggest-Clicks geteilt durch die Anzahl der unique Suggestions.                                                                                                                                                                                                                                                                             |
 | Suggest-MRR            | Durchschnitt des täglichen Mean-Reciprocal-Rank (ein Maß für die Qualität der Sortierung der Suggestions) der geklickten Suggestions.                                                                                                                                                                                                                        |
 | #Searches              | *Total Unique Searches* Anzahl der unique Suchen pro Besucher.                                                                                                                                                                                                                                                                                               |  
-| Category               | Die Produkt-Kategorie(n) mit dem größten Anteil an Interkationen für die jeweilige Suchanfrage                                                                                                                                                                                                                                                               |
+| Category               | Die Produkt-Kategorie(n) mit dem größten Anteil an Interaktionen für die jeweilige Suchanfrage                                                                                                                                                                                                                                                               |
 | Clicks                 | Anzahl der unique Produkt-Clicks pro Session                                                                                                                                                                                                                                                                                                                 |  
 | CR in %                | Anzahl der unique gekauften SKUs geteilt durch die Anzahl an unique Suchen pro session.                                                                                                                                                                                                                                                                      |  
 | CTR in %               | Anzahl der unique Produkt-Detail-Seiten Aufrufe geteilt durch die Anzahl unique Suchen pro Session.                                                                                                                                                                                                                                                          |  
 | Exit rate in %         | Anzahl der Exits geteilt durch die Anzahl unique Suchen pro Session.                                                                                                                                                                                                                                                                                         |  
 | Exits in %             | Anzahl der Exits direkt nach dem ausliefern einer Suchergebnisseite.                                                                                                                                                                                                                                                                                         |  
-| Findability in %       | Die *findability* ist ein Maß für die Qualität des Such-Results und repräsentiert ein gewichtetes Mittel aus positiven and negativen Nutzer Signalen. *Negative signale* sind **exits**, **bounces**, **no-clicks** und **long search paths**. *Positive signale* sind **clicks**, **rate of clicks** auf der ersten Ergebnis-Seite, **carts** and **buys**. |  
+| Findability™ in %       | Die *Findability™* ist ein Maß für die Qualität des Such-Results und repräsentiert ein gewichtetes Mittel aus positiven and negativen Nutzer Signalen. *Negative signale* sind **exits**, **bounces**, **no-clicks** und **long search paths**. *Positive signale* sind **clicks**, **rate of clicks** auf der ersten Ergebnis-Seite, **carts** and **buys**. |  
 | Human rate in %        | Anzahl der unique Suchen pro Session echter Nutzern ohne Bots, referral-links, Kampagnen, etc. geteilt durch die Anzahl an unique Suchen pro Session.                                                                                                                                                                                                        |  
 | No Result in %         | Anzahl der unique Suchen pro Session die zu einem Null-Treffer geführt haben.                                                                                                                                                                                                                                                                                |  
 | Orders                 | Anzahl aller Sessions die zu einem Kauf geführt haben.                                                                                                                                                                                                                                                                                                       |  

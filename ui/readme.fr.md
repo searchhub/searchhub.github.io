@@ -121,21 +121,17 @@ Seules certaines combinaisons de requêtes peuvent être sélectionnées pour l'
 
 # searchInsights{#search-insights}
 
-## Requêtes sous-performantes{#underperforming-queries}
+Pour tous les termes de recherche dans searchInsights, la règle suivante s'applique : il s'agit toujours des termes de recherche ("searchQuery") effectivement envoyés au moteur de recherche. Il peut s'agir du terme de recherche saisi par l'utilisateur ("userQuery") s'il n'a pas été mappé à un MasterQuery. Dans tous les autres cas, il s'agit du MasterQuery.
 
-Dans l'aperçu des "recherches sans résultat", vous avez la possibilité de choisir entre les deux vues suivantes:
-
-1. Globale (Overall)  
-   La vue par défaut, "Globale", comprend toutes les requêtes qui ont abouti à une absence de résultats dans au moins 50% des recherches.
-2. Récentes (Recent)  
-   Avec l'option "Récentes", vous pouvez affiner davantage la liste. En sélectionnant cette option, seules les requêtes qui ont abouti à une absence de résultats dans au moins 50% des recherches le jour où elles ont été consultées pour la dernière fois seront affichées.
+Les vues suivantes sont disponibles dans searchInsights.
 
 ## Requêtes les plus populaires{#top-queries}
 
-Dans le tableau "Popular Queries" sont listés les termes de recherche ayant le plus de succès.
+Dans le tableau "Popular Queries", les termes de recherche ayant le volume le plus élevé sont listés.
 
-Dans le tableau "Trending Queries" sont listés les termes de recherche qui ont connu une nette augmentation du volume de recherche par rapport à la même période précédente. La colonne *Uplift* indique l'augmentation correspondante du volume de recherche.
+Dans le tableau "Trending Queries", les termes de recherche ayant connu une augmentation significative du volume de recherche par rapport à la même période précédente sont listés. L'augmentation correspondante du volume de recherche est indiquée dans la colonne Uplift.
 
+Dans les deux tableaux, les colonnes peuvent être triées plusieurs fois en appuyant sur Shift+Clic ou Ctrl+Clic sur l'en-tête de colonne (⌘+Clic sur Mac).
 
 *Explication des icônes différentes de la colonne d'informations*
 
@@ -153,9 +149,42 @@ Cet icône indique des requêtes de recherche dont le résultat conduit très so
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 Cet icône indique des requêtes de recherche qui n'entraînent aucune interaction de la part des clients. Cela est souvent un indicateur de résultats partiellement pertinents.
 
+## Requêtes sous-performantes{#underperforming-queries}
+
+Le graphique "Évolution sur la période d'analyse" montre la proportion de requêtes de recherche (uniques par session) avec des KPI particulièrement bas parmi toutes les requêtes. Pour le CTR, le CR et le Findability™, cela correspond au quantile le plus bas, tandis que pour les "Sans Résultats," il s'agit de toutes les requêtes avec un taux de 0-résultat supérieur à 50% pour le jour en question.
+
+Le tableau "Termes de recherche sans résultat" répertorie les termes de recherche ayant un taux de 0-résultat supérieur à 50%. Deux vues sont disponibles :
+
+1. Global
+   Le paramètre par défaut Global inclut tous les termes de recherche qui, dans au moins 50% des cas, n'ont donné aucun résultat.
+2. Récent
+   Le paramètre Récent restreint davantage la liste. Seuls sont affichés les termes de recherche qui, le jour où ils ont été enregistrés pour la dernière fois, ont conduit à un 0-résultat dans au moins 50% des cas. Si un terme de recherche sans résultat a été ajouté à un cluster avec une MasterQuery au cours de la période d'analyse, il continuera à être affiché ici pour cette période.
+
+Les tableaux "Termes de recherche avec CTR bas," "Termes de recherche avec Findability™ bas," et "Termes de recherche avec CR bas" affichent les termes de recherche du quantile le plus faible pour chaque KPI. La limite supérieure du quantile, déterminée dynamiquement pour la période d'analyse, est indiquée sous forme de pourcentage. Cela signifie également que les pourcentages affichés ne s'appliquent qu'à la période d'analyse sélectionnée.
+
+Le tableau "Termes de recherche avec CR bas" est également filtré pour n'inclure que les termes de recherche ayant un CR supérieur à 0%.
+
+## Performance Charts
+
+Le graphique "Évolution des recherches sans résultat" montre la proportion de toutes les requêtes de recherche (et non des termes de recherche) sans résultat par rapport à toutes les requêtes de recherche.
+
+
 # Glossaire{#glossary}
 
 Définition de quelques KPI et termes utilisés par searchHub.
+
+## Generale{#glossary---general}
+
+| KPI           | Explanation                                                                                                                                         |  
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique signifie qu'une action est comptabilisée une seule fois par session. Si un utilisateur recherche ou clique sur la même chose cinq fois, cela ne sera compté qu'une seule fois. |
+| Terme de recherche | Le contenu d'une requête de recherche, c'est-à-dire le texte qui a été recherché | 
+| Requête de recherche | Une requête de recherche unique. Un terme de recherche peut avoir été utilisé dans plusieurs requêtes différentes | 
+| userQuery | Le terme de recherche que l'utilisateur a saisi dans la barre de recherche | 
+| masterQuery | Le terme de recherche que searchHub a identifié comme étant la meilleure version du userQuery (peut être identique au userQuery) | 
+| searchQuery | Le terme de recherche que searchHub a transmis au moteur de recherche (soit le userQuery soit le masterQuery) | 
+| Suggest-Click | Un clic sur un terme de recherche suggéré par smartSuggest | 
+| Product-Click | Un clic sur un produit affiché dans les résultats de recherche (pas dans les suggestions !) |
 
 ## searchInsights - KPIs{#search-insights---kpis}
 
