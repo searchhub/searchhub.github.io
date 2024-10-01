@@ -173,7 +173,7 @@ The tables "Search Terms with Low CTR," "Search Terms with Low Findability™," 
 
 The table "Search Terms with Low CR" is additionally filtered to include search terms with a CR greater than 0%.
 
-## Performance Charts{#performance-charts}
+## Performance Charts
 
 The chart "Trend of Searches with No Results" shows the proportion of all search queries (not search terms) with no search results in relation to all search queries.
 
@@ -181,18 +181,18 @@ The chart "Trend of Searches with No Results" shows the proportion of all search
 
 KPI and term definitions in searchHub.
 
-## allgemein{#glossary---general}
+## general{#glossary---general}
 
-| KPI           | Explanation                                                                                                                                                       |  
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Unique        | Unique means that something is counted only once per session. If a user searches for or clicks on the same thing five times, it is still counted only once.       |
-| Search Term | The content of a search query, i.e., the text that was searched for                                                                                               | 
-| Search Query | A unique search query. A search term may have been used in many different search queries                                                                          | 
-| userQuery | The search term that a user entered into the search box                                                                                                           | 
-| masterQuery | The search term that searchHub determined to be the best version of the userQuery (may be identical to the userQuery)                                             | 
-| searchQuery | The search term that searchHub passed on to the search engine (either the userQuery or the masterQuery)                                                           | 
-| Suggest-Click | A click on a search term suggested by smartSuggest                                                                                                                | 
-| Product-Click | A click on a product displayed in the search results (not in the Suggest!)                                                                                        |
+| KPI           | Explanation                                                                                                                                                                                      |  
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique means that something is counted only once per session. If a user searches for the same thing five times or clicks several times in the same search result, it is still counted only once. |
+| Search Term | The content of a search query, i.e., the text that was searched for                                                                                                                              | 
+| Search Query | A unique search query. A search term may have been used in many different search queries                                                                                                         | 
+| userQuery | The search term that a user entered into the search box                                                                                                                                          | 
+| masterQuery | The search term that searchHub determined to be the best version of the userQuery (may be identical to the userQuery)                                                                            | 
+| searchQuery | The search term that searchHub passed on to the search engine (either the userQuery or the masterQuery)                                                                                          | 
+| Suggest-Click | A click on a search term suggested by smartSuggest                                                                                                                                               | 
+| Product-Click | A click on a product displayed in the search results (not in the Suggest!)                                                                                                                       |
 
 ## searchInsights - KPIs{#search-insights---kpis}
 

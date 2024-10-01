@@ -173,7 +173,7 @@ D' Tabelle "Suchbegriffe mit niedriger CTR", "Suchbegriffe mit niedriger Findabi
 
 Dr Tabelle "Suchbegriffe mit niedriger CR" isch no extra gfiltert für Begriffe mit em CR > 0%.
 
-## Performance Charts{#performance-charts}
+## Performance Charts
 
 Dr Chart "Entwicklung Suchen ohne Ergebnis" zeigt, wieviel Anteil von all d'Suche (net Begriffe) ohne Treffer an all Suchanfragen send.
 
@@ -193,6 +193,7 @@ KPI and term definitions in searchHub.
 | searchQuery | Dr Begriff, den searchHub an d’Suchmaschine weiterg'schickt hot (also userQuery oder masterQuery)                                            | 
 | Suggest-Click | A Klick auf an Vorschlag von smartSuggest                                                                                                    | 
 | Produkt-Click | A Klick auf a Produkt, des in dr Ergebnis-Lischte (net im Suggest!) azeigt wurde                                                             |
+
 ## searchInsights - KPIs{#search-insights---kpis}
 
 | KPI                    | Explanation                                                                                                                                                                                                                                                                                                           |  

@@ -164,7 +164,7 @@ Les tableaux "Termes de recherche avec CTR bas," "Termes de recherche avec Finda
 
 Le tableau "Termes de recherche avec CR bas" est également filtré pour n'inclure que les termes de recherche ayant un CR supérieur à 0%.
 
-## Performance Charts{#performance-charts}
+## Performance Charts
 
 Le graphique "Évolution des recherches sans résultat" montre la proportion de toutes les requêtes de recherche (et non des termes de recherche) sans résultat par rapport à toutes les requêtes de recherche.
 
@@ -173,7 +173,7 @@ Le graphique "Évolution des recherches sans résultat" montre la proportion de 
 
 Définition de quelques KPI et termes utilisés par searchHub.
 
-## allgemein{#glossary---general}
+## generale{#glossary---general}
 
 | KPI           | Explanation                                                                                                                                         |  
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|  

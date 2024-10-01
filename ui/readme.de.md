@@ -146,7 +146,7 @@ Dieses Icon markiert Such-Anfragen deren Ergebnis bei Kunden sehr häufig dazu f
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
 Dieses Icon markiert Such-Anfragen deren Ergebnis keinerlei Kunden-Interaktion aufweisen. Dies ist sehr häufig ein Indiz für teilweise irrelevante Ergebnisse.
 
-## Underperforming queries{#underperforming-queries}
+## Underperforming queries
 
 Das Chart "Entwicklung über Analysezeitraum" zeigt den Anteil der Suchanfragen (unique pro Session) mit besonders 
 niedrigen KPIs an allen Suchanfragen. Im Fall von CTR, CR und Findability™ ist das das unterste Quantil, 
@@ -165,26 +165,26 @@ Die für den Analysezeitraum dynamisch ermittelte Obergrenze des Quantils ist al
 
 Die Tabelle "Suchbegriffe mit niedriger CR" ist ergänzend dazu gefiltert auf Suchbegriffe mit einer CR > 0%.
 
-## Performance Charts{#performance-charts}
+## Performance Charts
 
 Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen (nicht: Suchbegriffe) ohne Suchergebnis an allen Suchanfragen
 
-# Glossary{#glossary}
+# Glossar{#glossary}
 
 Definition einiger KPIs und Begriffe bei searchHub.
 
 ## allgemein{#glossary---general}
 
-| Begriff       | Erklärung                                                                                                                                           |  
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Unique        | Unique bedeutet, dass etwas einmal pro Session gezählt wird. Sucht oder klickt ein User fünfmal dasselbe, dann wird es trotzdem nur einmal gezählt. |
-| Suchbegriff   | Der Inhalt einer Suchanfrage, also der Text nach dem gesucht wurde                                                                                  |
-| Suchanfrage   | Eine unique Suchanfrage. Ein Suchbegriff kann in vielen verschiedenen Suchanfragen verwendet worden sein                                            |
-| userQuery     | Der Suchbegriff, den ein User in die Suchbox eingegeben hat                                                                                         |
-| masterQuery   | Der Suchbegriff, den searchHub als beste Variante des userQuery festgestellt hat (kann identisch mit dem userQuery sein)                            |
-| searchQuery   | Der Suchbegriff, den searchHub an die Suchmaschine weitergegeben hat (also entweder der userQuery oder der masterQuery)                             |
-| Suggest-Click | Ein Klick auf einen von smartSuggest vorgeschlagenen Suchbegriff                                                                                    |
-| Produkt-Click | Ein Klick auf ein im Suchergebnis (nicht im Suggest!) angezeigtes Produkt                                                                           |
+| Begriff       | Erklärung                                                                                                                                                                                    |  
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique bedeutet, dass etwas einmal pro Session und Suchbegriff gezählt wird. Sucht ein User fünfmal dasselbe oder klickt mehrfach im Suchergebnis, dann wird es trotzdem nur einmal gezählt. |
+| Suchbegriff   | Der Inhalt einer Suchanfrage, also der Text nach dem gesucht wurde                                                                                                                           |
+| Suchanfrage   | Eine unique Suchanfrage. Ein Suchbegriff kann in vielen verschiedenen Suchanfragen verwendet worden sein                                                                                     |
+| userQuery     | Der Suchbegriff, den ein User in die Suchbox eingegeben hat                                                                                                                                  |
+| masterQuery   | Der Suchbegriff, den searchHub als beste Variante des userQuery festgestellt hat (kann identisch mit dem userQuery sein)                                                                     |
+| searchQuery   | Der Suchbegriff, den searchHub an die Suchmaschine weitergegeben hat (also entweder der userQuery oder der masterQuery)                                                                      |
+| Suggest-Click | Ein Klick auf einen von smartSuggest vorgeschlagenen Suchbegriff                                                                                                                             |
+| Produkt-Click | Ein Klick auf ein im Suchergebnis (nicht im Suggest!) angezeigtes Produkt                                                                                                                    |
 
 
 ## searchInsights - KPIs{#search-insights---kpis}
