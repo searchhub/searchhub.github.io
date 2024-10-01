@@ -173,7 +173,7 @@ Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen
 
 Definition einiger KPIs und Begriffe bei searchHub.
 
-## allgemein{#glossary---general}
+## Allgemein{#glossary---general}
 
 | Begriff       | Erklärung                                                                                                                                                                                    |  
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  

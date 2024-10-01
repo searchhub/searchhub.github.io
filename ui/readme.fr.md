@@ -173,7 +173,7 @@ Le graphique "Évolution des recherches sans résultat" montre la proportion de 
 
 Définition de quelques KPI et termes utilisés par searchHub.
 
-## generale{#glossary---general}
+## Generale{#glossary---general}
 
 | KPI           | Explanation                                                                                                                                         |  
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|  

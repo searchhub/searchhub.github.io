@@ -181,7 +181,7 @@ The chart "Trend of Searches with No Results" shows the proportion of all search
 
 KPI and term definitions in searchHub.
 
-## general{#glossary---general}
+## General{#glossary---general}
 
 | KPI           | Explanation                                                                                                                                                                                      |  
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
