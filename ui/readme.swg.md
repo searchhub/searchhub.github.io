@@ -95,8 +95,8 @@ Our AI-powered inspirational suggestions now enable you to show your users auto-
    suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
 
 # Query-Cluster
-We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result. 
-However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose, 
+We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result.
+However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose,
 simply prefix your query with a **+**.  
 E.g., **+women shirt**.  
 These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no query in all clusters matches.
@@ -130,17 +130,17 @@ Only certain combinations of queries can be selected for AI training. searchHub 
 
 # searchInsights{#search-insights}
 
-Für all d'Suchbegriffe in searchInsights gilt: Des send immer die Begriffe, die an d'Suchmaschine g'schickt werded ("searchQuery"). Des ka der Begriff sei, den dr Benutzer ei'gebba hot ("userQuery"), falls der net zu nem MasterQuery gmapped wurde. In alle andere Fäll isch's der MasterQuery.
+For all search terms in searchInsights, the following applies: These are always the search terms ("searchQuery") actually sent to the search engine. This may be the search term entered by the user ("userQuery") if it has not been mapped to a MasterQuery. In all other cases, it is the MasterQuery.
 
-Es gibt folgende Ansichta in searchInsights.
+The following views are available in searchInsights.
 
 ## Popular Queries{#top-queries}
 
-In dr Tabelle "Popular Queries" send d'Begriffe aufgelistet, wo am meischt g'sucht werded.
+In the "Popular Queries" table, search terms with the highest volume are listed.
 
-In dr Tabelle "Trending Queries" send Begriffe drinn, wo im Vergleich zum vorherige Zeitraum a deutliches Suchvolumen-Zuwachs hend. In dr Spalte Uplift steht drentsprechende Zuwachs.
+In the "Trending Queries" table, search terms are listed that have experienced a significant increase in search volume compared to the same previous period. The corresponding increase in search volume is indicated in the Uplift column.
 
-In beide Tabelle kann mer d’Spalte mehfach sortiere, wenn mer Shift+Klick oder Strg+Klick auf d’Spaltenüberschrift druckt (⌘+Klick beim Mac).
+In both tables, the columns can be sorted multiple times by Shift+Click or Ctrl+Click on the column header (⌘+Click on Mac).
 
 *Explanation of the info column icons*
 
@@ -160,39 +160,43 @@ The fourth type of query detection involves identifying queries with a high like
 
 ## Underperforming queries
 
-Dr Chart "Entwicklung über Analysezeitraum" zeigt, wieviel Anteil von all d'Suche (einmal pro Session) besonders niedrige KPIs händ. Bei CTR, CR ond Findability™ isch des dr unterste Quantil, bei "Ohne Treffer" send alle Suchedrinner, wo über 50% Null-Treffer-Rate am jeweilige Tag hend.
+The chart "Trend over Analysis Period" shows the proportion of search queries (unique per session) with particularly low KPIs across all search queries. For CTR, CR, and Findability™, this represents the lowest quantile, while for "No Results," it includes all queries with a no-hit rate of over 50% on the respective day.
 
-D'Lischde "Suchbegriffe ohne Ergebnis" zeigt d'Begriffe, wo a 0-Treffer-Rate über 50% hend. Zwei Ansichta gibt's do:
+The table "Search Terms with No Results" lists search terms that have a no-hit rate of over 50%. Two views are available:
 
-1. gesamt
-   Die Vorgabe Overall zeigt all Begriffe, wo in mindestens 50% von dr Fälle zu Null-Treffer führd hend.
-2. kürzlich
-   Bei dr Ansicht Recent werd d’Liste enger gmacht. Es werdet bloß noch d’Begriffe azeigt, wo am Tag, wo se des letzte Mal erfasst wurde, in mindestens 50% von dr Fälle zu Null-Treffer führd hend. Wurde a 0-Treffer-Begriff während dr Analyse-Zeit neu zu nem Cluster mit MasterQuery dazu gmacht, dann zeigt mer dr immer noch hier.
+1. Overall
+   The default setting Overall includes all search terms that resulted in no hits in at least 50% of the cases.
+2. Recent
+   The Recent setting further narrows down the list. It only shows search terms that, on the last day they were recorded, resulted in no hits in at least 50% of the cases. If a no-hit search term has been newly added to a cluster with a MasterQuery during the analysis period, it will still be displayed here for that period.
 
-D' Tabelle "Suchbegriffe mit niedriger CTR", "Suchbegriffe mit niedriger Findability™" ond "Suchbegriffe mit niedriger CR" zeigen d'Begriffe aus'm schwächste Quantil vo jeda KPI. Dr dynamisch berechnete oberste Grenze vom Quantil wird als Prozentwert azeigt, ond des gilt bloß für den ausgewählte Analysezeitraum.
+The tables "Search Terms with Low CTR," "Search Terms with Low Findability™," and "Search Terms with Low CR" show the search terms in the weakest quantile of the respective KPI. The dynamically determined upper limit of the quantile for the analysis period is indicated as a percentage. This also means that the displayed percentage values apply only to the selected analysis period.
 
-Dr Tabelle "Suchbegriffe mit niedriger CR" isch no extra gfiltert für Begriffe mit em CR > 0%.
+The table "Search Terms with Low CR" is additionally filtered to include search terms with a CR greater than 0%.
 
 ## Performance Charts
 
-Dr Chart "Entwicklung Suchen ohne Ergebnis" zeigt, wieviel Anteil von all d'Suche (net Begriffe) ohne Treffer an all Suchanfragen send.
+The chart "Trend of Searches with No Results" shows the proportion of all search queries (not search terms) with no search results in relation to all search queries.
+
+### Confidence Interval
+
+It represents the 95% confidence interval (upper and lower bounds) of the respective [KPI](#search-insights---kpis) taking into account historical data. Simply put, it helps distinguish between random fluctuations of the KPI and systematically driven changes. If the KPI is outside the expectation range, there is a 95% probability that it is not random.
 
 # Glossary
 
 KPI and term definitions in searchHub.
 
-## allgemein{#glossary---general}
+## General{#glossary---general}
 
-| Begriff       | Erklärung                                                                                                                                    |  
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------|  
-| Unique        | Unique heisst, dass ebbes bloß einmal pro Session zählt. Sucht oder klickt a Benutzer fünfmol des Gleiche, dann zählts trotzdem bloß einmal. |
-| Suchbegriff | Des isch dr Inhalt von dr Suche, also dr Text, noch dem g'sucht wurde                                                                        | 
-| Suchanfrage | A unique Suchanfrage. A Begriff ka in vieled verschiedene Anfragen verwendet worde sei                                                       | 
-| userQuery | Dr Begriff, den a Benutzer in d’Suche eigebba hot                                                                                            | 
-| masterQuery | Dr Begriff, den searchHub als beschde Variante vom userQuery g'funda hot (kann glei sei)                                                     | 
-| searchQuery | Dr Begriff, den searchHub an d’Suchmaschine weiterg'schickt hot (also userQuery oder masterQuery)                                            | 
-| Suggest-Click | A Klick auf an Vorschlag von smartSuggest                                                                                                    | 
-| Produkt-Click | A Klick auf a Produkt, des in dr Ergebnis-Lischte (net im Suggest!) azeigt wurde                                                             |
+| KPI           | Explanation                                                                                                                                                                                      |  
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique means that something is counted only once per session. If a user searches for the same thing five times or clicks several times in the same search result, it is still counted only once. |
+| Search Term | The content of a search query, i.e., the text that was searched for                                                                                                                              | 
+| Search Query | A unique search query. A search term may have been used in many different search queries                                                                                                         | 
+| userQuery | The search term that a user entered into the search box                                                                                                                                          | 
+| masterQuery | The search term that searchHub determined to be the best version of the userQuery (may be identical to the userQuery)                                                                            | 
+| searchQuery | The search term that searchHub passed on to the search engine (either the userQuery or the masterQuery)                                                                                          | 
+| Suggest-Click | A click on a search term suggested by smartSuggest                                                                                                                                               | 
+| Product-Click | A click on a product displayed in the search results (not in the Suggest!)                                                                                                                       |
 
 ## searchInsights - KPIs{#search-insights---kpis}
 

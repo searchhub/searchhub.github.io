@@ -168,6 +168,10 @@ Le tableau "Termes de recherche avec CR bas" est également filtré pour n'inclu
 
 Le graphique "Évolution des recherches sans résultat" montre la proportion de toutes les requêtes de recherche (et non des termes de recherche) sans résultat par rapport à toutes les requêtes de recherche.
 
+### Intervalle de Confiance{#confidence-interval}
+
+Il représente l'intervalle de confiance à 95% (limites supérieure et inférieure) du [KPI](#search-insights---kpis) en tenant compte des données historiques. En termes simples, il aide à distinguer les fluctuations aléatoires du KPI des changements systématiquement induits. Si le KPI se situe en dehors de l'intervalle de confiance, il y a 95% de chances que ce ne soit pas dû au hasard.
+
 
 # Glossaire{#glossary}
 

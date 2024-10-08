@@ -169,6 +169,10 @@ Die Tabelle "Suchbegriffe mit niedriger CR" ist ergänzend dazu gefiltert auf Su
 
 Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen (nicht: Suchbegriffe) ohne Suchergebnis an allen Suchanfragen
 
+### Erwartungsbereich{#confidence-interval}
+
+Er repräsentiert das 95%-Konfidenzintervall (Ober- und Untergrenze) der jeweiligen [KPI](#search-insights---kpis) unter Berücksichtigung historischer Daten. Einfach ausgedrückt, hilft er dabei, zufällige Schwankungen der KPI von systematisch bedingten Veränderungen zu unterscheiden. Liegt die KPI außerhalb des Erwartungsbereichs, ist dies mit 95% Wahrscheinlichkeit kein Zufall.
+
 # Glossar{#glossary}
 
 Definition einiger KPIs und Begriffe bei searchHub.
