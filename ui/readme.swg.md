@@ -101,6 +101,13 @@ simply prefix your query with a **+**.
 E.g., **+women shirt**.  
 These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no query in all clusters matches.
 
+# Redirects
+Active Redirects will get tested daily for validity. The traffic light indicates the current status of these tests:
+- Green: Redirect is valid (http status 200)
+- Grey: Either the Redirect is disabled or we have not yet tested it
+- Yellow: The redirect works, but it is again redirected to a different URL (302). Maybe consider to use the final URL?
+- Red: Some error occured, the redirect is most likely broken. However, if the error is a status code 401, 403 or 429, this might indicate that your system is blocking us from verifying the redirect URL. Please contact our support to discuss options on how to allow our friendly bot to perform the check.
+
 # AI-Training
 
 The AI-Training view enables you to train and improve searchHub’s clustering at large scale. There will always be some cases where searchHub on its own might not be confident
