@@ -94,6 +94,13 @@ Manchmal ist es jedoch notwendig, einen bestimmten Query zu finden, der exakt de
 z.B.: **+hemd blau xl**.  
 Diese exakte Suchen liefert einen einzelnen Cluster zurück, wenn eine darin enthaltene Variante genau mit dem eingegebenen Query übereinstimmt. 
 
+# Redirects
+Aktive Redirects werden von searchHub täglich auf Gültigkeit geprüft. An der Ampelfarbe wird das Ergebnis dieser Prüfung sichtbar:
+- Grün: Redirect ist gültig (http status 200)
+- Grau: Entweder ist der Redirect inaktiv oder er konnte noch nicht von searchHub überprüft werden
+- Gelb: Der Redirect funktioniert, allerdings leitet er seinerseits wieder auf eine andere URL weiter (302). Möglicherweise wäre es besser, gleich auf die finale URL zu verweisen?
+- Rot: Ein Fehler ist aufgetreten, vermutlich ist die Redirect-URL nicht (mehr) gültig. Falls der Status-Code 401, 403 oder 429 ist, könnte das daran liegen, dass searchHub von Ihrem System blockiert wird. Bitte kontaktieren Sie unseren Support, um Lösungsmöglichkeiten zu finden. 
+
 # AI-Training{#ai-training}
 
 Über die AI-Training view hilfst Du searchHub dabei, die Clustering-Qualität effizient weiter zu verbessern indem Du Dein spezifisches Wissen über Dein Sortiment einbringst. searchHub versucht stets falsche Entscheidungen zu vermeiden. Wenn sich searchHub nicht sicher genug ist, um eigenständig die Entscheidung zu treffen, ob zwei Wörter oder Phrasen in Deinem Sortiments-Kontext wirklich dieselbe Bedeutung haben oder nicht, bekommst Du hier die Möglichkeit die AI zu trainieren und Sie weiter zu verbessern.
