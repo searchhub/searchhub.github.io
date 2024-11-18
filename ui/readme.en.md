@@ -184,6 +184,10 @@ The table "Search Terms with Low CR" is additionally filtered to include search 
 
 The chart "Trend of Searches with No Results" shows the proportion of all search queries (not search terms) with no search results in relation to all search queries.
 
+### Confidence Interval
+
+It represents the 95% confidence interval (upper and lower bounds) of the respective [KPI](#search-insights---kpis) taking into account historical data. Simply put, it helps distinguish between random fluctuations of the KPI and systematically driven changes. If the KPI is outside the expectation range, there is a 95% probability that it is not random.
+
 # Glossary
 
 KPI and term definitions in searchHub.
