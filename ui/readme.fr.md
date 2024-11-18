@@ -88,7 +88,7 @@ Nos suggestions inspirantes alimentées par l'IA vous permettent désormais d'af
 5. HIGHEST_SELLABILITY_UPLIFT  
    les suggestions sont sélectionnées sur la base de recherches qui maximisent la probabilité d'événements d'ajout au panier afin d'optimiser la vendabilité.
 
-# Query-Cluster{#query-cluster}
+# Cluster de requêtes{#query-cluster}
 
 Le comportement par défaut lors de la recherche dans les grappes est une combinaison de différentes techniques dans le but de fournir le meilleur résultat général.
 Cependant, il est parfois nécessaire de trouver une seule requête qui corresponde exactement à ce que vous avez saisi dans le champ de recherche. Pour ce faire, il suffit d'utiliser la syntaxe suivante
@@ -96,14 +96,14 @@ utilisez simplement cette syntaxe spéciale : préfixez votre requête par un **
 Par exemple, **+chemise femme**.  
 Ces recherches spéciales renvoient soit un seul groupe si une variante correspond exactement à la requête saisie, soit un résultat vide s'il n'existe aucun groupe correspondant à cette requête.
 
-# Redirects
+# Redirections de requêtes{#redirects}
 Les redirections actives sont testées quotidiennement pour vérifier leur validité. Le feu tricolore indique le statut actuel de ces tests :
 - Vert : La redirection est valide (code HTTP 200).
 - Gris : Soit la redirection est désactivée, soit elle n'a pas encore été testée.
 - Jaune : La redirection fonctionne, mais elle renvoie à une autre URL (302). Peut-être devriez-vous envisager d'utiliser l'URL finale ?
 - Rouge : Une erreur s'est produite, la redirection est probablement défectueuse. Cependant, si l'erreur est un code 401, 403 ou 429, cela peut indiquer que votre système bloque notre vérification de l'URL de redirection. Veuillez contacter notre support pour discuter des options permettant à notre bot amical d'effectuer la vérification.
 
-# AI-Formation{#ai-training}
+# Entraînement de l'IA{#ai-training}
 
 Avec la vue d'entraînement de l'IA (AI-Training view), vous pouvez aider searchHub à améliorer efficacement la qualité du regroupement en apportant vos connaissances spécifiques sur votre assortiment. searchHub cherche à éviter les mauvaises décisions. Par conséquent, il peut arriver que searchHub ne soit pas suffisamment sûr pour prendre une décision autonome quant à savoir si deux mots ou expressions ont réellement la même signification ou non. Dans de tels cas précis, vous avez la possibilité de former l'IA pour l'améliorer davantage.
 
