@@ -184,6 +184,30 @@ The table "Search Terms with Low CR" is additionally filtered to include search 
 
 The chart "Trend of Searches with No Results" shows the proportion of all search queries (not search terms) with no search results in relation to all search queries.
 
+All the charts are displayed in the context of other data. There are two "modes" to select:
+
+### Default: Expectation Range 
+The Expectation Range illustrates the relationship between current and past search performance.
+
+*Purpose*:
+KPIs naturally fluctuate over time, but the key question is whether these changes are simply random noise or indicate a systematic improvement or issue. That’s where the new Confidence Intervals come in. By factoring in historical data, they predict the expected upper and lower bounds for your KPIs.
+
+*How it's calculated*:
+For each daily value, a 95% confidence interval is calculated based on the values from the corresponding weekdays over the past five weeks, as described on [Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval).
+This results in upper and lower bounds that together form a confidence band over time. Values outside that band can be considered as unlikely outliers that might be ascribed to changes in the system or outside events.
+
+
+### Industry Benchmark
+The industry benchmark is a comparison to a normalized view on filtered and normalized data from other customers.
+
+*Purpose*:
+To determine whether a particular KPI is within a "good" range, a lot of things have to be considered. As a result of our statistically relevant sum of customer data, we can now offer qualitative feedback in the form of an Industry Benchmark.
+With it, the search KPIs are placed in a broader context to provide deeper insights into the trajectory of your search quality. It provides visual insights into how your KPIs measure up against peers and market trends
+
+*How it's calculated*:
+We use aggregated and filtered data from a diverse sample of customers, and across various domains (the benchmark), to infer a common probability distribution. Based on this distribution, a 95% confidence interval is calculated for every daily value.
+
+
 # Glossary
 
 KPI and term definitions in searchHub.

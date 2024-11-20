@@ -175,6 +175,29 @@ Le tableau "Termes de recherche avec CR bas" est également filtré pour n'inclu
 
 Le graphique "Évolution des recherches sans résultat" montre la proportion de toutes les requêtes de recherche (et non des termes de recherche) sans résultat par rapport à toutes les requêtes de recherche.
 
+Tous les graphiques sont affichés dans le contexte d'autres données. Il existe deux « modes » à sélectionner :
+
+### Par défaut : Plage d'attente
+La plage d'attente illustre la relation entre les performances de recherche actuelles et passées.
+
+*Objectif*:
+Les KPI fluctuent naturellement au fil du temps, mais la question clé est de savoir si ces changements sont simplement du bruit aléatoire ou indiquent une amélioration ou un problème systématique. C'est là qu'interviennent les nouveaux intervalles de confiance. En prenant en compte les données historiques, ils prédisent les limites supérieure et inférieure attendues pour vos KPI.
+
+*Comment il est calculé*:
+Pour chaque valeur quotidienne, un intervalle de confiance de 95 % est calculé sur la base des valeurs des jours de la semaine correspondants au cours des cinq dernières semaines, comme décrit sur [Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval).
+Il en résulte des limites supérieure et inférieure qui forment ensemble une bande de confiance au fil du temps. Les valeurs en dehors de cette bande peuvent être considérées comme des valeurs aberrantes improbables qui pourraient être attribuées à des changements dans le système ou à des événements extérieurs.
+
+
+### Benchmark sectoriel
+Le benchmark sectoriel est une comparaison avec une vue normalisée des données filtrées et normalisées d'autres clients.
+
+*Objectif*:
+Pour déterminer si un KPI particulier se situe dans une « bonne » plage, de nombreux éléments doivent être pris en compte. Grâce à notre somme de données client statistiquement pertinente, nous pouvons désormais offrir un retour d'information qualitatif sous la forme d'un benchmark sectoriel.
+Grâce à celui-ci, les KPI de recherche sont placés dans un contexte plus large pour fournir des informations plus approfondies sur la trajectoire de la qualité de votre recherche. Il fournit des informations visuelles sur la façon dont vos KPI se comparent à leurs pairs et aux tendances du marché.
+
+*Comment il est calculé*:
+Nous utilisons des données agrégées et filtrées provenant d'un échantillon diversifié de clients et de divers domaines (le benchmark), pour déduire une distribution de probabilité commune. Sur la base de cette distribution, un intervalle de confiance de 95 % est calculé pour chaque valeur quotidienne.
+
 
 # Glossaire{#glossary}
 
