@@ -57,6 +57,10 @@ Anbei ein kleines Beispiel, das den beschriebenen Prozess für eine Suggest-Anfr
 
 Wenn die erste Stufe >= 10 Vorschläge findet, geben wir die Vorschläge zurück. Wenn weniger als 10 Vorschläge gefunden werden, wird die nächste Stufe eingeleitet, usw., bis die gewünschte Anzahl an Vorschlägen gefunden wurde.
 
+## Color Coding{#smartsuggest---colorcoding}
+
+Die unterschiedlichen Farbmarkierungen neben den Vorschlägen repräsentieren unterschiedliche Methoden zur Generierung der vorgeschlagenen Suchanfragen. Die Wahl der verwendeten Abrufmethode hängt von der jeweiligen Konfiguration und der spezifischen eingegebenen Suchanfrage ab.
+
 ## Basis Einstellung - Fuzziness{#basic-settings---fuzziness}
 
 Mithilfe dieser Einstellung legst Du den Anteil der unscharfen Such-Vorschläge im Gesamtergebnis fest. Die Voreinstellung ist auf __precision__ eingestellt. In dieser Einstellung werden _keine_ unscharfen Such-Vorschläge ermittelt. Hierdurch kann es gelegentlich vorkommen, dass unterschiedlich viele Such-Vorschläge ermittelt werden. Wird die Einstellung auf __recall__ geändert, werden immer gleich viele Such-Vorschläge ermittelt, indem die Liste mit unscharfen Such-Vorschlägen aufgefüllt wird.
