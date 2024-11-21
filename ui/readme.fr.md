@@ -192,11 +192,11 @@ Il en résulte des limites supérieure et inférieure qui forment ensemble une b
 Le benchmark sectoriel est une comparaison avec une vue normalisée des données filtrées et normalisées d'autres clients.
 
 *Objectif*:
-Pour déterminer si un KPI particulier se situe dans une « bonne » plage, de nombreux éléments doivent être pris en compte. Grâce à notre somme de données client statistiquement pertinente, nous pouvons désormais offrir un retour d'information qualitatif sous la forme d'un benchmark sectoriel.
+Pour déterminer si un KPI particulier se situe dans une « bonne » plage, de nombreux éléments doivent être pris en compte. Grâce à notre somme de données des détaillants statistiquement pertinente, nous pouvons désormais offrir un retour d'information qualitatif sous la forme d'un benchmark sectoriel.
 Grâce à celui-ci, les KPI de recherche sont placés dans un contexte plus large pour fournir des informations plus approfondies sur la trajectoire de la qualité de votre recherche. Il fournit des informations visuelles sur la façon dont vos KPI se comparent à leurs pairs et aux tendances du marché.
 
 *Comment il est calculé*:
-Nous utilisons des données agrégées et filtrées provenant d'un échantillon diversifié de clients et de divers domaines (le benchmark), pour déduire une distribution de probabilité commune. Sur la base de cette distribution, un intervalle de confiance de 95 % est calculé pour chaque valeur quotidienne.
+Nous utilisons des données agrégées et filtrées provenant d'un échantillon diversifié de détaillants et de divers domaines (le benchmark), pour déduire une distribution de probabilité commune. Sur la base de cette distribution, un intervalle de confiance de 95 % est calculé pour chaque valeur quotidienne.
 
 
 # Glossaire{#glossary}

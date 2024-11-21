@@ -179,25 +179,25 @@ Das Chart "Entwicklung Suchen ohne Ergebnis" zeigt den Anteil aller Suchanfragen
 Alle Diagramme werden im Kontext weiterer Daten angezeigt. Dazu gibt es folgende Möglichkeiten:
 
 ### Standard: Erwartungs-Bereich
-Der Erwartungsbereich zeigt das Verhältnis zwischen der aktuellen und vergangener Suchperformance.
+Der Erwartungsbereich zeigt das Verhältnis zwischen aktuelle und vergangener Suchperformance.
 
 *Zweck*:
-KPIs schwanken natürlicherweise über die Zeit. Die Frage dabei ist, ob es normale Schwankungen sind oder eine Schwankung von einer Änderung am System verursacht wurde. Hierbei hilft der Erwartungsbereich durch den Bezug historischer Daten, anhand derer die obere und untere Schwelle berechnet wird
+KPIs schwanken natürlicherweise über die Zeit. Die Frage dabei ist, ob es normale Schwankungen sind oder eine Schwankung von einer Änderung am System verursacht wurde. Hierbei hilft der Erwartungsbereich durch den Bezug historischer Daten, anhand derer die obere und untere Schwelle berechnet wird.
 
 *Wie es berechnet wird*:
 Für jeden Wert wird das 95% [Konfidenz-Interval](https://de.wikipedia.org/wiki/Konfidenzintervall) berechnet, wobei nur der aktuelle Wert und die Werte der letzten 4 gleichen Wochentage verwendet werden.
-Das Ergebnis ist ein unterer und ein oberer Schwellwert die einen Erwartungsbereich definieren. Werte außerhalb des Bands könnten womöglich durch wesentlichen Änderungen verursacht sein.
+Das Ergebnis ist ein unterer und ein oberer Schwellwert, die einen Erwartungsbereich definieren. Werte außerhalb des Bands könnten womöglich durch wesentlichen Änderungen verursacht sein.
 
 
 ### Industry Benchmark
-Der 'Industry Benchmark' ist ein Vergleich mit normalisierten Durchschnittswerten anderer Kunden.
+Der 'Industrie Benchmark' ist ein Vergleich mit normalisierten Durchschnittswerten anderer Retailer.
 
 *Zweck*:
-Es gibt viele Faktoren die bestimmen, ob ein KPI-Wert gut ist oder nicht. Auf basis statistisch relevanter Daten anderer Kunden, können wir einen hochwertigen Vergleich in Form des 'Industry Benchmark' liefern.
-Damit werden die Werte eines Diagrams in einen erweiterten Kontext eingebettet und geben damit Einsicht in die Qualität Ihrer Suche. Es gibt Einsicht über das Optimierungs-Potential und zeigt auf, ob sich Trends und saisonale Effekte auch in Ihrem Shop zeigen.
+Es gibt viele Faktoren die bestimmen, ob ein KPI-Wert gut ist oder nicht. Auf Basis statistisch relevanter Daten anderer Retailer können wir einen hochwertigen Vergleich in Form des 'Industrie Benchmark' liefern.
+Damit werden die Werte eines Diagramms in einen erweiterten Kontext eingebettet und geben damit Aufschluss über die Qualität der Suche, zeigen Optimierungs-Potentiale auf und geben Hinweise auf übergreifende Trends und saisonale Effekte.
 
 *Wie es berechnet wird*:
-Wir verwenden gefilterte und aggregierte Werte verschiedener repräsentativer Date aus unterschiedlichen Domänen um eine allgemeine Wahrscheinlichkeitsverteilung abzubilden. Auf Basis dessen wird der 95%ige Konfidenzinterval für jeden Tageswert gebildet.
+Wir verwenden gefilterte und aggregierte Werte verschiedener repräsentativer Daten aus unterschiedlichen Domänen um eine allgemeine Wahrscheinlichkeitsverteilung abzubilden. Auf Basis dessen wird der 95%ige Konfidenzinterval für jeden Tageswert gebildet.
 
 # Glossar{#glossary}
 

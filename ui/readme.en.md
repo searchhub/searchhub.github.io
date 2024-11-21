@@ -198,14 +198,14 @@ This results in upper and lower bounds that together form a confidence band over
 
 
 ### Industry Benchmark
-The industry benchmark is a comparison to a normalized view on filtered and normalized data from other customers.
+The industry benchmark is a comparison to a normalized view on filtered and normalized data from other retailers.
 
 *Purpose*:
-To determine whether a particular KPI is within a "good" range, a lot of things have to be considered. As a result of our statistically relevant sum of customer data, we can now offer qualitative feedback in the form of an Industry Benchmark.
+To determine whether a particular KPI is within a "good" range, a lot of things have to be considered. As a result of our statistically relevant sum of data from many retailers, we can now offer qualitative feedback in the form of an Industry Benchmark.
 With it, the search KPIs are placed in a broader context to provide deeper insights into the trajectory of your search quality. It provides visual insights into how your KPIs measure up against peers and market trends
 
 *How it's calculated*:
-We use aggregated and filtered data from a diverse sample of customers, and across various domains (the benchmark), to infer a common probability distribution. Based on this distribution, a 95% confidence interval is calculated for every daily value.
+We use aggregated and filtered data from a diverse sample of retailers, and across various domains (the benchmark), to infer a common probability distribution. Based on this distribution, a 95% confidence interval is calculated for every daily value.
 
 
 # Glossary
