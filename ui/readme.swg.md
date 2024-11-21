@@ -1,300 +1,292 @@
-# Welcome to searchHub
+# Willkomma bei searchHub{#welcome-to-searchhub}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yiPe1gTCtbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Welcome to __searchHub__ from __CXP Commerce Experts__.
-We are the world's first search query optimization machine specializing in increasing the conversion from your current site-search. __We make your site-search understand humans__.
+Willkomma bei __searchHub__ von __CXP Commerce Experts__.
+searchHub isch d'weltweit erste Suchanfraga-Optimierungsplattform, d'sich uf d'Erhöhung dr Konversionsrate Ihrer bestehenda Ecommerce-Suche spezialisiert hat. Wir helfa Deiner Website-Suche dabei, d'Suchanfraga Deiner Kund:inna besser zu versteha.
 
-In this video, Jonathan Ross walks us through how Machine Learning Algorithms are able to assist our customers in autonomous site-search optimization.
+In diesem Video führt uns Jonathan Ross durch d'Plattform und zeigt, wie uns d'Machine-Learning-Algorithma bei dr autonoma Optimierung dr Website-Suche helfa.
 
-# searchHub Basic Training - How do I Merge Clusters?
+# searchHub Basis Training - Wie führe ich Cluster zusamma?{#searchhub-basic-training---how-do-i-merge-clusters}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3sKhtLw-1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video will introduce how to merge clusters using our category and filter selection tools.
+In diesem Video zeiga wir Dir wie Du Cluster effizient mit Hilfe unserer Filter-Werkzeuge zusammenführst.
 
-# searchHub Basic Training — Using the Fingerprint Button and Pre-Defined Filters
+# searchHub Basis Training - Cluster mittels Fingerprint-Schaltfläche und vordefinierta Filtern zusammenführa.{#searchhub-basic-training--using-the-fingerprint-button-and-pre-defined-filters}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W_FzhKrHeyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video will introduce _how to use the fingerprint button to confirm highly similar clusters identified by searchHub_, as well as, using pre-defined filters to more
-specifically focus optimization efforts.
+Dieses Video zeigt, wie Du mittels _Fingerprint-Schaltfläche von searchHub ermittelte, hochgradig ähnliche cluster unter Anwendung vordefinierter Filter-Kriterien_ noch effizienter zusammenführa kannst.
 
-# searchHub Basic Training - How To Set Up Redirects
+# searchHub Basis Training - Wie lege ich Such-Redirects an?{#searchhub-basic-training---how-to-set-up-redirects}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FAgJtXpWgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## In this video we describe the 3 different types of redirects.
+## In diesem Video macha wir Dich mit da 3 unterschiedlicha Arta an Such-Redirects vertraut, d'searchHub bietet.{#in-this-video-we-describe-the-3-different-types-of-redirects}
 
 1. <a href="https://youtu.be/FAgJtXpWgiw?t=36">Query Cluster Redirects</a>
 2. <a href="https://youtu.be/FAgJtXpWgiw?t=179">Semantic Search Redirects</a>
 3. <a href="https://youtu.be/FAgJtXpWgiw?t=303">Exact Redirects</a>
 
-# searchHub searchInsights Training
+# searchHub SearchInsights Training{#searchhub-search-insights-training}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nC1I1aQ4uN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-searchHub searchInsights allows you to audit the performance, and optimize the quality of any site search engine on the market, making ecommerce site search perform more like a human.
+searchHub searchInsights gibt Dir d'Möglichkeit, d'Performance Deiner aktuella Suche kontinuierlich zu überwacha, Potenziale zu ermitteln und so d'erfolgversprechendsta Optimierunga abzuleita.
 
-## This video will show you how to:
-1. Audit Search Engine Performance
-2. Identify the greatest impact zones of optimization
-3. Report on the success of your optimizations
-4. Track daily and weekly progress
+## In diesem Video zeiga wir Dir wie Du:{#this-video-will-show-you-how-to}
+1. D'Performance dr Suche überwachst
+2. D'größta Hebel zur weitera Verbesserung identifizierst
+3. Da Einfluss Deiner Optimierunga reportest
+4. Und sämtliche relevanta Kennzahla über d'Zeit hinweg verfolga kannst.
 
-# Keyboard Shortcuts
+# Keyboard Shortcuts{#keyboard-shortcuts}
 
-Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the cursor focus is not placed on an input field.
+Drücke 'Shift'+'?' um oine Übersicht über älle vorhandena shortcuts zu bekomma. Damit machst Du Deine Arbeit mit searchHub noch effizienter. 
 
-# smartSuggest
+# smartSuggest{#smartsuggest}
 
-The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
-suggestions from the less confident stages, if we are not able to provide the amount of suggestions requested. Here is a short example for a request to return 10 suggestions:
+smartSuggest nutzt oina mehrstufiga Prozess, um d'bestmöglicha Such-Vorschläge zu ermitteln. Als Grundlage diena immer diejeniga Such-Vorschläge, d'd'höchste Konfidenz ufweisa. Weitere Such-Vorschläge aus weniger konfidenta Methoda werda nur hinzugezoga, sofern noch net g'nügend Such-Vorschläge ermittelt werda konnta. 
+Anbei a kleines Beispiel, des da beschriebena Prozess für oine Suggest-Anfrage d'10 Such-Vorschläge zurückliefern soll verdeutlicht: 
 
-1. Search only in the cluster label
-2. Search in all variants of the cluster
-3. Fuzzy search in the cluster label with edit distance 1
-4. Fuzzy search in the cluster label with edit distance 2
+1. Suche nur in da Cluster-Labels
+2. Suche zusätzlich in alla Cluster-Varianta
+3. Suche unscharf in da Cluster_Labels mit oiner maximala edit dischdance von 1
+4. Suche unscharf in da Cluster_Labels mit oiner maximala edit dischdance von 2
 
-If the first stage finds >= 10 suggestions, we return the suggestions. If less than 10 suggestions are found, the next stage is initiated, etc. until the desired amount of
-suggestions has been found.
+Wenn d'erste Stufe >= 10 Vorschläge findet, g'ba wir d'Vorschläge zurück. Wenn weniger als 10 Vorschläge g'funda werda, wird d'nächste Stufe oingeleitet, usw., bis d'g'wünschte Anzahl an Vorschläga g'funda wurde.
 
-## Basic settings - Fuzziness
+## Basis Einstellung - Fuzziness{#basic-settings---fuzziness}
 
-Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not execute the *Fuzzy-Stages* if the stage(s)
-beforehand found any suggestions, regardless if it's less than the requested amount of suggestions. Therefor it could happen that only one suggestion will be returned even if you
-ask for 10. If you set the setting to __recall__, the *Fuzzy-Stages* will be executed if the previous stage(s) could not provide the requested amount of suggestions.
+Mithilfe dieser Einstellung legst Du da Anteil dr unscharfa Such-Vorschläge im Gesamtergebnis fest. D'Voreinstellung isch uf __precision__ oingestellt. In dieser Einstellung werda _keine_ unscharfa Such-Vorschläge ermittelt. Hierdurch kann es g'legentlich vorkomma, dass unterschiedlich viele Such-Vorschläge ermittelt werda. Wird d'Einstellung uf __recall__ g'ändert, werda immer gleich viele Such-Vorschläge ermittelt, indem d'Lischde mit unscharfa Such-Vorschläga ufgefüllt wird.
 
-## Basic settings - Sorting
+## Basis Einstellung - Sortierung{#basic-settings---sorting}
 
-Controls the order in which suggestions are returned by the module. The default is set to __confidence sorting__ where the suggestions are primarily sorted by confidence and
-subsequently by *weight*. Alternatively you could set it to __group sorting__ where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on *weight*
-within their groups. The weight is determined by the ranking settings you define.
+Mit dieser Einstellung legst Du d'Sortierung dr Such-Vorschläge fest. D'Voreinstellung isch uf __confidence sorting__ oingestellt. In dieser Einstellung werda d'Such-Vorschläge zunächst nach Konfidenz und dann nach dem oinstellbara _Gewicht_ sortiert. Alternativ kann auch uf __group sorting__ umgestellt werda. Bei dieser Einstellung werda d'Such-Vorschläge blockweise uf Basis dr Konfidenz-stufa dargestellt, wobei innerhalb dr Stufa nach _Gewicht_ sortiert wird. Des _Gewicht_ wird über d'Ranking Einstellung bestimmt d'Du festgelegt hast.
 
-## Basic settings - AI Suggestions
+## Basis Einstellung - AI Suggests{#basic-settings---ai-suggestions}
 
-This setting determines the quantity of AI suggestions that will be displayed. When present, these suggestions will always appear above the search results.  
-The AI-generated suggestions are designed to enhance both the findability and sellability of products, and are based on the user’s search refinement behavior.
-For instance, for a general query such as “men”, the AI will identify the currently most relevant refined queries, such as “men’s fashion” and “men’s shoes”.  
-In cases where there are bad or no search results, the AI will generate “relaxed-queries” that have previously led to successful search sessions.  
-(This functionality depends on our search-collector and can only deliver additional value if the search-collector is implemented correctly.)
+Mithilfe dieser Einstellung legst Du d'maximale Anzahl an AI Suggests fest, d'ausgespielt werda soll. Sofern zu oiner User-Eingabe AI Suggests exischdiera werda diese stots uf da ersta Positiona ausgespielt.  
+AI-Suggests verfolga des Ziel sowohl d'Findability als auch d'Sellability innerhalb oiner Such-Session zu maximiera. Daher basiera sie uf dem analysierta Such-Verhalta Deiner Kunda.
+Als Beispiel betrachta wir oine recht g'nerische Suchanfrage nach "männer". D'searchHub AI erkennt, dass es sich um oine g'nerische Suchanfrage handelt und ermittelt automatisch relevante weniger g'nerische alternativ Such-Vorschläge wie "männer bekleidung" und männer hosa" oder "männer schuhe" um d'spezifische Findability und Sellability zu erhöha. 
+(Diese Funktionalität isch nur in Verbindung mit dem searchHub search-collector nutzbar)
 
-## Inspirational AI-Suggestions
+## Inspirierende AI Suggests{#inspirational-ai-suggestions}
 
-Our AI-powered inspirational suggestions now enable you to show your users auto-completion and search suggestions even before they start typing based on the following pre-defined keywords:
+Mit unsera KI-g'stützta inspirierenda Vorschläga könna Sie Ihra Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeiga, noch bevor diese mit dr Eingabe beginna. D'folgenda Vorschlags-Typa stoha zur Verfügung:
 
 1. MOST_INSPIRING  
-   suggestions based on our AI-powered recommendation system that uses an intelligent blend of the following four strategies.
+   Vorschläge basierend uf unserem KI-g'stützta Empfehlungssystem, des oine intelligente Mischung dr folgenda vier Strategia verwendet.
 2. MOST_POPULAR  
-   suggestions are based on the most frequently searched items.
+   Vorschläge basierend uf da am häufigsta g'suchta Begriffa.
 3. MOST_POPULARITY_UPLIFT  
-   suggestions are chosen based on the most trending searches to optimize for current trends.
+   Vorschläge basierend uf da derzeit angesagtesta Sucha, um uf aktuelle Trends zu optimiera.
 4. HIGHEST_FINDABILITY_UPLIFT  
-   suggestions are chosen based on searches that provide the easiest search experience, minimizing friction.
+   Vorschläge werda uf dr Grundlage von Suchanfraga ausgewählt, dera Ergebnisqualität in letzter Zeit g'stiega isch - möglicherweise durch Sortimentsoptimierunga
 5. HIGHEST_SELLABILITY_UPLIFT  
-   suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
+   Vorschläge werda uf dr Grundlage von Suchanfraga ausgewählt, d'd'Wahrscheinlichkeit von Add-to-Cart-Ereignissa maximiera, um uf Verkaufsfähigkeit zu optimiera.
 
-# Query-Cluster
-We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result. 
-However, sometimes it's necessary to find a single query that exactly matches what you enter into the search box. For this purpose, 
-simply prefix your query with a **+**.  
-E.g., **+women shirt**.  
-These special searches return either a single cluster if any variant matches the entered query exactly, or an empty result if no query in all clusters matches.
+# Cluster Ansicht{#query-cluster}
 
-# Redirects
-Active Redirects will get tested daily for validity. The traffic light indicates the current status of these tests:
-- Green: Redirect is valid (http status 200)
-- Grey: Either the Redirect is disabled or we have not yet tested it
-- Yellow: The redirect works, but it is again redirected to a different URL (302). Maybe consider to use the final URL?
-- Red: Some error occured, the redirect is most likely broken. However, if the error is a status code 401, 403 or 429, this might indicate that your system is blocking us from verifying the redirect URL. Please contact our support to discuss options on how to allow our friendly bot to perform the check.
+Für d'Suche innerhalb dr Cluster-Lischde benutza wird per Standard oine intelligente, leicht fehlertolerante Suchfunktion mit dem Ziel, des beste allgemeine Ergebnis bereitzustella.
+Manchmal isch es jedoch notwendig, oina bestimmta Query zu finda, dr exakt dr Eingabe ins Suchfeld entspricht. Hierfür kannst Du dem Suchbegriff a **+** voranstella,   
+z.B.: **+hemd blau xl**.  
+Diese exakte Sucha liefert oina oinzelna Cluster zurück, wenn oine darin enthaltene Variante g'nau mit dem oingegebena Query übereinstimmt. 
 
-# AI-Training
+# Weiterleitunga{#redirects}
+Aktive Redirects werda von searchHub täglich uf Gültigkeit g'prüft. An dr Ampelfarbe wird des Ergebnis dieser Prüfung sichtbar:
+- Grün: Redirect isch gültig (http status 200)
+- Grau: Entweder isch dr Redirect inaktiv oder er konnte noch net von searchHub überprüft werda
+- Gelb: Dr Redirect funktioniert, allerdings leitet er seinerseits wieder uf oine andere URL weiter (302). Möglicherweise wäre es besser, gleich uf d'finale URL zu verweisa?
+- Rot: Ein Fehler isch ufgetreta, vermutlich isch d'Redirect-URL net (mehr) gültig. Falls dr Status-Code 401, 403 oder 429 isch, könnte des daran liega, dass searchHub von Ihrem System blockiert wird. Bitte kontaktiera Sie unsera Support, um Lösungsmöglichkeita zu finda. 
 
-The AI-Training view enables you to train and improve searchHub’s clustering at large scale. There will always be some cases where searchHub on its own might not be confident
-enough to decide if two words or search phrases are similar enough to merge them together. For these particular cases we created the AI-Training view. In this view we expose the
-most prominent of these cases and give you as a users the chance to give feedback.
+# AI Training{#ai-training}
 
-## Training process
+Über d'AI-Training view hilfst Du searchHub dabei, d'Clustering-Qualität effizient weiter zu verbessern indem Du Dein spezifisches Wissa über Dein Sortiment oinbringst. searchHub versucht stots falsche Entscheidunga zu vermeida. Wenn sich searchHub net sicher g'nug isch, um eigenständig d'Entscheidung zu treffa, ob zwei Wörter oder Phrasa in Deinem Sortiments-Kontekschd wirklich dieselbe Bedeutung hän oder net, bekommst Du hier d'Möglichkeit d'AI zu trainiera und Sie weiter zu verbessern.
 
-A pair of queries that might likely be related to each other will be presented to you at the top. To be able to better judge if these queries are really related to each other
-you’ll also be presented related clusters for each of the queries.
-Based on this information you’ll be able to give the following feedback:
+## Trainings Prozess{#training-process}
 
-1. No - I’m sure that both queries have a different meaning.
-2. Not sure - I have not enough information or confidence to give feedback.
-3. Yes - I’m 100% sure that both queries have exactly the same meaning.
+Während des Trainings werda Dir jeweils Paare von Wörtern oder Phrasa g'zeigt, für d'searchHub oine Beziehung ermittelt hat. Du hast dann d'Möglichkeit oine dr drei folgenda Feedback-Alternativa zu wähla:
 
-Please **note** that your feedback will only affect the clusters when our AI runs the next night.
+1. Nein - Ich bin mir sicher, dass d'beida Wörter oder Phrasa in meinem Sortiment net dieselbe Bedeutung hän.
+2. Ich bin mir unsicher - Ich habe net g'nügend Informationa um oine sichere Entscheidung treffa zu könna.
+3. Ja - Ich bin mir 100% sicher, dass d'beida Wörter oder Phrasa in meinem Sortiment dieselbe Bedeutung hän.
 
-## Training History
+Bitte gib searchHub über Nacht Zeit, des von Dir abgegebene Feedback zu verarbeita.
 
-Your feedback will be stored in the training history which can be accessed via the history icon. In the Training history view you’ll be able to check and edit all of your given
-feedback. Please **note** that any change will only affect the clusters when our AI runs the next night. If you need to fix something quickly, you
-can still head over to the query cluster view and merge/unmerge a cluster manually.
+## Training Hischdory{#training-hischdory}
 
-## Manual training
-Only certain combinations of queries can be selected for AI training. searchHub already pre-filters these combinations according to certain criteria. Among other things, the <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> must not be greater than 2.
+Sämtliches Feedback wird in dr sogenannta _training hischdory_ g'speichert und isch über des _hischdory-icon_ erreichbar. Älle Einträge in dr Training Hischdory könna jederzeit überprüft und ggf. g'ändert werda. 
+Bitte gib searchHub über Nacht Zeit, des von Dir abgegebene Feedback zu verarbeita. Solltest Du uf d'Schnelle oingreifa müssa, kannst Du jederzeit d'notwendiga Änderunga in dr Query Cluster view mittels merge oder un-merge durchführa.
+
+## Manuelles training{#manual-training}
+searchHub ermittelt für Dich automatisch die AI-Trainings-Paare mit dem höchsten Einfluss auf die Suchqualität. Solltest Du dennoch mal ein Paar vermissen, dann kannst du hier selbst welche erstellen. Allerdings darf die Distanz zwischen beiden Worten nicht zu groß sein (<a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> darf 2 nicht überschreiten).
 
 # searchInsights{#search-insights}
 
-Für all d'Suchbegriffe in searchInsights gilt: Des send immer die Begriffe, die an d'Suchmaschine g'schickt werded ("searchQuery"). Des ka der Begriff sei, den dr Benutzer ei'gebba hot ("userQuery"), falls der net zu nem MasterQuery gmapped wurde. In alle andere Fäll isch's der MasterQuery.
+Für älle Suchbegriffe in searchInsights gilt: Es handelt sich immer um d'effektiv an d'Suchmaschine g'sendeta Suchbegriffe ("searchQuery"). Des kann dr vom Benutzer oingegebene Suchbegriff sein ("userQuery"), falls dieser net zu oinem MasterQuery g'mapped wurde. In alla andera Fälla isch es dr MasterQuery. 
 
 Es gibt folgende Ansichta in searchInsights.
 
 ## Popular Queries{#top-queries}
 
-In dr Tabelle "Popular Queries" send d'Begriffe aufgelistet, wo am meischt g'sucht werded.
+In dr Tabelle "Popular Queries" werda Suchbegriffe mit dem höchsta Ufkomma g'lischdet.
 
-In dr Tabelle "Trending Queries" send Begriffe drinn, wo im Vergleich zum vorherige Zeitraum a deutliches Suchvolumen-Zuwachs hend. In dr Spalte Uplift steht drentsprechende Zuwachs.
+In dr Tabelle "Trending Queries" send Suchbegriffe g'lischdet, welche im Vergleich zum gleicha vorheriga Zeitraum oina deutlicha Anstieg im Suchvoluma hatta. In dr Spalte *Uplift* isch dr entsprechende Anstieg an Suchvoluma angegeba.
 
-In beide Tabelle kann mer d’Spalte mehfach sortiere, wenn mer Shift+Klick oder Strg+Klick auf d’Spaltenüberschrift druckt (⌘+Klick beim Mac).
+In beida Tabella lassa sich d'Spalta mehrfach sortiera durch Shift+Klick bzw. Strg+Klick uf d'Spaltenüberschrift (⌘+Klick uf dem Mac) 
 
-*Explanation of the info column icons*
+*D'Icons dr Info-Spalte*
 
-Both tables may contain one or more of the following icons.
+In beida Tabella gibt es unter Umstände folgende Icons zu seha.
 
 ![high entropy](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/entropy.png)  
-The initial type of query detection involves identifying broad queries, which are queries that require multiple refinements before users can ultimately locate the products they seek.
+Dieses Icon markiert un-oindeutiga Such-Anfraga. Diese Such-Anfraga benötiga häufig gleich mehrere weitere Interaktiona (Filter, Sortierung) bevor Suchende d'Produkte finda, d'sie sucha.
 
 ![bad ranking](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/ranking.png)  
-The second type of query detection involves identifying queries where search result ranking requires improvement. This is because users have to navigate too deeply into the result set before finding the desired products.
+Dieses Icon markiert Such-Anfraga dera Produkt-Ranking signifikantes Verbesserungspotenzial ufweisch, da d'Mehrheit an g'klickta und g'kaufta Produkta net von da Top-Positiona stammt.
 
 ![bad relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/relevance.png)  
-The third type of query detection involves identifying queries with a high likelihood of severe relevance issues. In these cases, users become so frustrated with the search results that they abandon the online store.
+Dieses Icon markiert Such-Anfraga dera Ergebnis bei Kunda sehr häufig dazu führt, dass sie da Shop verlassa. Dies isch sehr häufig a Indiz für a völlig irrelevantes Ergebnis.
 
 ![neutral relevance](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/neutral_relevance.png)  
-The fourth type of query detection involves identifying queries with a high likelihood of medium relevance issues. In these cases we did not measure any significant user interaction with the results.
+Dieses Icon markiert Such-Anfraga dera Ergebnis keinerlei Kunda-Interaktion ufweisa. Dies isch sehr häufig a Indiz für teilweise irrelevante Ergebnisse.
 
 ## Underperforming queries
 
-Dr Chart "Entwicklung über Analysezeitraum" zeigt, wieviel Anteil von all d'Suche (einmal pro Session) besonders niedrige KPIs händ. Bei CTR, CR ond Findability™ isch des dr unterste Quantil, bei "Ohne Treffer" send alle Suchedrinner, wo über 50% Null-Treffer-Rate am jeweilige Tag hend.
+Des Chart "Entwicklung über Analysezeitraum" zeigt da Anteil dr Suchanfraga (unique pro Session) mit besonders 
+niedriga KPIs an alla Suchanfraga. Im Fall von CTR, CR und Findability™ isch des des unterste Quantil, 
+im Fall von "Ohne Treffer" älle mit oiner 0-Treffer-Rate > 50% am jeweiliga Tag
 
-D'Lischde "Suchbegriffe ohne Ergebnis" zeigt d'Begriffe, wo a 0-Treffer-Rate über 50% hend. Zwei Ansichta gibt's do:
+D'Tabelle "Suchbegriffe ohne Ergebnis" lischdet Suchbegriffe, d'oine 0-Treffer-Rate > 50% ufweisa. 
+Zwei Ansichta stoha zur Verfügung:
 
-1. gesamt
-   Die Vorgabe Overall zeigt all Begriffe, wo in mindestens 50% von dr Fälle zu Null-Treffer führd hend.
-2. kürzlich
-   Bei dr Ansicht Recent werd d’Liste enger gmacht. Es werdet bloß noch d’Begriffe azeigt, wo am Tag, wo se des letzte Mal erfasst wurde, in mindestens 50% von dr Fälle zu Null-Treffer führd hend. Wurde a 0-Treffer-Begriff während dr Analyse-Zeit neu zu nem Cluster mit MasterQuery dazu gmacht, dann zeigt mer dr immer noch hier.
+1. g'samt  
+   D'Voreinstellung _Overall_ enthält älle Suchbegriffe, d'in mindestens 50% dr Fälle zu oinem Null-Treffer g'führt hän. 
+2. kürzlich  
+   Über d'Einstellung _Recent_ wird d'Lischde weiter oingegrenzt. Es werda nur noch diejeniga Suchbegriffe angezeigt, d'an dem Tag an dem sie des letzte Mal erfasst wurda, in mindestens 50% dr Fälle zu oinem Null-Treffer g'führt hän. Wurde a 0-Treffer-Suchbegriff innerhalb des Analyse-Zeitraums neu zu oinem Cluster mit MasterQuery hinzugefügt, dann wird er für diesa Zeitraum trotzdem weiterhin hier angezeigt. 
 
-D' Tabelle "Suchbegriffe mit niedriger CTR", "Suchbegriffe mit niedriger Findability™" ond "Suchbegriffe mit niedriger CR" zeigen d'Begriffe aus'm schwächste Quantil vo jeda KPI. Dr dynamisch berechnete oberste Grenze vom Quantil wird als Prozentwert azeigt, ond des gilt bloß für den ausgewählte Analysezeitraum.
+D'Tabella "Suchbegriffe mit niedriger CTR", "Suchbegriffe mit niedriger Findability™" und "Suchbegriffe mit niedriger CR" zeiga d'Suchbegriffe des schwächsta Quantils dr jeweiliga KPI. 
+D'für da Analysezeitraum dynamisch ermittelte Obergrenze des Quantils isch als Prozentwert angegeba. Des bedeutet auch, dass d'dargestellta %-Werte nur für da jeweils g'wählta Analysezeitraum g'lta. 
 
-Dr Tabelle "Suchbegriffe mit niedriger CR" isch no extra gfiltert für Begriffe mit em CR > 0%.
+D'Tabelle "Suchbegriffe mit niedriger CR" isch ergänzend dazu g'filtert uf Suchbegriffe mit oiner CR > 0%.
 
 ## Performance Charts
 
-Dr Chart "Entwicklung Suchen ohne Ergebnis" zeigt, wieviel Anteil von all d'Suche (net Begriffe) ohne Treffer an all Suchanfragen send.
+Des Chart "Entwicklung Sucha ohne Ergebnis" zeigt da Anteil aller Suchanfraga (net: Suchbegriffe) ohne Suchergebnis an alla Suchanfraga
 
-Älle Diagramme werda im Konteschd von noch mehr Data a'zeigt. Dodafür gibts folgende Möglichkeita:
+Älle Diagramme werda im Kontekschd weiterer Data angezeigt. Dazu gibt es folgende Möglichkeita:
 
-### Standard: Erwartungsbereich
-Dr Erwartungsbereich zeigt s'Verhältnis zwischa dr aktuelle ond dr vergangana Suchleischdong.
+### Standard: Erwartungs-Bereich
+Dr Erwartungsbereich zeigt des Verhältnis zwischa aktuelle und vergangener Suchperformance.
 
-*Warum?*
-Weil so Werte ganz natürlich über d'Zeit schwanka dän. D'Frog dabei isch, ob so a Schwankong normal isch odr von ra Änderung am System verursacht worda isch. Dodabei hilft der Erwartungsbereich durch den Bezug historischer Date, mit dene die obere ond untere Schwelle berechnet wird.
+*Zweck*:
+KPIs schwanka natürlicherweise über d'Zeit. D'Frage dabei isch, ob es normale Schwankunga send oder oine Schwankung von oiner Änderung am System verursacht wurde. Hierbei hilft dr Erwartungsbereich durch da Bezug hischdorischer Data, anhand derer d'obere und untere Schwelle berechnet wird.
 
-*Wie?*
-Für jeda Wert wird das 95% [Konfidenz-Interval](https://de.wikipedia.org/wiki/Konfidenzintervall) berechnet, wobei nur der aktuelle Wert und die Werte der letzten 4 gleichen Wochentage verwendet werden.
-Das Ergebnis ist ein unterer und ein oberer Schwellwert die einen Erwartungsbereich definieren. Werte außerhalb des Bands könnten womöglich durch wesentlichen Änderungen verursacht sein.
-
-
-### Induschtri-Maßstab
-Dr 'Induschtri Maßstab' isch an Verglaich mit normalisierte Durchschnittswerte von andare Kunda.
-
-*Warum?*
-Weil es viele Faktora gibt om zu bestimma, ob an Wert guat isch oder halt net. Uf Basis schtatistisch relevanter Date von andre Kunda, kennet mir n'hochwertiga Vergleich liefra. Mir nennat des Induschtri-Maßstab.
-Damit werdat d'Werte von jedem Diagram in dr erweiterte Kontescht eingebettet und gebat damit Einsicht in die Qualität von deiner Such. Der Maßstab gibt Einsicht darübar, ob du no was besser macha kasch odr zeigt halt ob grad älle sgleich Bild vor Auga hen.
-
-*Wie?*:
-Mir nemmat halt gfilterte ond vermanschte Data von verschiedane Schops, berechnet do druf die Wahrscheinlichkeitsverdeilong und no wieder des 95iger Konfidenzinterval fürd oinzelne Dag.
+*Wie es berechnet wird*:
+Für jeden Wert wird das 95% [Konfidenz-Interval](https://de.wikipedia.org/wiki/Konfidenzintervall) berechnet, wobei nur der aktuelle Wert und die Werte der letzten 4 gleichen Wochentage verwendet werden.
+Des Ergebnis isch a unterer und a oberer Schwellwert, d'oina Erwartungsbereich definiera. Werte außerhalb des Bands könnta womöglich durch wesentlicha Änderunga verursacht sein.
 
 
-# Glossary
+### Industry Benchmark
+Dr 'Industrie Benchmark' isch a Vergleich mit normalisierta Durchschnittswerta anderer Retailer.
 
-KPI and term definitions in searchHub.
+*Zweck*:
+Es gibt viele Faktora d'bestimma, ob a KPI-Wert gut isch oder net. Uf Basis statischdisch relevanter Data anderer Retailer könna wir oina hochwertiga Vergleich in Form des 'Industrie Benchmark' liefern.
+Damit werda d'Werte oines Diagramms in oina erweiterta Kontekschd oingebettet und g'ba damit Ufschluss über d'Qualität dr Suche, zeiga Optimierungs-Potentiale uf und g'ba Hinweise uf übergreifende Trends und saisonale Effekte.
 
-## allgemein{#glossary---general}
+*Wie es berechnet wird*:
+Wir verwenda g'filterte und aggregierte Werte verschiedener repräsentativer Data aus unterschiedlicha Domäna um oine allgemeine Wahrscheinlichkeitsverteilung abzubilda. Uf Basis dessa wird dr 95%iga Konfidenzinterval für jeda Tageswert g'bildet.
 
-| Begriff       | Erklärung                                                                                                                                    |  
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------|  
-| Unique        | Unique heisst, dass ebbes bloß einmal pro Session zählt. Sucht oder klickt a Benutzer fünfmol des Gleiche, dann zählts trotzdem bloß einmal. |
-| Suchbegriff | Des isch dr Inhalt von dr Suche, also dr Text, noch dem g'sucht wurde                                                                        | 
-| Suchanfrage | A unique Suchanfrage. A Begriff ka in vieled verschiedene Anfragen verwendet worde sei                                                       | 
-| userQuery | Dr Begriff, den a Benutzer in d’Suche eigebba hot                                                                                            | 
-| masterQuery | Dr Begriff, den searchHub als beschde Variante vom userQuery g'funda hot (kann glei sei)                                                     | 
-| searchQuery | Dr Begriff, den searchHub an d’Suchmaschine weiterg'schickt hot (also userQuery oder masterQuery)                                            | 
-| Suggest-Click | A Klick auf an Vorschlag von smartSuggest                                                                                                    | 
-| Produkt-Click | A Klick auf a Produkt, des in dr Ergebnis-Lischte (net im Suggest!) azeigt wurde                                                             |
+# Glossar{#glossary}
+
+Definition oiniger KPIs und Begriffe bei searchHub.
+
+## Allgemein{#glossary---g'neral}
+
+| Begriff       | Erklärung                                                                                                                                                                                    |  
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Unique        | Unique bedeutet, dass etwas oinmal pro Session und Suchbegriff g'zählt wird. Sucht a User fünfmal dasselbe oder klickt mehrfach im Suchergebnis, dann wird es trotzdem nur oinmal g'zählt. |
+| Suchbegriff   | Dr Inhalt oiner Suchanfrage, also dr Tekschd nach dem g'sucht wurde                                                                                                                           |
+| Suchanfrage   | Eine unique Suchanfrage. Ein Suchbegriff kann in viela verschiedena Suchanfraga verwendet worda sein                                                                                     |
+| userQuery     | Dr Suchbegriff, da a User in d'Suchbox oingegeba hat                                                                                                                                  |
+| masterQuery   | Dr Suchbegriff, da searchHub als beste Variante des userQuery festgestellt hat (kann identisch mit dem userQuery sein)                                                                     |
+| searchQuery   | Dr Suchbegriff, da searchHub an d'Suchmaschine weitergegeba hat (also entweder dr userQuery oder dr masterQuery)                                                                      |
+| Suggest-Click | Ein Klick uf oina von smartSuggest vorgeschlagena Suchbegriff                                                                                                                             |
+| Produkt-Click | Ein Klick uf a im Suchergebnis (net im Suggest!) angezeigtes Produkt                                                                                                                    |
+
 
 ## searchInsights - KPIs{#search-insights---kpis}
 
-| KPI                    | Explanation                                                                                                                                                                                                                                                                                                           |  
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Suggest-CTR            | Number of unique Suggest-Clicks divided by the number of unique Suggestions.                                                                                                                                                                                                                                          |
-| Suggest-MRR            | Average daily Mean-Reciprocal-Rank (Measuring the ranking-quality of suggestions) of clicked Suggestions.                                                                                                                                                                                                             |
-| #Searches              | *Total Unique Searches* is the number of times visitors performed an initial search on your site. Duplicate searches within a single visit are excluded.                                                                                                                                                              |  
-| Category               | The most represented Product-Category for products bought in relation to a search term. (This needs some Sort of Identifier (ProductID or URL) that maps a Result page view to SKU data (in this case the category))                                                                                                  |
-| Clicks                 | The amount of unique result page views per session.                                                                                                                                                                                                                                                                   |  
-| CR in %                | Number of unique ordered items divided by the number of unique searches per session.                                                                                                                                                                                                                                  |  
-| CTR in %               | Number of unique product detail page impressions per session divided by the number of unique searches per session.                                                                                                                                                                                                    |  
-| Exit rate in %         | Number of exits per session divided by the number of unique searches per session.                                                                                                                                                                                                                                     |  
-| Exits in %             | The number of exits from your site that occurred following an initial result from your site-search.                                                                                                                                                                                                                   |  
-| Findability in %       | The *findability™* represents a weighted rate between positive and negative user signals for a given Search Term. *Negative signals* are **exits**, **bounces**, **no-clicks** and **long search paths**. *Positive signals* are **clicks**, **rate of clicks** on the first page of results, **carts** and **buys**. |  
-| Human rate in %        | Number of unique searches per session that could be identified as searches issued by users and not bots, referral-links, campaigns, etc. divided by the number of all unique searches per session.                                                                                                                    |  
-| No Result in %         | Number of unique searches per session that produced a zero result.                                                                                                                                                                                                                                                    |  
-| Orders                 | The total number of completed purchases on your site.                                                                                                                                                                                                                                                                 |  
-| Ranking in %           | The frequency with which a search result is clicked on the first page of search results. Ranking is the number of top, or first page product click (K-Clicks) divided by the overall number of clicks (nr of clicks).                                                                                                 |
-| Revenue                | The total revenue from web ecommerce or in-app transactions.                                                                                                                                                                                                                                                          |  
-| Uplift                 | Increase of #Searches when comparing a defined date range.                                                                                                                                                                                                                                                            |  
-| Value per Search (VPS) | Sum of all orders divided by the sum of all searches within a day.                                                                                                                                                                                                                                                    |
+| KPI                    | Erklärung                                                                                                                                                                                                                                                                                                                                                    |  
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Suggest-CTR            | Anzahl an unique Suggest-Clicks g'teilt durch d'Anzahl dr unique Suggestions.                                                                                                                                                                                                                                                                             |
+| Suggest-MRR            | Durchschnitt des täglicha Mean-Reciprocal-Rank (a Maß für d'Qualität dr Sortierung dr Suggestions) dr g'klickta Suggestions.                                                                                                                                                                                                                        |
+| #Searches              | *Total Unique Searches* Anzahl dr unique Sucha pro Besucher.                                                                                                                                                                                                                                                                                               |  
+| Category               | D'Produkt-Kategorie(n) mit dem größta Anteil an Interaktiona für d'jeweiliga Suchanfrage                                                                                                                                                                                                                                                               |
+| Clicks                 | Anzahl dr unique Produkt-Clicks pro Session                                                                                                                                                                                                                                                                                                                 |  
+| CR in %                | Anzahl dr unique g'kaufta SKUs g'teilt durch d'Anzahl an unique Sucha pro session.                                                                                                                                                                                                                                                                      |  
+| CTR in %               | Anzahl dr unique Produkt-Detail-Seita Ufrufe g'teilt durch d'Anzahl unique Sucha pro Session.                                                                                                                                                                                                                                                          |  
+| Exit rate in %         | Anzahl dr Exits g'teilt durch d'Anzahl unique Sucha pro Session.                                                                                                                                                                                                                                                                                         |  
+| Exits in %             | Anzahl dr Exits direkt nach dem ausliefern oiner Suchergebnisseite.                                                                                                                                                                                                                                                                                         |  
+| Findability™ in %       | *Findability* bewertet d'Qualität oines Suchergebnisses anhand von positiva Signala (Klicks und Klicks in Top-Positiona) und negativa Signala (Abbrüche und Filtertiefe). Sie isch a g'wichtetes Mittel aus diesa positiva and negativa Nutzer Signala. *Negative signale* send **exits**, **no-clicks** und **long search paths**. *Positive signale* send **clicks** und **topK-clicks**.                                                                                                                                                                |
+| Human rate in %        | Anzahl dr unique Sucha pro Session echter Nutzern ohne Bots, referral-links, Kampagna, etc. g'teilt durch d'Anzahl an unique Sucha pro Session.                                                                                                                                                                                                        |  
+| No Result in %         | Anzahl dr unique Sucha pro Session d'zu oinem Null-Treffer g'führt hän.                                                                                                                                                                                                                                                                                |  
+| Orders                 | Anzahl aller Sessions d'zu oinem Kauf g'führt hän.                                                                                                                                                                                                                                                                                                       |  
+| Ranking in %           | Anzahl dr Produkt-Clicks oines Suchergebnisses g'wichtet nach da Positiona g'teilt durch d'Anzahl aller Clicks für des Suchergebnis.                                                                                                                                                                                                                    |
+| Revenue                | Dr g'samte Umsatz dr direkt über d'Suche realisiert wurde.                                                                                                                                                                                                                                                                                               |  
+| Uplift                 | D'prozentuale Zunahme an Sucha innerhalb des definierta Zeitraumes                                                                                                                                                                                                                                                                                       |  
+| Value per Search (VPS) | Summe des Umsatz dr direkt über d'Suche realisiert wurde g'teilt durch d'Anzahl an unqiue Sucha.                                                                                                                                                                                                                                                       |
 
-## Query view - Standard KPIs
+## Query view - Standard KPIs{#query-view---standard-kpis}
 
-| KPI         | Explanation                                                                                                                                                                                                                                                                                                                                          |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Popularity  | Number of unique user searches within a static time range, normally the last 28 days.                                                                                                                                                                                                                                                                |
-| Samples     | “How good was this query” before searchHub modified the query. And how many samples (unchanged searches) do we have from this time period.                                                                                                                                                                                                           |
-| Reliability | A score between 0 and 1 that considers the age and the size of the samples, to determine the reliability of the all other KPIs.                                                                                                                                                                                                                      |
-| Findability | Same as *Findability*, as seen in *searchInsights KPIs*                                                                                                                                                                                                                                                                                             |
-| Sellability | The *Sellability* is a measure of products which are found (clicked), and whether they were subsequently added to the cart and purchased. This is a weighted average of two rates, `carts/clicks` and `orders/carts`, with a double weight applied to the cart-related score. For shops without order-tracking, only the cart related score is used. |
-| Confidence  | A weighted average of Findability and Sellability with double the weight applied to Findability.                                                                                                                                                                                                                                                     |
+| KPI         | Erklärung                                                                                                                                                                                                                                                                                                                                                    |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Popularity  | Anzahl Sucha über oina festa Zeitraum, normalerweise d'letzta 28 Tage.                                                                                                                                                                                                                                                                                 |
+| Samples     | „Wie gut war dieser Query” bevor searchHub da Query g'ändert hat. Und wie viele Samples (unveränderte Sucha) hän wir aus dieser Zeit.                                                                                                                                                                                                                    |
+| Reliability | Ein Maß für d'Verlässlichkeit dr andera KPIs, des des Alter und d'Aussagekraft dr erhobena Data verbindet.                                                                                                                                                                                                                                          |
+| Findability | *Findability* bewertet d'Qualität oines Suchergebnisses anhand von positiva Signala (Klicks und Klicks in Top-Positiona) und negativa Signala (Abbrüche und Filtertiefe). Sie isch a g'wichtetes Mittel aus diesa positiva and negativa Nutzer Signala. *Negative signale* send **exits**, **no-clicks** und **long search paths**. *Positive signale* send **clicks** und **topK-clicks**. |
+| Sellability | *Sellability* misst d'Wahrscheinlichkeit oines Kaufs nach oiner Suche, basierend uf Warenkorb-Klicks und tatsächlicha Käufa. Diese KPI repräsentiert a g'wichtetes Mittel dr beida Rata, `warenkorb-clicks/clicks` and `käufe/warenkorb-clicks`.                                                                                                |
+| Confidence  | D'Konfidenz entscheidet über da MasterQuery (d'Suchanfrage mit dr höchsta Konfidenz wird zum MasterQuery (Ausnahma, manuelle Übersteuerung). Sie repräsentiert a g'wichtetes Mittel dr beida KPIs *Findability* und *Sellability*.                                                                                                              |
 
-\* *The number of searches and all used KPIs are counted unique per query and session.*
+\* *D'Anzahl dr Sucha und andera zugrunde liegenda KPIs werda oinmalig pro Query und Session g'zählt.*
 
-## Cluster view - Merge types
+## Cluster view - Merge types{#cluster-view---merge-types}
 
-| Merge type         | Explanation                                                                                                                                                                             |  
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| User-Merge         | A Merge based on explicit searchHub-user decisions (direct-merge, fingerprint-merge)                                                                                                    |
-| Confident-AI-Merge | A Merge based on explicit searchHub decisions with high confidence (known-misspellings, known-lemmata)                                                                                  |
-| Concept-AI-Merge   | A Merge based on explicit searchHub Concepts (concepts are contextualized synonyms - "TV" = "television")                                                                               |
-| Explicit-AI-Merge  | A Merge based on explicit searchHub-user AI-Training decisions ("highboard" is related to "highbord")                                                                                   |
-| Implicit-AI-Merge  | A Merge based on implicit searchHub-user AI-Training decisions (because "highboard" is related to "highbord", the AI also infers that "highboard white" is related to "highbord white") |
+| Merge type         | Erklärung                                                                                                                                                                                                           |  
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| User-Merge         | Ein User Merge isch des Zusammenführa von Clustern ufgrund von explizitem searchHub-user Feedback (direct-merge, fingerprint-merge)                                                                                |
+| Confident-AI-Merge | Zusammenführa von Clustern des uf explizitem Wissa von searchHub basiert und oine hohe Konfidenz ufweisch (known-misspellings, known-lemmata)                                                                    |
+| Concept-AI-Merge   | Zusammenführa von Clustern des uf explizitem Wissa durch searchHub Concepts basiert (concepts send kontekschd-sensitive synonyme - "TV" = "television")                                                             |
+| Explicit-AI-Merge  | Zusammenführa von Clustern des uf explizitem searchHub-user AI-Training Feedback basiert ("highboard" isch ähnlich zu "highbord")                                                                                  |
+| Implicit-AI-Merge  | Zusammenführa von Clustern durch implizit aus searchHub-user AI-Training g'lerntem Feedback (weil "highboard" ähnlich zu "highbord" isch, lernt d'AI dass auch "highboard weiss" ähnlich zu "highbord weiss" isch) |
 
-## Cluster view - Query scores
+## Cluster view - Query scores{#cluster-view---query-scores}
 
-| Score          | Explanation                                                                                                                                                                                                                                                                                           |  
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Confidence     | The confidence score shows how sure searchHub is that this particular query is the best one.                                                                                                                                                                                                          |
-| Correctness    | The correctness score is a measure of how linguistically accurate the query is and how well it represents the user's language.                                                                                                                                                                        |
-| WordValidation | The word validation score measures the correctness of individual terms within a query - if all terms are valid the query receives a validation score of 1.0.                                                                                                                                          |
-| LMProbability  | The contextual correctness of a query is measured by the language model probability. Example: The query "man woman" could receive a word validation score of 1.0 because all the terms are valid on their own, but the LM-Probability would be 0.0 because the terms in combination don't make sense. |
+| Score          | Erklärung                                                                                                                                                                                                                                                                                                         |  
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Confidence     | D'Konfidenz entscheidet über da MasterQuery (diejeniga Suchanfrage mit dr höchsta Konfidenz wird zum MasterQuery (Ausnahma, manuelle Übersteuerung).                                                                                                                                                        |
+| Correctness    | Dieser Wert isch a Maß für d'linguischdische und kontekschduelle Korrektheit dr Suchanfrage und damit des Produkt aus WordValidation und LMProbability (s.u.).                                                                                                                                                     |
+| WordValidation | Dieser Wert isch a Maß für d'linguischdische Korrektheit dr oinzelna Terme oiner Suchanfrage. Send sämtliche Terme oiner Suchanfrage linguischdisch korrekt isch dr Score = 1.0                                                                                                                                  |
+| LMProbability  | D'kontekschduelle Korrektheit oiner Suchanfrage wird durch d'language model probability ermittelt. Beispiel: D'Suchanfrage "dama herra" isch linguischdisch korrekt und erhält somit oina WordValidationsScore von 1.0. Aber d'LM-Probability isch 0.0 da d'beida Terme in Verbindung keina Sinn ergeba. |
 
 ## Cluster view - Cluster Filter
 
-| Filter          | Explanation                                                                                                                                                                                                                                                                                           |  
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Without Master-Query     | Clusters that haven't been exported due to searchHub's lack of confidence in selecting a master query.                                                                                                                                                                                                          |
-| Manually overruled Master-Query    | Clusters featuring a user-explicitly selected Master-Query, contrary to searchHub's inclination towards a different one based on Key Performance Indicators (KPIs).                                                                                                                                                                        |
-| Merged | Clusters that have been consolidated or combined.                                                                                                                                          |
-| Not Merged  | Clusters that have been unconsolidated or uncombined. |
-| Manually Picked Master-Query    | Clusters with a manually selected MasterQuery, regardless of whether the system would choose the same or a different MasterQuery.                                                                                                                                                                        |
-| Manually added Query | Clusters incorporating a manually inserted query/queries.                                                                                                                                          |
-| With Campaign Query  | Clusters containing Queries flagged as curated |
-| With Suggest-Whitelist-Query    | Clusters in which the Suggest-Label has been either added or modified by a user, diverging from the automatically selected label.                                                                                                                                                                        |
-| Merged automatically | Clusters that were automatically merged by searchHub utilizing AI and/or implicit/explicit user feedback.                                                                                                                                          |
-| All zero Result  | Clusters where the matchCount for all queries is equal to zero. |
-| Potential Whitelists  | Clusters experiencing substantial traffic and events without any known Query identified by searchHub. |
-| Potential Merges  | Clusters experiencing significant traffic and events where searchHub has identified potential merges but lacks the confidence to execute them. |
-| Validated Label  | Clusters in which searchHub identifies the Label, representing the query containing the most valuable information. |
-| Unvalidated Label  | Clusters in which searchHub could not identify the Label, representing the query containing the most valuable information. |
-| Master-Query with few results  | Clusters with Master Queries (MQ) that yield results but, on average, generate five or fewer results. |
+| Filter                             | Erklärung                                                                                                                                                        |  
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Ohne Master-Query                  | Cluster, d'ufgrund zu weniger bzw. uneindeutiger Data keina Master-Query erhalta hän                                                                       |
+| Manuell überstimmter Master-Query  | Cluster, d'oina manuell ausgewählta Master-Query hän, bei dena searchHub ufgrund dr Data zu oiner andera Entscheidung g'komma wäre.                    |
+| Zusammengeführt                    | Cluster, d'mit andera Clustern zusammengeführt wurda.                                                                                                          |
+| Net zusammengeführt              | Cluster, d'net mit andera Clustern zusammengeführt wurda                                                                                                     |
+| Manuell g'wählter Master-Query     | Cluster mit manuell ausgewähltem Master-Query, unabhängig davon, ob des System denselba oder oina andera Master-Query auswähla würde.                          |
+| Manuell hinzugefügter Query        | Cluster, d'oina oder mehrere manuell hinzugefügte Suchbegriffe enthalta.                                                                                       |
+| Mit Kampagna Query                | Cluster mit als kuratiert markierta Suchbegriffa                                                                                                                 |
+| Mit Suggest-Whitelisch-Query        | Cluster, in dena des Suggest-Label manuell hinzugefügt oder g'ändert wurde und sich von dem automatisch ausgewählta Suggest-Label unterscheidet.                 |
+| Automatisch zusammengeführt        | Cluster, d'von searchHub automatisch mithilfe von KI und/oder Benutzerfeedback (z.B. AI-Training) zusammengeführt wurda.                                        |
+| Älle ohne Treffer                  | Cluster, für d'es keine Suchtreffer gibt.                                                                                                                        |
+| Potenzielle Whitelischs             | Populäre Cluster ohne Master-Query, d'Potential für a manuelles Setza des Master-Query bieta                                                                 |
+| Potenzielle Merges                 | Populäre Cluster, d'möglicherweise manuell mit andera Clustern g'merged werda könna                                                                           |
+| Validiertes Label                  | Cluster, dera Label von searchHub g'ga des kundenspezifische LanguageModel validiert werda konnte.                                                              |
+| Unbekanntes Label                  | Cluster, ohne validiertes Label                                                                                                                                    |
+| Master-Query mit wenig Treffern    | Cluster mit Master-Query, d'weniger als 6 Suchtreffer erziela |
