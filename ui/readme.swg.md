@@ -184,6 +184,30 @@ Dr Tabelle "Suchbegriffe mit niedriger CR" isch no extra gfiltert für Begriffe 
 
 Dr Chart "Entwicklung Suchen ohne Ergebnis" zeigt, wieviel Anteil von all d'Suche (net Begriffe) ohne Treffer an all Suchanfragen send.
 
+Älle Diagramme werda im Konteschd von noch mehr Data a'zeigt. Dodafür gibts folgende Möglichkeita:
+
+### Standard: Erwartungsbereich
+Dr Erwartungsbereich zeigt s'Verhältnis zwischa dr aktuelle ond dr vergangana Suchleischdong.
+
+*Warum?*
+Weil so Werte ganz natürlich über d'Zeit schwanka dän. D'Frog dabei isch, ob so a Schwankong normal isch odr von ra Änderung am System verursacht worda isch. Dodabei hilft der Erwartungsbereich durch den Bezug historischer Date, mit dene die obere ond untere Schwelle berechnet wird.
+
+*Wie?*
+Für jeda Wert wird das 95% [Konfidenz-Interval](https://de.wikipedia.org/wiki/Konfidenzintervall) berechnet, wobei nur der aktuelle Wert und die Werte der letzten 4 gleichen Wochentage verwendet werden.
+Das Ergebnis ist ein unterer und ein oberer Schwellwert die einen Erwartungsbereich definieren. Werte außerhalb des Bands könnten womöglich durch wesentlichen Änderungen verursacht sein.
+
+
+### Induschtri-Maßstab
+Dr 'Induschtri Maßstab' isch an Verglaich mit normalisierte Durchschnittswerte von andare Kunda.
+
+*Warum?*
+Weil es viele Faktora gibt om zu bestimma, ob an Wert guat isch oder halt net. Uf Basis schtatistisch relevanter Date von andre Kunda, kennet mir n'hochwertiga Vergleich liefra. Mir nennat des Induschtri-Maßstab.
+Damit werdat d'Werte von jedem Diagram in dr erweiterte Kontescht eingebettet und gebat damit Einsicht in die Qualität von deiner Such. Der Maßstab gibt Einsicht darübar, ob du no was besser macha kasch odr zeigt halt ob grad älle sgleich Bild vor Auga hen.
+
+*Wie?*:
+Mir nemmat halt gfilterte ond vermanschte Data von verschiedane Schops, berechnet do druf die Wahrscheinlichkeitsverdeilong und no wieder des 95iger Konfidenzinterval fürd oinzelne Dag.
+
+
 # Glossary
 
 KPI and term definitions in searchHub.
