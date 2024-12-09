@@ -198,11 +198,13 @@ Grâce à celui-ci, les KPI de recherche sont placés dans un contexte plus larg
 *Comment il est calculé*:
 Nous utilisons des données agrégées et filtrées provenant d'un échantillon diversifié de détaillants et de divers domaines (le benchmark), pour déduire une distribution de probabilité commune. Sur la base de cette distribution, un intervalle de confiance de 95 % est calculé pour chaque valeur quotidienne.
 
+
 ### Remarques
 
 Il existe deux sources pour les remarques :
 1. Système : Générées par le système searchHub pour fournir des indications sur les modifications effectuées par le système.
 2. Personnalisées : Créées manuellement, elles permettent de consigner des informations sur des événements spécifiques ou de marquer des zones à des fins de documentation.
+
 ![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
 
 # Glossaire{#glossary}

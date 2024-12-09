@@ -199,10 +199,12 @@ Damit werden die Werte eines Diagramms in einen erweiterten Kontext eingebettet 
 *Wie es berechnet wird*:
 Wir verwenden gefilterte und aggregierte Werte verschiedener repräsentativer Daten aus unterschiedlichen Domänen um eine allgemeine Wahrscheinlichkeitsverteilung abzubilden. Auf Basis dessen wird der 95%ige Konfidenzinterval für jeden Tageswert gebildet.
 
+
 ### Anmerkungen
 Es gibt zwei Quellen für Anmerkungen:
 1. Systemseitig: Generiert vom searchHub System, um Hinweise auf systemseitige Änderungen zu geben.
 2. Benutzerdefiniert: Manuell erstellt, damit kannst du Informationen über spezifische Ereignisse hinterlegen oder Bereiche zu Dokumentationszwecken markieren.
+
 ![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
 
 # Glossar{#glossary}
