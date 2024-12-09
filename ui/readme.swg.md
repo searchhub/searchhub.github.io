@@ -199,6 +199,12 @@ Damit werda d'Werte oines Diagramms in oina erweiterta Kontekschd oingebettet un
 *Wie es berechnet wird*:
 Wir verwenda g'filterte und aggregierte Werte verschiedener repräsentativer Data aus unterschiedlicha Domäna um oine allgemeine Wahrscheinlichkeitsverteilung abzubilda. Uf Basis dessa wird dr 95%iga Konfidenzinterval für jeda Tageswert g'bildet.
 
+### Aamerkunga
+Es gibt zwoierlei Aamerkunga:
+1. Sischtdeem: Vom searchHub-Sischdeem gmachd, damit's woisch.
+2. Selber gmachd: Händisch gmachd, damit kannsch Informatione über bestimmde Sacha hintrelega oder Bereiche markiera ("Kehrwoch ned rechd gmachd, deswäge nix verkaufd" oder so ebbes)
+![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
+
 # Glossar{#glossary}
 
 Definition oiniger KPIs und Begriffe bei searchHub.
