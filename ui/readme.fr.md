@@ -207,6 +207,17 @@ Il existe deux sources pour les remarques :
 
 ![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
 
+## Queries by Category{#category-performance}
+Ce treemap classe les requêtes les plus recherchées dans votre taxonomie produit.
+- Chaque bloc = une catégorie spécifique
+- Taille du bloc = part du total des recherches ayant mené à des interactions dans cette catégorie durant la période sélectionnée.
+- Couleur du bloc = regroupe les requêtes par catégorie parente.
+
+Pourquoi l’utiliser ?
+- **Identifier les points chauds de la demande**. Les grands rectangles révèlent des requêtes à fort volume et à forte intention – à mettre en avant !
+- **Comparer les catégories d’un coup d’œil**. Le treemap vous montre instantanément les parties du catalogue qui attirent le plus de trafic.
+- **Détecter les lacunes de contenu**. Des blocs minuscules ou absents peuvent indiquer des catégories peu desservies ou des synonymes manquants.
+
 # Glossaire{#glossary}
 
 Définition de quelques KPI et termes utilisés par searchHub.
