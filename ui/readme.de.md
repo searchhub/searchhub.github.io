@@ -209,14 +209,14 @@ Es gibt zwei Quellen für Anmerkungen:
 
 ## Queries by Category{#category-performance}
 Diese Treemap zeigt die meistgesuchten Begriffe innerhalb deiner Produkt-Taxonomie.
-- Jeder Block = eine bestimmte Kategorie
+- Jeder Block = eine konkrete Kategorie
 - Blockgröße = Anteil der Gesamtsuchen, die innerhalb dieses Zeitraums zu Interaktionen in dieser Kategorie führten.
-- Blockfarbe gruppiert Suchanfragen nach übergeordneter Kategorie.
+- Blockfarbe = gruppiert Suchanfragen nach übergeordneter Kategorie.
 
 Warum verwenden?
 - **Nachfrage-Hotspots erkennen**. Größere Rechtecke zeigen Suchbegriffe mit hohem Volumen und starker Absicht – ideal zum Hervorheben oder Bewerben.
 - **Kategorien auf einen Blick vergleichen**. Das Treemap-Layout zeigt sofort, welche Katalogbereiche am meisten Suchtraffic erhalten.
-- **Inhaltslücken finden**. Sehr kleine oder fehlende Blöcke könnten auf unterversorgte Kategorien oder fehlende Synonyme hinweisen.
+- **Contentlücken finden**. Sehr kleine oder fehlende Blöcke könnten auf Kategorien auffallend wenig Interaktion oder fehlende Synonyme hinweisen.
 
 # Glossar{#glossary}
 
