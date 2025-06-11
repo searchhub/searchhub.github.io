@@ -207,6 +207,17 @@ Es gibt zwoierlei Aamerkunga:
 
 ![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
 
+## Queries by Category{#category-performance}
+Des isch a Treemap, wo zeigt, was in deiner Produkt-Kategorie am meischta g’sucht wird.
+- Jeder Block = a Kategorie
+- Blockgröß = wie viel vo dr gesamte Suche in dere Kategorie landet
+- Farb vom Block = zeigt, was zom gleihe Hauptbereich ghört
+
+Warum des Ganze?
+- **Heiß begehrte Ecka finda**. Große Blocka zeiget: Do isch viel los – des sollte mer vielleicht meh zeigen oder bewerba.
+- **Vergleich auf en Blick**. Du siehst sofort, wo’s im Katalog läuft – ganz ohne lang rumklicke.
+- **Löcher entdecke**. Wenn kei oder bloß klene Blocka do sind: Do fehlt was! Entweder Produkt oder die richtige Begriffl.
+
 # Glossar{#glossary}
 
 Definition oiniger KPIs und Begriffe bei searchHub.

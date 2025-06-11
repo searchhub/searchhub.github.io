@@ -215,6 +215,17 @@ There are two types of annotations:
 
 ![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
 
+## Queries by Category{#category-performance}
+This treemap ranks the most‑searched queries within your product taxonomy.
+- Each block = a specific category
+- Block size = share of total searches that resulted in interactions within this category in the selected time range.
+- Block color groups queries by their parent category.
+
+Why use it?
+- **Spot demand hotspots**. Larger rectangles reveal high‑volume, high‑intent queries you may want to feature or promote.
+- **Compare categories at a glance**. The treemap layout lets you instantly see which parts of the catalog attract the most search traffic.
+- **Find content gaps**. Tiny or absent blocks may signal under‑served categories or missing synonyms.
+  
 # Glossary
 
 KPI and term definitions in searchHub.
