@@ -59,6 +59,10 @@ suggestions from the less confident stages, if we are not able to provide the am
 If the first stage finds >= 10 suggestions, we return the suggestions. If less than 10 suggestions are found, the next stage is initiated, etc. until the desired amount of
 suggestions has been found.
 
+## Color Coding
+
+The different color-markers next to the suggested queries represent distinct retrieval methods for the suggested queries. The choice of which retrieval method was used depends on your configuration and the specific query entered.
+
 ## Basic settings - Fuzziness
 
 Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not execute the *Fuzzy-Stages* if the stage(s)
