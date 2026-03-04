@@ -48,6 +48,8 @@ Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and al
 
 # smartSuggest
 
+smartSuggest now supports several suggestion types:
+### 1. Query Suggestions:
 The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
 suggestions from the less confident stages, if we are not able to provide the amount of suggestions requested. Here is a short example for a request to return 10 suggestions:
 
@@ -59,29 +61,24 @@ suggestions from the less confident stages, if we are not able to provide the am
 If the first stage finds >= 10 suggestions, we return the suggestions. If less than 10 suggestions are found, the next stage is initiated, etc. until the desired amount of
 suggestions has been found.
 
-## Basic settings - Fuzziness
+## 1a. Query Suggestions Settings:
+Ranking Rules:
 
-Controls the proportion of fuzzy matches in the overall result. The default is set to __precision__ which means that the module will not execute the *Fuzzy-Stages* if the stage(s)
-beforehand found any suggestions, regardless if it's less than the requested amount of suggestions. Therefor it could happen that only one suggestion will be returned even if you
-ask for 10. If you set the setting to __recall__, the *Fuzzy-Stages* will be executed if the previous stage(s) could not provide the requested amount of suggestions.
+Scoped Query Suggestions:
+For ambigious queries we use observed user behaviour to scope the query to the most probable intents. A query like "women" for example might lead to "women > clothes" and "women > beauty" which helps your users to formulate more precise queries.
 
-## Basic settings - Sorting
+## 1b. Scoped Query Suggestions Settings:
 
-Controls the order in which suggestions are returned by the module. The default is set to __confidence sorting__ where the suggestions are primarily sorted by confidence and
-subsequently by *weight*. Alternatively you could set it to __group sorting__ where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on *weight*
-within their groups. The weight is determined by the ranking settings you define.
+Expand scopes: Defines if scopes should be activated and if the query suggestions should be expanded by the separate scoped Query Suggestions 
+Maximum number of expanded s: Specifies the maximum number of expanded scopes that will be returned in the result.
+Scope separator: The separator used to distinguish between queries and scoped queris when scopes are displayed in their expanded form.
 
-## Basic settings - AI Suggestions
+### CONTEXTUALIZED PRE Suggestions
 
-This setting determines the quantity of AI suggestions that will be displayed. When present, these suggestions will always appear above the search results.  
-The AI-generated suggestions are designed to enhance both the findability and sellability of products, and are based on the user’s search refinement behavior.
-For instance, for a general query such as “men”, the AI will identify the currently most relevant refined queries, such as “men’s fashion” and “men’s shoes”.  
-In cases where there are bad or no search results, the AI will generate “relaxed-queries” that have previously led to successful search sessions.  
-(This functionality depends on our search-collector and can only deliver additional value if the search-collector is implemented correctly.)
+SmartSuggest offers Pre-Suggestions that appear before users start typing. These can be enhanced using user context, such as the active URL, to prioritize relevant suggestions for example, favoring items from a category page being viewed. When context is unavailable or confidence is low, SmartSuggest falls back to the default Pre-Suggestion type defined in the settings. 
 
-## Inspirational AI-Suggestions
-
-Our AI-powered inspirational suggestions now enable you to show your users auto-completion and search suggestions even before they start typing based on the following pre-defined keywords:
+## 1c. Default Pre-Suggest Type
+based on your Merchandisng Strategy you can choose from the following available Pre-Suggestion types:
 
 1. MOST_INSPIRING  
    suggestions based on our AI-powered recommendation system that uses an intelligent blend of the following four strategies.
@@ -93,6 +90,27 @@ Our AI-powered inspirational suggestions now enable you to show your users auto-
    suggestions are chosen based on searches that provide the easiest search experience, minimizing friction.
 5. HIGHEST_SELLABILITY_UPLIFT  
    suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
+
+
+### 2. Product Suggestions:
+Based on the Query-Suggestions and the observed User-Behavior SmartSuggest is now enabled to provide contextualized product Suggestions.
+These Product Suggestions continuously learn by combining intent-to-product similarity with behavioral signals and go beyond simple keyword matching.
+
+## 2.1 product suggestions
+Number of retrieved Products: defines how many products are displayed within the suggestion results for a specific query.
+
+## Advanced settings - Always use Fuzzy Search
+Disabled (default): Fuzzy stages are skipped if earlier stages already return any suggestions—even if the total is lower than the requested number. As a result, you might receive fewer suggestions than requested (e.g., 1 instead of 10).
+If enabled fuzzy stages are executed whenever earlier stages do not produce the requested number of suggestions, helping fill the remaining slots with fuzzy matches.
+
+## Advanced settings - Sorting
+Controls the order in which suggestions are returned by the module. The default is set to confidence sorting where the suggestions are primarily sorted by confidence and subsequently by weight. Alternatively you could set it to group sorting where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on weight within their groups. The weight is determined by the ranking settings you define.
+
+## Advanced settings - Behavior-Improved Suggestions
+This setting controls how many behavior improved suggestions get added if available.
+These suggestions improve product findability and conversion by learning from users' search refinement behavior. 
+For a broad query like "men," we may add sharped-suggestions like "men's fashion" or "men's shoes." 
+If search results are poor or missing, we may add relaxed-suggestions based on previously successful searches like "men's fashion" for an underperforming query like "men's fashion slim-fit".
 
 # Query-Cluster
 We use an intelligent, slightly error-tolerant search for the clusters list with the goal of providing the best general-purpose result. 
