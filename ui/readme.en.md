@@ -46,11 +46,11 @@ searchHub searchInsights allows you to audit the performance, and optimize the q
 
 Press 'Shift'+'?' to open up an overview of all supported shortcuts. This and all those shortcuts work anywhere in the UI as long as the cursor focus is not placed on an input field.
 
-# smartSuggest - Overview
+# smartSuggest - Overview{#smartsuggest-overview}
 
 smartSuggest supports several suggestion types:
 
-### Query Suggestions
+### Query Suggestions{#query-suggestions}
 The query suggestions are generated following a staged controlled precision approach. We initially start with the stage where we are most confident and only add additional
 suggestions from the less confident stages, if we are not able to provide the amount of suggestions requested. Here is a short example for a request to return 10 suggestions:
 
@@ -62,27 +62,27 @@ suggestions from the less confident stages, if we are not able to provide the am
 If the first stage finds >= 10 suggestions, we return the suggestions. If less than 10 suggestions are found, the next stage is initiated, etc. until the desired amount of
 suggestions has been found.
 
-### Product Suggestions
+### Product Suggestions{#product-suggestions}
 Based on the Query Suggestions and the observed user behavior smartSuggest can provide contextualized product suggestions.
 
-### Scoped Suggestions
+### Scoped Suggestions{#scoped-suggestions}
 Combine Query Suggestion with category (scope) information.
 
-### Contextual or behavioral Suggestions
+### Contextual or behavioral Suggestions{#contextual-behavioral-suggestions}
 Based on the user's context (for example a referer-URL), contextualized suggestions can be shown before or after the user starts typing.  
 
-# smartSuggest - Configuration
+# smartSuggest - Configuration{#smartsuggest-configuration}
 
-## smartSuggest - Ranking Rules
+## smartSuggest - Ranking Rules{#smartsuggest-ranking-rules}
 Ranking Rules:
 With Ranking rules you can define which specific KPI(s) should have most influence on the selected query suggestions. Select one of the available "Ranking Boost Type" and hit the "Add boost rule"
 
-## smartSuggest - Display Settings
+## smartSuggest - Display Settings{#display-settings}
 
-### Pre-suggest Settings
+### Pre-suggest Settings{#pre-suggest-settings}
 SmartSuggest offers contextualized Pre-Suggestions that appear before users start typing. These can be enhanced using user context, such as the active URL, to prioritize relevant suggestions for example, favoring items from a category page being viewed. When context is unavailable or confidence is low, SmartSuggest falls back to the default Pre-Suggestion type defined in the settings.
 
-#### Default Pre-Suggest Type
+#### Default Pre-Suggest Type{#default-pre-suggest-type}
 based on your Merchandisng Strategy you can choose from the following available Pre-Suggestion types:
 
 1. MOST_INSPIRING  
@@ -96,33 +96,33 @@ based on your Merchandisng Strategy you can choose from the following available 
 5. HIGHEST_SELLABILITY_UPLIFT  
    suggestions are selected based on searches that maximize the likelihood of add-to-cart events to optimize for sellability.
 
-### Scope Settings
+### Scope Settings{#smartsuggest-scope-settings}
 For ambigious queries we use observed user behaviour to scope the query to the most probable intents. A query like "women" for example might lead to "women > clothes" and "women > beauty" which helps your users to formulate more precise queries.
 
-#### Expand scopes
+#### Expand scopes{#smartsuggest-expand-scopes}
 Defines if scopes should be activated and if the query suggestions should be expanded by the separate scoped Query Suggestions
-#### Maximum number of expanded scopes: 
+#### Maximum number of expanded scopes{#maximum-number-of-expanded-scope} 
 Specifies the maximum number of expanded scopes that will be returned in the result.
-#### Scope separator
+#### Scope separator{#scope-separator}
 The separator used to distinguish between queries and scoped queries when scopes are displayed in their expanded form.
 
-### Product Settings
+### Product Settings{#product-settings}
 Based on the Query Suggestions and the observed user behavior smartSuggest can provide contextualized product suggestions.
 These product suggestions continuously learn by combining intent-to-product affinity with behavioral signals and go beyond simple keyword matching.
 
-#### Number of retrieved products
+#### Number of retrieved products{#number-of-retrieved-products}
 Defines how many products are displayed within the suggestion results for a specific query.
 
-## smartSuggest - Advanced
+## smartSuggest - Advanced{#smartsuggest-advanced}
 
-### Always use Fuzzy Search
+### Always use Fuzzy Search{#always-use-fuzzy-search}
 Disabled (default): Fuzzy stages are skipped if earlier stages already return any suggestions—even if the total is lower than the requested number. As a result, you might receive fewer suggestions than requested (e.g., 1 instead of 10).
 If enabled fuzzy stages are executed whenever earlier stages do not produce the requested number of suggestions, helping fill the remaining slots with fuzzy matches.
 
-### Sort by groups
+### Sort by groups{#sort-by-groups}
 Controls the order in which suggestions are returned by the module. The default is set to confidence sorting where the suggestions are primarily sorted by confidence and subsequently by weight. Alternatively you could set it to group sorting where the suggestions are primarily sorted by type of stage(s) and subsequently sorted on weight within their groups. The weight is determined by the ranking settings you define.
 
-### Behavior-Improved Suggestions
+### Behavior-Improved Suggestions{#behavior-improved-suggestions}
 This setting controls how many behavior improved suggestions get added if available.
 These suggestions improve product findability and conversion by learning from users' search refinement behavior.
 For a broad query like "men," we may add sharped-suggestions like "men's fashion" or "men's shoes."
