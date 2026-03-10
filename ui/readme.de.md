@@ -45,36 +45,45 @@ searchHub searchInsights gibt Dir die Möglichkeit, die Performance Deiner aktue
 
 Drücke 'Shift'+'?' um eine Übersicht über alle vorhandenen shortcuts zu bekommen. Damit machst Du Deine Arbeit mit searchHub noch effizienter. 
 
-# smartSuggest{#smartsuggest}
+# smartSuggest - Overview{#smartsuggest-overview}
 
+smartSuggest unterstützt mehrere Vorschlagstypen:
+
+### Such-Vorschläge{#query-suggestions}
 smartSuggest nutzt einen mehrstufigen Prozess, um die bestmöglichen Such-Vorschläge zu ermitteln. Als Grundlage dienen immer diejenigen Such-Vorschläge, die die höchste Konfidenz aufweisen. Weitere Such-Vorschläge aus weniger konfidenten Methoden werden nur hinzugezogen, sofern noch nicht genügend Such-Vorschläge ermittelt werden konnten. 
 Anbei ein kleines Beispiel, das den beschriebenen Prozess für eine Suggest-Anfrage die 10 Such-Vorschläge zurückliefern soll verdeutlicht: 
 
 1. Suche nur in den Cluster-Labels
 2. Suche zusätzlich in allen Cluster-Varianten
-3. Suche unscharf in den Cluster_Labels mit einer maximalen edit distance von 1
-4. Suche unscharf in den Cluster_Labels mit einer maximalen edit distance von 2
+3. Suche unscharf in den Cluster-Labels mit einer maximalen edit distance von 1
+4. Suche unscharf in den Cluster-Labels mit einer maximalen edit distance von 2
 
-Wenn die erste Stufe >= 10 Vorschläge findet, geben wir die Vorschläge zurück. Wenn weniger als 10 Vorschläge gefunden werden, wird die nächste Stufe eingeleitet, usw., bis die gewünschte Anzahl an Vorschlägen gefunden wurde.
+Wenn die erste Stufe >= 10 Vorschläge findet, liefert smartSuggest 10 Vorschläge aus. Wenn weniger als 10 Vorschläge gefunden werden, wird die nächste Stufe eingeleitet, usw., bis die gewünschte Anzahl an Vorschlägen gefunden wurde.
 
-## Basis Einstellung - Fuzziness{#basic-settings---fuzziness}
+### Produkt-Vorschläge{#product-suggestions}
+Basierend auf den jeweiligen Such-Vorschlägen und dem Beobachteten User-Verhalten kann smartSuggest kontextbezogene Produkte vorschlagen.
 
-Mithilfe dieser Einstellung legst Du den Anteil der unscharfen Such-Vorschläge im Gesamtergebnis fest. Die Voreinstellung ist auf __precision__ eingestellt. In dieser Einstellung werden _keine_ unscharfen Such-Vorschläge ermittelt. Hierdurch kann es gelegentlich vorkommen, dass unterschiedlich viele Such-Vorschläge ermittelt werden. Wird die Einstellung auf __recall__ geändert, werden immer gleich viele Such-Vorschläge ermittelt, indem die Liste mit unscharfen Such-Vorschlägen aufgefüllt wird.
+### Scoped Suggestions{#scoped-suggestions}
+Such-Vorschläge können mit einem Kategorie-Bezug (Scope) angereichert werden.
 
-## Basis Einstellung - Sortierung{#basic-settings---sorting}
+### Kontext- oder Verhaltensabhängige Such-Vorschläge{#contextual-behavioral-suggestions}
+Basierend auf dem User-Kontext (z.B. Referer-URL) können kontextualisierte Such-Vorschläge bereits vor der Sucheingabe angezeigt werden. 
 
-Mit dieser Einstellung legst Du die Sortierung der Such-Vorschläge fest. Die Voreinstellung ist auf __confidence sorting__ eingestellt. In dieser Einstellung werden die Such-Vorschläge zunächst nach Konfidenz und dann nach dem einstellbaren _Gewicht_ sortiert. Alternativ kann auch auf __group sorting__ umgestellt werden. Bei dieser Einstellung werden die Such-Vorschläge blockweise auf Basis der Konfidenz-stufen dargestellt, wobei innerhalb der Stufen nach _Gewicht_ sortiert wird. Das _Gewicht_ wird über die Ranking Einstellung bestimmt die Du festgelegt hast.
+# smartSuggest - Konfiguration{#smartsuggest-configuration}
+## smartSuggest - Ranking Rules{#smartsuggest-ranking-rules}
+Mit den Ranking Regeln legst du fest, welche KPIs den größten Einfluss auf die Auswahl der Such-Vorschläge haben sollen. 
+Wähle hierfür eine der KPIs aus dem "Ranking Boost Typ"-Dropdown aus und klicke auf "Boost Regel hinzufügen".
 
-## Basis Einstellung - AI Suggests{#basic-settings---ai-suggestions}
+## smartSuggest - Anzeigeeinstellungen{#display-settings}
 
-Mithilfe dieser Einstellung legst Du die maximale Anzahl an AI Suggests fest, die ausgespielt werden soll. Sofern zu einer User-Eingabe AI Suggests existieren werden diese stets auf den ersten Positionen ausgespielt.  
-AI-Suggests verfolgen das Ziel sowohl die Findability als auch die Sellability innerhalb einer Such-Session zu maximieren. Daher basieren sie auf dem analysierten Such-Verhalten Deiner Kunden.
-Als Beispiel betrachten wir eine recht generische Suchanfrage nach "männer". Die searchHub AI erkennt, dass es sich um eine generische Suchanfrage handelt und ermittelt automatisch relevante weniger generische alternativ Such-Vorschläge wie "männer bekleidung" und männer hosen" oder "männer schuhe" um die spezifische Findability und Sellability zu erhöhen. 
-(Diese Funktionalität ist nur in Verbindung mit dem searchHub search-collector nutzbar)
+### Pre-Suggest Einstellungen{#pre-suggest-settings}
+SmartSuggest bietet kontextualisierte Pre-Suggestions die bereits vor der Sucheingabe inspirieren. Diese können individuell nach dem User-Kontext,
+wie z.B. der gerade aktiven URL, gesteuert werden - dadurch werden z.B. Begriffe aus der aktuellen Kategorie bevorzugt dargestellt.
+Wenn der Kontext nicht verfügbar ist oder keine zielsichere Empfehlung zulässt, dann nutzt smartSuggest den konfigurierten Default Pre-Suggest-Typ. 
 
-## Inspirierende AI Suggests{#inspirational-ai-suggestions}
+## Default Pre-Suggest Typ{#inspirational-ai-suggestions}
 
-Mit unseren KI-gestützten inspirierenden Vorschlägen können Sie Ihren Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeigen, noch bevor diese mit der Eingabe beginnen. Die folgenden Vorschlags-Typen stehen zur Verfügung:
+Die folgenden Pre-Suggest Vorschlags-Typen stehen zur Verfügung:
 
 1. MOST_INSPIRING  
    Vorschläge basierend auf unserem KI-gestützten Empfehlungssystem, das eine intelligente Mischung der folgenden vier Strategien verwendet.
@@ -86,6 +95,40 @@ Mit unseren KI-gestützten inspirierenden Vorschlägen können Sie Ihren Nutzern
    Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, deren Ergebnisqualität in letzter Zeit gestiegen ist - möglicherweise durch Sortimentsoptimierungen
 5. HIGHEST_SELLABILITY_UPLIFT  
    Vorschläge werden auf der Grundlage von Suchanfragen ausgewählt, die die Wahrscheinlichkeit von Add-to-Cart-Ereignissen maximieren, um auf Verkaufsfähigkeit zu optimieren.
+
+### Scope Einstellungen{#smartsuggest-scope-settings}
+Bei generischen Suchanfragen nutzt smartSuggest das beobachtete User-Verhalten, um nützliche Scopes direkt mit dem Such-Vorschlag anzuzeigen.
+Die Suche nach "Shirt" kann damit direkt auf "Shirt -> Damen" oder "Shirt -> Kinder" eingegrenzt werden.
+
+#### Scopes expandieren{#smartsuggest-expand-scopes}
+Aktiviert die Nutzung von Scopes. Damit werden Suchvorschläge mit häufig genutzten Scopes erweitert.
+#### Max. Anzahl expandierter Scopes{#maximum-number-of-expanded-scope}
+Legt die maximale Anzahl an Scopes fest, die zu einem Such-Vorschlag gebildet werden.
+#### Scope-Trennzeichen{#scope-separator}
+Das verwendete Trennzeichen, um Such-Vorschlag und Scope zu unterscheiden.
+
+### Produkt Einstellungen{#product-settings}
+Basierend auf den jeweiligen Such-Vorschlägen und dem Beobachteten User-Verhalten kann smartSuggest kontextbezogene Produkte vorschlagen.
+Diese Produkt-Vorschläge basieren auf kontinuierlichem Maschinellem Lernen, wobei insbesondere die intent-to-product Affinität
+und Nutzersignale berücksichtigt werden. Somit gehen die Vorschläge weit über simple Suchbegriffs-Abgleiche hinaus.
+
+#### Anzahl der abgerufenen Produkte{#number-of-retrieved-products}
+Definiert, wie viele Produkt zu jedem einzelnen Such-Vorschlag mitgeliefert werden sollen.
+
+## smartSuggest - Erweitert{#smartsuggest-advanced}
+
+### Immer Fuzzy-Suche verwenden{#always-use-fuzzy-search}
+Deaktiviert (default): Fuzzy-Stufen werden übersprungen, auch dann wenn vorherige Such-Stufen keine oder zu wenig Treffer erzielt haben. Das kann zu weniger als den erwünschten Such-Vorschlägen führen.
+Aktiviert: Fuzzy-Stufen werden genutzt, wenn übergeordnete Such-Stufen zu geringe Treffermengen erzeugt haben.
+
+### Nach Gruppen sortieren{#sort-by-groups}
+smartSuggest-Vorschläge sind üblicherweise nach Konfidenz sortiert. Sie können mit dieser Einstellung aber auch primär nach der jeweiligen Such-Stufe sortiert werden, mit der sie gefunden wurden und sekundär nach dem Gewicht innerhalb der Such-Stufe.
+
+### Behavior-Improved Suggestions{#behavior-improved-suggestions}
+Mit dieser Einstellung wird festgelegt, wie viele verhaltensabhängige Such-Vorschläge erzeugt werden sollen - sofern verfügbar.
+Diese Such-Vorschläge erhöhen die Findability, indem sie aus den Filtern lernen, die User nach den jeweiligen Suchanfragen angewendet haben.
+Anders als Scopes wird hier der Suchbegriff direkt angepasst. Z.B. kann statt des sehr generischen Suchbegriffs "herren" "herren mode" oder "herren schuhe" vorgeschlagen werden.
+Wenn die zu erwartende Ergebnisanzahl gering ist, können auch relaxierte Suchvorschläge geliefert werden, die weniger Begriffe enthalten, als der eingegebene Begriff. So kann aus einer wenig erfolgreichen Sucheingabe "herren kurzarmhemd slim-fit" ein "herren hemd slim"-Vorschlag resultieren.
 
 # Cluster Ansicht{#query-cluster}
 

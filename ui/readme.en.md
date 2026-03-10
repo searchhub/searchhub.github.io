@@ -74,13 +74,14 @@ Based on the user's context (for example a referer-URL), contextualized suggesti
 # smartSuggest - Configuration{#smartsuggest-configuration}
 
 ## smartSuggest - Ranking Rules{#smartsuggest-ranking-rules}
-Ranking Rules:
 With Ranking rules you can define which specific KPI(s) should have most influence on the selected query suggestions. Select one of the available "Ranking Boost Type" and hit the "Add boost rule"
 
 ## smartSuggest - Display Settings{#display-settings}
 
 ### Pre-suggest Settings{#pre-suggest-settings}
-SmartSuggest offers contextualized Pre-Suggestions that appear before users start typing. These can be enhanced using user context, such as the active URL, to prioritize relevant suggestions for example, favoring items from a category page being viewed. When context is unavailable or confidence is low, SmartSuggest falls back to the default Pre-Suggestion type defined in the settings.
+SmartSuggest offers contextualized Pre-Suggestions that appear before users start typing. These can be enhanced using user context, 
+such as the active URL, to prioritize relevant suggestions for example, favoring items from a category page being viewed. 
+When context is unavailable or confidence is low, SmartSuggest falls back to the default Pre-Suggestion type defined in the settings.
 
 #### Default Pre-Suggest Type{#default-pre-suggest-type}
 based on your Merchandisng Strategy you can choose from the following available Pre-Suggestion types:
