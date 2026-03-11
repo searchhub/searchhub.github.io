@@ -45,36 +45,45 @@ searchHub searchInsights gibt Dir d'Möglichkeit, d'Performance Deiner aktuella 
 
 Drücke 'Shift'+'?' um oine Übersicht über älle vorhandena shortcuts zu bekomma. Damit machst Du Deine Arbeit mit searchHub noch effizienter. 
 
-# smartSuggest{#smartsuggest}
+# smartSuggest - Overview{#smartsuggest-overview}
 
+smartSuggest unterstützt mehrere Vorschlagstypa:
+
+### Such-Vorschläge{#query-suggestions}
 smartSuggest nutzt oina mehrstufiga Prozess, um d'bestmöglicha Such-Vorschläge zu ermitteln. Als Grundlage diena immer diejeniga Such-Vorschläge, d'd'höchste Konfidenz ufweisa. Weitere Such-Vorschläge aus weniger konfidenta Methoda werda nur hinzugezoga, sofern noch net g'nügend Such-Vorschläge ermittelt werda konnta. 
 Anbei a kleines Beispiel, des da beschriebena Prozess für oine Suggest-Anfrage d'10 Such-Vorschläge zurückliefern soll verdeutlicht: 
 
 1. Suche nur in da Cluster-Labels
 2. Suche zusätzlich in alla Cluster-Varianta
-3. Suche unscharf in da Cluster_Labels mit oiner maximala edit dischdance von 1
-4. Suche unscharf in da Cluster_Labels mit oiner maximala edit dischdance von 2
+3. Suche unscharf in da Cluster-Labels mit oiner maximala edit dischdance von 1
+4. Suche unscharf in da Cluster-Labels mit oiner maximala edit dischdance von 2
 
-Wenn d'erste Stufe >= 10 Vorschläge findet, g'ba wir d'Vorschläge zurück. Wenn weniger als 10 Vorschläge g'funda werda, wird d'nächste Stufe oingeleitet, usw., bis d'g'wünschte Anzahl an Vorschläga g'funda wurde.
+Wenn d'erste Stufe >= 10 Vorschläge findet, liefert smartSuggest 10 Vorschläge aus. Wenn weniger als 10 Vorschläge g'funda werda, wird d'nächste Stufe oingeleitet, usw., bis d'g'wünschte Anzahl an Vorschläga g'funda wurde.
 
-## Basis Einstellung - Fuzziness{#basic-settings---fuzziness}
+### Produkt-Vorschläge{#product-suggestions}
+Basierend uf da jeweiliga Such-Vorschläga und dem Beobachteta User-Verhalta kann smartSuggest kontekschdbezogene Produkte vorschlaga.
 
-Mithilfe dieser Einstellung legst Du da Anteil dr unscharfa Such-Vorschläge im Gesamtergebnis fest. D'Voreinstellung isch uf __precision__ oingestellt. In dieser Einstellung werda _keine_ unscharfa Such-Vorschläge ermittelt. Hierdurch kann es g'legentlich vorkomma, dass unterschiedlich viele Such-Vorschläge ermittelt werda. Wird d'Einstellung uf __recall__ g'ändert, werda immer gleich viele Such-Vorschläge ermittelt, indem d'Lischde mit unscharfa Such-Vorschläga ufgefüllt wird.
+### Scoped Suggestions{#scoped-suggestions}
+Such-Vorschläge könna mit oinem Kategorie-Bezug (Scope) angereichert werda.
 
-## Basis Einstellung - Sortierung{#basic-settings---sorting}
+### Kontekschd- oder Verhaltensabhängiga Such-Vorschläge{#contekschdual-behavioral-suggestions}
+Basierend uf dem User-Kontekschd (z.B. Referer-URL) könna kontekschdualisierte Such-Vorschläge bereits vor dr Sucheingabe angezeigt werda. 
 
-Mit dieser Einstellung legst Du d'Sortierung dr Such-Vorschläge fest. D'Voreinstellung isch uf __confidence sorting__ oingestellt. In dieser Einstellung werda d'Such-Vorschläge zunächst nach Konfidenz und dann nach dem oinstellbara _Gewicht_ sortiert. Alternativ kann auch uf __group sorting__ umgestellt werda. Bei dieser Einstellung werda d'Such-Vorschläge blockweise uf Basis dr Konfidenz-stufa dargestellt, wobei innerhalb dr Stufa nach _Gewicht_ sortiert wird. Des _Gewicht_ wird über d'Ranking Einstellung bestimmt d'Du festgelegt hast.
+# smartSuggest - Konfiguration{#smartsuggest-configuration}
+## smartSuggest - Ranking Rules{#smartsuggest-ranking-rules}
+Mit da Ranking Regeln legst du fest, welche KPIs da größta Einfluss uf d'Auswahl dr Such-Vorschläge hän solla. 
+Wähle hierfür oine dr KPIs aus dem "Ranking Boost Typ"-Dropdown aus und klicke uf "Boost Regel hinzufüga".
 
-## Basis Einstellung - AI Suggests{#basic-settings---ai-suggestions}
+## smartSuggest - Anzeigeeinstellunga{#display-settings}
 
-Mithilfe dieser Einstellung legst Du d'maximale Anzahl an AI Suggests fest, d'ausgespielt werda soll. Sofern zu oiner User-Eingabe AI Suggests exischdiera werda diese stots uf da ersta Positiona ausgespielt.  
-AI-Suggests verfolga des Ziel sowohl d'Findability als auch d'Sellability innerhalb oiner Such-Session zu maximiera. Daher basiera sie uf dem analysierta Such-Verhalta Deiner Kunda.
-Als Beispiel betrachta wir oine recht g'nerische Suchanfrage nach "männer". D'searchHub AI erkennt, dass es sich um oine g'nerische Suchanfrage handelt und ermittelt automatisch relevante weniger g'nerische alternativ Such-Vorschläge wie "männer bekleidung" und männer hosa" oder "männer schuhe" um d'spezifische Findability und Sellability zu erhöha. 
-(Diese Funktionalität isch nur in Verbindung mit dem searchHub search-collector nutzbar)
+### Pre-Suggest Einstellunga{#pre-suggest-settings}
+SmartSuggest bietet kontekschdualisierte Pre-Suggestions d'bereits vor dr Sucheingabe inspiriera. Diese könna individuell nach dem User-Kontekschd,
+wie z.B. dr g'rade aktiva URL, g'steuert werda - dadurch werda z.B. Begriffe aus dr aktuella Kategorie bevorzugt dargestellt.
+Wenn dr Kontekschd net verfügbar isch oder keine zielsichere Empfehlung zulässt, dann nutzt smartSuggest da konfigurierta Default Pre-Suggest-Typ. 
 
-## Inspirierende AI Suggests{#inspirational-ai-suggestions}
+## Default Pre-Suggest Typ{#inspirational-ai-suggestions}
 
-Mit unsera KI-g'stützta inspirierenda Vorschläga könna Sie Ihra Nutzern jetzt Autovervollständigungs- und Suchvorschläge anzeiga, noch bevor diese mit dr Eingabe beginna. D'folgenda Vorschlags-Typa stoha zur Verfügung:
+D'folgenda Pre-Suggest Vorschlags-Typa stoha zur Verfügung:
 
 1. MOST_INSPIRING  
    Vorschläge basierend uf unserem KI-g'stützta Empfehlungssystem, des oine intelligente Mischung dr folgenda vier Strategia verwendet.
@@ -86,6 +95,40 @@ Mit unsera KI-g'stützta inspirierenda Vorschläga könna Sie Ihra Nutzern jetzt
    Vorschläge werda uf dr Grundlage von Suchanfraga ausgewählt, dera Ergebnisqualität in letzter Zeit g'stiega isch - möglicherweise durch Sortimentsoptimierunga
 5. HIGHEST_SELLABILITY_UPLIFT  
    Vorschläge werda uf dr Grundlage von Suchanfraga ausgewählt, d'd'Wahrscheinlichkeit von Add-to-Cart-Ereignissa maximiera, um uf Verkaufsfähigkeit zu optimiera.
+
+### Scope Einstellunga{#smartsuggest-scope-settings}
+Bei g'nerischa Suchanfraga nutzt smartSuggest des beobachtete User-Verhalta, um nützliche Scopes direkt mit dem Such-Vorschlag anzuzeiga.
+D'Suche nach "Shirt" kann damit direkt uf "Shirt -> Dama" oder "Shirt -> Kinder" oingegrenzt werda.
+
+#### Scopes expandiera{#smartsuggest-expand-scopes}
+Aktiviert d'Nutzung von Scopes. Damit werda Suchvorschläge mit häufig g'nutzta Scopes erweitert.
+#### Max. Anzahl expandierter Scopes{#maximum-number-of-expanded-scope}
+Legt d'maximale Anzahl an Scopes fest, d'zu oinem Such-Vorschlag g'bildet werda.
+#### Scope-Trennzeicha{#scope-separator}
+Des verwendete Trennzeicha, um Such-Vorschlag und Scope zu unterscheida.
+
+### Produkt Einstellunga{#product-settings}
+Basierend uf da jeweiliga Such-Vorschläga und dem Beobachteta User-Verhalta kann smartSuggest kontekschdbezogene Produkte vorschlaga.
+Diese Produkt-Vorschläge basiera uf kontinuierlichem Maschinellem Lerna, wobei insbesondere d'intent-to-product Affinität
+und Nutzersignale berücksichtigt werda. Somit g'ha d'Vorschläge weit über simple Suchbegriffs-Abgleiche hinaus.
+
+#### Anzahl dr abgerufena Produkte{#number-of-retrieved-products}
+Definiert, wie viele Produkt zu jedem oinzelna Such-Vorschlag mitgeliefert werda solla.
+
+## smartSuggest - Erweitert{#smartsuggest-advanced}
+
+### Immer Fuzzy-Suche verwenda{#always-use-fuzzy-search}
+Deaktiviert (default): Fuzzy-Stufa werda übersprunga, auch dann wenn vorheriga Such-Stufa keine oder zu wenig Treffer erzielt hän. Des kann zu weniger als da erwünschta Such-Vorschläga führa.
+Aktiviert: Fuzzy-Stufa werda g'nutzt, wenn übergeordnete Such-Stufa zu g'ringe Treffermenga erzeugt hän.
+
+### Nach Gruppa sortiera{#sort-by-groups}
+smartSuggest-Vorschläge send üblicherweise nach Konfidenz sortiert. Sie könna mit dieser Einstellung aber auch primär nach dr jeweiliga Such-Stufe sortiert werda, mit dr sie g'funda wurda und sekundär nach dem Gewicht innerhalb dr Such-Stufe.
+
+### Behavior-Improved Suggestions{#behavior-improved-suggestions}
+Mit dieser Einstellung wird festgelegt, wie viele verhaltensabhängiga Such-Vorschläge erzeugt werda solla - sofern verfügbar.
+Diese Such-Vorschläge erhöha d'Findability, indem sie aus da Filtern lerna, d'User nach da jeweiliga Suchanfraga angewendet hän.
+Anders als Scopes wird hier dr Suchbegriff direkt angepasst. Z.B. kann statt des sehr g'nerischa Suchbegriffs "herra" "herra mode" oder "herra schuhe" vorgeschlaga werda.
+Wenn d'zu erwartende Ergebnisanzahl g'ring isch, könna auch relaxierte Suchvorschläge g'liefert werda, d'weniger Begriffe enthalta, als dr oingegebene Begriff. So kann aus oiner wenig erfolgreicha Sucheingabe "herra kurzarmhemd slim-fit" a "herra hemd slim"-Vorschlag resultiera.
 
 # Cluster Ansicht{#query-cluster}
 
@@ -200,23 +243,23 @@ Damit werda d'Werte oines Diagramms in oina erweiterta Kontekschd oingebettet un
 Wir verwenda g'filterte und aggregierte Werte verschiedener repräsentativer Data aus unterschiedlicha Domäna um oine allgemeine Wahrscheinlichkeitsverteilung abzubilda. Uf Basis dessa wird dr 95%iga Konfidenzinterval für jeda Tageswert g'bildet.
 
 
-### Aamerkunga
-Es gibt zwoierlei Aamerkunga:
-1. Sischtdeem: Vom searchHub-Sischdeem gmachd, damit's woisch.
-2. Selber gmachd: Händisch gmachd, damit kannsch Informatione über bestimmde Sacha hintrelega oder Bereiche markiera ("Kehrwoch ned rechd gmachd, deswäge nix verkaufd" oder so ebbes)
+### Anmerkunga
+Es gibt zwei Quella für Anmerkunga:
+1. Systemseitig: Generiert vom searchHub System, um Hinweise uf systemseitiga Änderunga zu g'ba.
+2. Benutzerdefiniert: Manuell erstellt, damit kannst du Informationa über spezifische Ereignisse hinterlega oder Bereiche zu Dokumentationszwecka markiera.
 
 ![annotations](https://raw.githubusercontent.com/searchhub/searchhub.github.io/master/ui/img/annotations.png)
 
 ## Queries by Category{#category-performance}
-Des isch a Treemap, wo zeigt, was in deiner Produkt-Kategorie am meischta g’sucht wird.
-- Jeder Block = a Kategorie
-- Blockgröß = wie viel vo dr gesamte Suche in dere Kategorie landet
-- Farb vom Block = zeigt, was zom gleihe Hauptbereich ghört
+Diese Treemap zeigt d'meischgesuchta Begriffe innerhalb deiner Produkt-Taxonomie.
+- Jeder Block = oine konkrete Kategorie
+- Blockgröße = Anteil dr Gesamtsucha, d'innerhalb dieses Zeitraums zu Interaktiona in dieser Kategorie führta.
+- Blockfarbe = gruppiert Suchanfraga nach übergeordneter Kategorie.
 
-Warum des Ganze?
-- **Heiß begehrte Ecka finda**. Große Blocka zeiget: Do isch viel los – des sollte mer vielleicht meh zeigen oder bewerba.
-- **Vergleich auf en Blick**. Du siehst sofort, wo’s im Katalog läuft – ganz ohne lang rumklicke.
-- **Löcher entdecke**. Wenn kei oder bloß klene Blocka do sind: Do fehlt was! Entweder Produkt oder die richtige Begriffl.
+Warum verwenda?
+- **Nachfrage-Hotspots erkenna**. Größere Rechtecke zeiga Suchbegriffe mit hohem Voluma und starker Absicht – ideal zum Hervorheba oder Bewerba.
+- **Kategoria uf oina Blick vergleicha**. Des Treemap-Layout zeigt sofort, welche Katalogbereiche am meischda Suchtraffic erhalta.
+- **Contentlücka finda**. Sehr kleine oder fehlende Blöcke könnta uf Kategoria uffallend wenig Interaktion oder fehlende Synonyme hinweisa.
 
 # Glossar{#glossary}
 

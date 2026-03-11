@@ -45,48 +45,86 @@ searchHub searchInsights vous offre la possibilité de surveiller en continu les
 
 Appuyez sur 'Shift'+'?' pour obtenir un aperçu de tous les raccourcis disponibles que vous pouvez utiliser pour rendre votre travail avec searchHub encore plus efficace.
 
-# smartSuggest{#smartsuggest}
+# smartSuggest - Vue d'ensemble{#smartsuggest-overview}
 
-smartSuggest utilise un processus en plusieurs étapes pour déterminer les meilleures suggestions de recherche possibles. La base de ces suggestions est toujours constituée de celles qui présentent la plus grande confiance. D'autres suggestions de recherche issues de méthodes moins confiantes ne sont prises en compte que si un nombre suffisant de suggestions de recherche n'a pas encore été déterminé.
-Voici un petit exemple qui illustre le processus décrit pour une requête de suggestion qui doit renvoyer 10 suggestions de recherche:
+smartSuggest prend en charge plusieurs types de suggestions :
 
+### Suggestions de requêtes{#query-suggestions}
+Les suggestions de requêtes sont générées selon une approche par étapes contrôlées basée sur la précision. Nous commençons par l'étape où nous avons le plus de confiance et n'ajoutons des suggestions supplémentaires issues des étapes moins confiantes que si nous ne sommes pas en mesure de fournir le nombre de suggestions demandé. Voici un court exemple pour une demande renvoyant 10 suggestions :
 
-1. Recherche uniquement dans les libellés des clusters
-2. Recherche également dans toutes les variantes des clusters
-3. Recherche floue dans les libellés des clusters avec une distance d'édition maximale de 1
-4. Recherche floue dans les libellés des clusters avec une distance d'édition maximale de 2
+1. Recherche uniquement dans le libellé du cluster
+2. Recherche dans toutes les variantes du cluster
+3. Recherche floue dans le libellé du cluster avec une distance d'édition de 1
+4. Recherche floue dans le libellé du cluster avec une distance d'édition de 2
 
-Si la première étape trouve >= 10 suggestions, nous renvoyons les suggestions. Si moins de 10 suggestions sont trouvées, la prochaine étape est lancée, et ainsi de suite, jusqu'à ce que le nombre souhaité de suggestions soit trouvé.
+Si la première étape trouve >= 10 suggestions, nous renvoyons les suggestions. Si moins de 10 suggestions sont trouvées, l'étape suivante est lancée, etc., jusqu'à ce que le nombre souhaité de suggestions soit atteint.
 
-## Configuration de base - Fuzziness{#basic-settings---fuzziness}
+### Suggestions de produits{#product-suggestions}
+Sur la base des suggestions de requêtes et du comportement observé des utilisateurs, smartSuggest peut fournir des suggestions de produits contextualisées.
 
-Avec cette option, vous pouvez définir la proportion de suggestions de recherche floues dans les résultats globaux. La valeur par défaut est définie sur __precision__. Dans ce réglage, aucune suggestion de recherche floue _n'est_ générée. Cela peut entraîner occasionnellement une différence dans le nombre de suggestions de recherche générées. Si le réglage est modifié sur __recall__, le même nombre de suggestions de recherche est toujours généré en remplissant la liste avec des suggestions de recherche floues.
+### Suggestions ciblées{#scoped-suggestions}
+Combine les suggestions de requêtes avec des informations de catégorie (portée).
 
-## Configuration de base - Trier{#basic-settings---sorting}
+### Suggestions contextuelles ou comportementales{#contextual-behavioral-suggestions}
+En fonction du contexte de l'utilisateur (par exemple, une URL de référence), des suggestions contextualisées peuvent être affichées avant ou après que l'utilisateur commence à saisir.
 
-Avec ce paramètre, vous pouvez définir le tri des suggestions de recherche. La valeur par défaut est définie sur __confidence sorting__. Dans ce réglage, les suggestions de recherche sont d'abord triées par confiance, puis par le poids réglable. En alternative, vous pouvez également passer à __group sorting__. Dans ce réglage, les suggestions de recherche sont affichées par blocs en fonction des niveaux de confiance, en triant à l'intérieur des niveaux par poids. Le poids est déterminé par le réglage de classement que vous avez défini.
+# smartSuggest - Configuration{#smartsuggest-configuration}
 
-## Configuration de base - AI suggestion{#basic-settings---ai-suggestions}
+## smartSuggest - Règles de classement{#smartsuggest-ranking-rules}
+Avec les règles de classement, vous pouvez définir quel(s) KPI(s) spécifique(s) doivent avoir le plus d'influence sur les suggestions de requêtes sélectionnées. Sélectionnez l'un des « Types de boost de classement » disponibles et cliquez sur « Ajouter une règle de boost ».
 
-Avec ce paramètre, vous pouvez définir le nombre maximal de suggestions AI à afficher. Si des suggestions AI existent pour une saisie utilisateur, elles sont toujours affichées en première position.
-Les suggestions AI visent à maximiser à la fois la facilité de recherche et la capacité à vendre au sein d'une session de recherche. Elles sont donc basées sur le comportement de recherche analysé de vos clients.
-Par exemple, prenons une requête de recherche assez générique telle que "hommes". L'IA de searchHub reconnaît qu'il s'agit d'une requête générique et génère automatiquement des suggestions de recherche alternatives pertinentes mais moins génériques, telles que "vêtements pour hommes", "pantalons pour hommes" ou "chaussures pour hommes", afin d'améliorer la spécificité de la facilité de recherche et de vente.
-(Cette fonctionnalité est utilisable uniquement en conjonction avec le search-collector de searchHub.)
+## smartSuggest - Paramètres d'affichage{#display-settings}
 
-## Suggestions inspirantes de l'IA{#inspirational-ai-suggestions}
+### Paramètres de pré-suggestion{#pre-suggest-settings}
+SmartSuggest propose des pré-suggestions contextualisées qui apparaissent avant que les utilisateurs ne commencent à saisir. Celles-ci peuvent être améliorées grâce au contexte utilisateur, comme l'URL active, afin de prioriser les suggestions pertinentes, par exemple en favorisant les éléments d'une page de catégorie consultée.
+Lorsque le contexte est indisponible ou que la confiance est faible, SmartSuggest revient au type de pré-suggestion par défaut défini dans les paramètres.
 
-Nos suggestions inspirantes alimentées par l'IA vous permettent désormais d'afficher à vos utilisateurs des suggestions d'auto-complétion et de recherche avant même qu'ils ne commencent à taper, sur la base des mots-clés prédéfinis suivants:
+#### Type de pré-suggestion par défaut{#default-pre-suggest-type}
+En fonction de votre stratégie merchandising, vous pouvez choisir parmi les types de pré-suggestion disponibles suivants :
 
 1. MOST_INSPIRING  
    suggestions basées sur notre système de recommandation alimenté par l'IA qui utilise un mélange intelligent des quatre stratégies suivantes.
 2. MOST_POPULAR  
    les suggestions sont basées sur les éléments les plus fréquemment recherchés.
 3. MOST_POPULARITY_UPLIFT  
-   sont choisies en fonction des recherches les plus tendances afin d'optimiser les résultats en fonction des tendances actuelles.
+   les suggestions sont choisies en fonction des recherches les plus tendances afin d'optimiser les résultats en fonction des tendances actuelles.
 4. HIGHEST_FINDABILITY_UPLIFT  
    les suggestions sont choisies en fonction des recherches qui offrent l'expérience de recherche la plus facile, en minimisant les frictions.
 5. HIGHEST_SELLABILITY_UPLIFT  
-   les suggestions sont sélectionnées sur la base de recherches qui maximisent la probabilité d'événements d'ajout au panier afin d'optimiser la vendabilité.
+   les suggestions sont sélectionnées sur la base des recherches qui maximisent la probabilité d'événements d'ajout au panier afin d'optimiser la vendabilité.
+
+### Paramètres de portée{#smartsuggest-scope-settings}
+Pour les requêtes ambiguës, nous utilisons le comportement observé des utilisateurs pour restreindre la requête aux intentions les plus probables. Une requ
+
+#### Développer les portées{#smartsuggest-expand-scopes}
+Définit si les portées doivent être activées et si les suggestions de requêtes doivent être développées par les suggestions de requêtes ciblées distinctes.
+#### Nombre maximum de portées développées{#maximum-number-of-expanded-scope}
+Spécifie le nombre maximum de portées développées qui seront retournées dans le résultat.
+#### Séparateur de portée{#scope-separator}
+Le séparateur utilisé pour distinguer les requêtes des requêtes ciblées lorsque les portées sont affichées sous leur forme développée.
+
+### Paramètres de produits{#product-settings}
+Sur la base des suggestions de requêtes et du comportement observé des utilisateurs, smartSuggest peut fournir des suggestions de produits contextualisées.
+Ces suggestions de produits apprennent en continu en combinant l'affinité intention-produit avec des signaux comportementaux et vont au-delà de la simple correspondance de mots-clés.
+
+#### Nombre de produits récupérés{#number-of-retrieved-products}
+Définit le nombre de produits affichés dans les résultats de suggestions pour une requête spécifique.
+
+## smartSuggest - Avancé{#smartsuggest-advanced}
+
+### Toujours utiliser la recherche floue{#always-use-fuzzy-search}
+Désactivé (par défaut) : Les étapes floues sont ignorées si les étapes précédentes renvoient déjà des suggestions — même si le total est inférieur au nombre demandé. Par conséquent, vous pourriez recevoir moins de suggestions que demandé (par ex., 1 au lieu de 10).
+Si cette option est activée, les étapes floues sont exécutées chaque fois que les étapes précédentes ne produisent pas le nombre de suggestions demandé, aidant ainsi à remplir les emplacements restants avec des correspondances floues.
+
+### Trier par groupes{#sort-by-groups}
+Contrôle l'ordre dans lequel les suggestions sont renvoyées par le module. La valeur par défaut est le tri par confiance, où les suggestions sont principalement triées par confiance, puis par poids. Vous pouvez également choisir le tri par groupe, où les suggestions sont principalement triées par type d'étape(s), puis par poids au sein de leurs groupes. Le poids est déterminé par les paramètres de classement que vous définissez.
+
+### Suggestions améliorées par le comportement{#behavior-improved-suggestions}
+Ce paramètre contrôle le nombre de suggestions améliorées par le comportement ajoutées si disponibles.
+Ces suggestions améliorent la trouvabilité des produits et la conversion en apprenant du comportement de raffinement de recherche des utilisateurs.
+Pour une requête générique comme « hommes », nous pouvons ajouter des suggestions affinées telles que « mode hommes » ou « chaussures hommes ».
+Si les résultats de recherche sont médiocres ou absents, nous pouvons ajouter des suggestions élargies basées sur des recherches précédemment réussies, comme « mode hommes » pour une requête peu performante telle que « mode hommes slim-fit ».
+
 
 # Cluster de requêtes{#query-cluster}
 
