@@ -58,6 +58,10 @@ Voici un petit exemple qui illustre le processus décrit pour une requête de su
 
 Si la première étape trouve >= 10 suggestions, nous renvoyons les suggestions. Si moins de 10 suggestions sont trouvées, la prochaine étape est lancée, et ainsi de suite, jusqu'à ce que le nombre souhaité de suggestions soit trouvé.
 
+# Color coding{#smartsuggest---colorcoding}
+
+Les différents marqueurs de couleur près de suggestions représentent des méthodes de recherche distinctes pour les requêtes suggestions. Le choix de la méthode de recherche utilisée dépend de votre configuration et de la requête spécifique entrée.
+
 ## Configuration de base - Fuzziness{#basic-settings---fuzziness}
 
 Avec cette option, vous pouvez définir la proportion de suggestions de recherche floues dans les résultats globaux. La valeur par défaut est définie sur __precision__. Dans ce réglage, aucune suggestion de recherche floue _n'est_ générée. Cela peut entraîner occasionnellement une différence dans le nombre de suggestions de recherche générées. Si le réglage est modifié sur __recall__, le même nombre de suggestions de recherche est toujours généré en remplissant la liste avec des suggestions de recherche floues.
